@@ -28,6 +28,8 @@ export default {
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    // https://i18n.nuxtjs.org
+    'nuxt-i18n',
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
@@ -35,4 +37,20 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {},
+
+  i18n: {
+    locales: ['th', 'en'],
+    defaultLocale: 'th',
+    vueI18n: {
+      fallbackLocale: 'en',
+      messages: {
+        th: {
+          welcome: 'สวัสดี',
+        },
+        en: {
+          welcome: 'Hello',
+        },
+      },
+    },
+  },
 }
