@@ -1,3 +1,3 @@
 <template>
-  <div>{{ $t('welcome') }}</div>
+  <div class="text-3xl font-bold">{{ $t('welcome') }}</div>
 </template>
