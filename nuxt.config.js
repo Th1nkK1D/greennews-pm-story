@@ -36,13 +36,21 @@ export default {
   modules: [],
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
-  build: {},
+  build: {
+    build: {
+      publicPath: `${process.env.BASE_PATH || ''}/_nuxt/`,
+    },
+  },
+
+  router: {
+    base: process.env.BASE_PATH || '/',
+  },
 
   i18n: {
     locales: ['th', 'en'],
     defaultLocale: 'th',
     vueI18n: {
-      fallbackLocale: 'en',
+      fallbackLocale: 'th',
       messages: {
         th: {
           welcome: 'สวัสดี',
