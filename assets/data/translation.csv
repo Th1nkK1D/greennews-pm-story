@@ -1,0 +1,192 @@
+Key,thai,eng,Jordan's comment
+intro.subtitle,"คนไทยอยู่กับปัญหาฝุ่นควันมา 20 ปี 
+ฤดูฝุ่นรอบล่าสุด คนเหนือหายใจอากาศที่มีค่าฝุ่นละอองเกินมาตรฐานนาน 3 เดือน
+เมื่อเราต่างฝันถึงวันไร้ฝุ่น","Thai people have lived with PM 2.5 issue for more than 20 years.
+During the last PM 2.5 season, the locals in the North of Thailand have suffered for 3 months from breathing in PM2.5 that exceeds the limit into their lungs.
+We all dream of a day where we live without it.","""We all dream of a day where we live without it"""
+intro.title,ทำไมเราแก้ปัญหา PM2.5 ไม่ได้สักที ?,Why can’t we still find a way to solve this PM2.5 issue?,
+intro.subtitle,"โดย ณิชา เวชพานิช , สปัญญา ศรีสุข และวิถี ภูษิตาศัย
+แปลโดย ณัชชา เวชพานิช","Story by Nicha Wachpanich 
+Visualized by Sapanya Srisook & Withee Poositasai 
+Translated by Natcha Wachpanich",
+intro.skippagebutton,คลิ๊กเพื่อดูฐานข้อมูล แผนแก้ปัญหาฝุ่นของรัฐบาล 2564-2567,Click to see database of PM2.5 Government Policies 2021-2024,
+interview.person1.quote1,"""ปลายปีก่อน ผมเคยรู้สึกระคายตาข้างซ้ายจนต้องไปโรงพยาบาล
+หมอเอาวัตถุปลายแหลมเขี่ยบางอย่างออกจากกระจกตา
+เขาโชว์ไอ้ที่เขี่ยออกมาให้ดู แต่ผมมองไม่เห็น มันเล็กมาก หมอบอกว่าเป็นฝุ่นละออง""","During the end of last year, my eyes were so irritated that I had to go to the hospital. The doctor used a sharp-edged tool and got something out of my eyes. He showed me what he just got rid of but I couldn’t see because it was so small. The doctor said it was a particle matter.",
+interview.person1.fact1,"ธราธร อินทรเทพ เล่าให้เราฟังระหว่างช่วงเวลาที่พักจากการวิ่งรถ
+เขาทำอาชีพขับมอเตอร์ไซค์รับจ้าง รับส่งคนและอาหารผ่านแอพพลิเคชั่นหลากหลายแอพ
+ใช้เวลาบนถนนวันละ 14-16 ชั่วโมง เขาทำงานนี้มาแล้วหลายปี ด้วยความรักในความอิสระที่มันให้
+","Tharathorn Intaratep told us about his story during his break time. He works as a motorcycle taxi driver, transporting people and delivering foods via different mobile applications. He spends between 14-16 hours on the road every day. He has been working as a driver for many years since it gives him the freedom he longs for.",He spends between 14-16 hours on the road every day.
+interview.person1.quote2,"""หลังจากวันนั้น ผมต้องปิดตา วิ่งงานไม่ได้ 2-3 วัน และไปหาหมอเป็นระยะ
+หมอแนะให้สวมหน้ากากและใส่หมวกกันน็อกที่ปิดกระจกบริเวณตา แต่ผมก็ทำไม่ได้ตลอด 
+เพราะเวลาวิ่งกลางคืนมันมองไม่เห็น""","After that day, I had to wear an eye patch and couldn’t work for a couple of days. I still had to see a doctor every once in a while. They suggested I wear a mask and a helmet with an eye shield. However, I couldn’t always wear that since it won’t let me see clearly at night.",
+interview.person1.fact2,"ฝุ่น PM2.5 คือ ฝุ่นที่มีขนาดเล็กกว่าเส้นผม (2.5 ไมครอน) ทำให้รอดจากการดักจับของระบบทางเดินหายใจ
+และเข้าไปถึงถุงลมฝอยของปอดได้โดยตรง อาการเบื้องต้นคือไอ หายใจไม่ถนัด ระคายเคืองผิว
+เมื่อเราหายใจอากาศที่มีปริมาณฝุ่นสูงเกินมาตรฐานความปลอดภัยเป็นเวลานาน ร่างกายจะสะสมสารอันตรายที่อยู่ในฝุ่น ไม่ว่าจะเป็นโลหะหนัก สารก่อมะเร็ง 
+และสารก่อภูมิแพ้ เพิ่มความเสี่ยงโรคต่างๆ คล้ายการสูบบุหรี่
+","PM2.5 refers to particles that are thinner than a human hair (2.5 micrometres), and therefore cannot be detected by our respiratory system. It can travel directly into capillary air bags in the lungs. Short-term health effects include coughing, shortness of breath, and skin irritation. More importantly, the long-term threat posed towards human health is the higher chance of developing serious diseases as the bodies receive deadly substances through PM2.5 such as heavy metals, carcinogen, and allergens. This is similar to what smoking does.",เติมเพื่อให้เข้าใจมากขึ้นว่า ปัญหาคือการหายใจอากาศที่มีค่าฝุ่นสูงกว่ามาตรฐาน
+interview.person1.stat,"องค์การอนามัยโลก เผยว่าทุกปี คนราว  7,000,000 คน ทั่วโลกเสียชีวิตเพราะสัมผัสมลพิษทางอากาศสะสม","The World Health Organization revealed that every year 7,000,000 people die from air pollution.",
+punchingnumber.person1.quote,"""ผมอยากให้รัฐบาลแก้ปัญหารถควันดำ ไม่รู้เหมือนกัน ทำไมเขาบอกว่าไม่ตรวจจับหมดแล้ว 
+ผมยังเห็นทั่วไปอยู่เลย รถเมล์เองด้วย""","""I want the government to get rid of black smoke emission from road vehicles. I don’t know why they’ve claimed that there’s none left. I still see it everywhere, even from public buses themselves.""",
+punchingnumber.stat1,"คนไทย 6 ใน 10 คน มองว่าปัญหา PM2.5 เป็นปัญหา เร่งด่วน
+
+และ ไม่พึงพอใจ การรับมือของภาครัฐ ","6 out of 10 citizens in Thailand think that PM2.5 is an urgent issue
+
+and are not happy with the way the government is handling it,",
+credit,"อ้างอิง: สวนดุสิตโพล สำรวจความคิดเห็นประชาชน 2563
+",reference:,
+punchingnumber.stat2,แม้ว่า คณะรัฐมนตรีได้ยกระดับให้ปัญหาฝุ่นควันเป็น วาระแห่งชาติ ที่ต้องเร่งแก้ไข ตั้งแต่ปี 2561,even though the Cabinet of Thailand has leveraged this issue as National Agenda that must be solved immediately since 2018.,
+punchingnumber1.question1,ฝุ่นมาจากไหน?,Where does PM2.5 come from?,
+punchingnumber.fact1,ปัญหา PM2.5 = แหล่งกำเนิดฝุ่นควัน + สภาพภูมิอากาศและภูมิศาสตร์ในพื้นที่,PM2.5 issue = the source of PM2.5 + the weather and the geography of the area,
+punchingnumber.question2,แล้วรัฐไทยกำลังทำอะไรอยู่?,And what is our Thai government doing about this?,
+punchingnumber.fact2,"ป้องกัน  เช่น ตั้ง Clean Room พื้นที่สาธารณะที่มีเครื่องฟอกอากาศให้บริการฟรี , ตั้งเครื่องฟอกอากาศ
+, อัพเดตสถานการณ์ฝุ่นควันแก่ประชาชน, ประกาศปิดโรงเรียนเมื่อค่าคุณภาพอากาศเกินเกณฑ์อันตราย
+
+รุกลด  เช่น กำหนดช่วงเวลาห้ามรถบรรทุกวิ่งเข้าเขตเมือง ช่วงเวลาห้ามเผาทางการเกษตรและก่อสร้าง  
+, สนับสนุนให้ชุมชนเก็บใบไม้แห้งไปผลิตเป็นเชื้อเพลิงเพื่อลดไฟป่า 
+,กระจายอำนาจให้องค์การปกครองส่วนท้องถิ่นดับไฟ
+
+","Prevention includes providing a Clean Room, a public space with air purifiers free of charge, installing air purifiers on the streets, giving knowledges and updating the current situation about PM2.5 for citizens via the mobile application Air4Thai & AirBKK, and closing schools temporarily on days that PM2.5 exceeds the standard level.
+
+Active Cutback includes limiting hours for trucks entering the central area of the city, agricultural burn, and constructions, reducing the chance of wildfires by promoting the use of dry leaves as fuels, teaming up to stop wildfires by allowing local authorities to handle the situation by themselves.",
+coreproblem.fact1,"ขาดการบูรณาการ
+ปีนี้คณะกรรมการแก้ไขปัญหาฝุ่นได้เชิญหน่วยงานรัฐ 54 แห่งที่เกี่ยวข้องมาประชุม ","lack of holistic approaches
+
+This year, PM2.5 Committee has scheduled a meeting with 54 government agencies (excluding private sectors and social enterprises).",
+coreproblem.fact2,"ขาดงบประมาณ
+สำนักงานการตรวจเงินแผ่นดิน ตรวจพบว่าขาดการติดตามการทำงานของเครือข่ายดับไฟป่าเหนือกว่า 1,000 แห่งที่ได้งบแผ่นดิน
+ขณะที่ชุมชนที่อาศัยร่วมกับป่าเปิดรับเงินบริจาคอุปกรณ์ดับไฟ","lack of budget
+State Audit Office of the Kingdom of Thailand discovered that there are no tracking records of the works of over 1,000 funded Northern Wildfires Networks whereas the local communities living close to the forest are raising money to buy equipment to stop the wildfires.",
+coreproblem.fact3,"ขาดองค์ความรู้
+แม่ฮ่องสอนอ่วมฝุ่น! แต่มีการวัดคุณภาพอากาศแค่ตำบลเดียว!","lack of knowledge
+Mae Hong Son full of PM2.5! Only 2 air quality meters in the entire city!",
+coreproblem.fact4,"ขาดการทำงานต่อเนื่อง
+แผนปฏิบัติการขับเคลื่อนวาระแห่งชาติแก้ PM2.5 ประจำปี 64 เสนอเข้าครม.แค่ 1 เดือนก่อนฝุ่นบุกกรุง!","lack of consistancy
+National Plan to solve PM2.5 issue of 2021 was proposed to the Cabinet of Thailand only 1 month away from the PM2.5 season!",
+coreproblem.person2.quote,"“อันดับแรกกระบวนทัศน์คุณต้องชัดเจนอยู่ก่อนว่าคุณกำลังรับมือกับปัญหาอะไร ถ้าคุณตีความว่าปัญหาฝุ่นมันคือ 
+ภัยพิบัติ มันก็มาแล้วไป แต่ปัญหาฝุ่น PM2.5  มันเหมือนยักษ์ที่หลับอยู่ มันเกี่ยวข้องกับโครงสร้าง 
+การผลิตและพฤติกรรมของสังคมที่พัฒนาอย่างไม่ยั่งยืน การเปลี่ยนการผลิตมันต้องสร้างการเปลี่ยนแปลงตลอดทั้งปี
+ เรื่องนี้จึงไม่ใช่การรับมือปัญหาเพียงชั่วคราวไม่กี่เดือนที่แก้ได้เฉพาะหน้า”
+
+ - บัณรส บัวคลี่ , สมาชิกสภาลมหายใจเชียงใหม่ ","""First of all, you have to be clear what problems you’re dealing with. If you take PM2.5 issue seriously as if it’s a catastrophe, then you’ll only care about it temporarily. In fact, this issue about PM2.5 is actually like a sleeping giant. It’s related directly with the infrastructure of manufacturing sector and social behaviors, which would not be developed sustainably. We need changes in the manufacturing sectors all year round. This the kind of problem you can’t just complete short-term solutions in a few months.""
+
+- Bunnaroth Buaklee, a member of Chiang Mai Breath Council",
+solution.question,"หรือเราควรมีเครื่องมือสำหรับแก้ไขเรื่องนี้โดยเฉพาะ?
+",Or should we have something specifically to solve this?,
+solution.fact1,"ตอนนี้ คนไทยกำลังร่วมกันผลักดัน กฎหมายอากาศสะอาด 
+หลังจากประชาชน 10,000 คนร่วมลงชื่อเห็นด้วย 
+จะเข้าสู่ขั้นเสนอร่างกฎหมายเข้าสภาผู้แทนราษฎรเพื่อพิจารณา แล้วประยุกต์ร่างทั้งหมดเป็นกฎหมาย","Thai people are working together to drive a Clean Air Act
+So far, over 10,000 citizens have signed the petition.
+There are currently 2 proposed drafts for the parliament to consider for application.","Thai people are working together to drive a Clean Air Act
+So far, over 10,000 citizens have signed the petition.
+There are currently 2 proposed drafts for the parliament to consider for application. These 2 drafts are as follows:
+
+"
+solution.fact2,"ปัจจุบัน ร่างที่เสนอมี 2 ฉบับ 
+1.ร่างพ.ร.บ.กำกับดูแลการจัดการอากาศสะอาดเพื่อสุขภาพแบบบูรณาการ โดย เครือข่ายอากาศสะอาด
+2.ร่างพ.ร.บ.การบริหารจัดการเพื่ออากาศสะอาด โดย หอการค้าไทยและเครือข่าย","These 2 drafts are as follows:
+
+1. Drafted Holistic Governance of Clean Air for Health Act by Thailand Clean Air Network (Unofficial Name)
+2. Drafted Management for Clean Air Act by Thai Chamber of Commerce and Network (Unofficial Name)",
+solution.fact3,"กฎหมายเหล่านี้มุ่ง…
+
+1.รับรองสิทธิที่จะหายใจอากาศว่าเป็นสิทธิพื้นฐานของประชาชนอย่างเป็นทางการ
+2.เป็นเครื่องมือใหม่ให้หน่วยงานรัฐและตั้งหน่วยงานใหม่ที่ทำงานเรื่องอากาศโดยเฉพาะ
+3.รับรองสิทธิที่จะเข้าถึงข้อมูลเกี่ยวกับคุณภาพอากาศที่ได้มาตรฐานสากล
+4.สร้าง “แหล่งเงินสำหรับทำงาน” โดยกำหนดแรงจูงใจและค่าปรับให้ภาคส่วนต่างๆ ร่วมสร้างอากาศสะอาด
+
+","These laws are intended to…
+
+1. Recognize the right to breathe clean air as an official right of Thai citizens * With this law in place, citizens can help design policies and use their rights to sue whoever is the illegal source of pollution
+2. Authorize and delegate responsibilities to the existing government agencies / set up a new one that focuses only on the air quality control * Leverage the air quality to be the same as international standards
+3. Allow citizens to access information and news updates about the air quality * Government agencies can access air pollution emission data from business owners
+4. Create ""a source to fund maintenance"" by driving motivation and penalty fees in order to encourage all sectors to contribute to better air quality
+","2. (add an ""s"" to standard to make it plural, or if there is only 1 international standard than add a ""the"" between ""as"" and ""international.
+4. Create a source to fund maintenance by driving motivation and penalty fees in order to encourage all sectors to contribute to better air quality"
+scenario.question,ชวนนึกฝันถึงวันที่มีกฎหมายอากาศสะอาด...เราจะทำอะไรได้บ้าง?,"Imagine the day that the law of clean air is officially present… what are the choices do we have?
+",
+scenario.fact1,"กฎหมายจะช่วยเติมเต็มการคุ้มครองสิทธิหายใจอากาศสะอาดจากกฎหมายสิ่งแวดล้อมและกฎหมายต่างๆ ที่มีอยู่แล้ว
+และเพิ่มเติมช่องทางในการเรียกร้องความยุติธรรมปัญหาหมอกควันพิษทางอากาศให้สมบูรณ์ยิ่งขึ้นเพื่อ “ให้คุณได้สิทธินั้นเดี๋ยวนี้”
+",The law is,
+scenario.sample,"ธราธรทำอาชีพวิ่งมอเตอร์ไซค์รับจ้าง หากวันหนึ่งเขาเกิดไม่สบายขึ้นมาโดยสันนิฐานว่าเป็น
+ผลจากมลพิษทางอากาศและต้องการ “ทวงความยุติธรรมทางสิ่งแวดล้อม”
+
+ธนาธรสามารถกล่าวอ้างให้รัฐรับรองคุ้มครองสิทธิหายใจอากาศสะอาดได้ตามกฎหมายอากาศสะอาด 
+เพราะมาตรา 15 กำหนดว่า รัฐมีหน้าที่ต้องรับเรื่องร้องเรียนฯ  ให้คำแนะนำแก่ผู้ร้องเรียนในการ
+ดำเนินคดีสิ่งแวดล้อมเกี่ยวกับปัญหาหมอกควันพิษ  
+ธนาธรสามารถขอให้องค์กรเอกชนที่ให้ความช่วยเหลือกลุ่มคนเปราะบางช่วยดำเนินคดีและ
+ดำเนินเรื่องเรียกค่าสินไหมทดแทนและค่าเสียหายได้ โดยจะเป็นตัวแทนฟ้องแทนมอเตอร์ไซค์รับจ้างคนอื่นๆ ด้วยได้
+ตามการฟ้องคดีแทนผู้เสียหายที่เกี่ยวข้องทุกราย (Class Action) เมื่อฟ้องแล้ว
+จะส่งผลให้หน่วยงานรัฐหรือเอกชนที่ถูกฟ้องต้องยุติกิจกรรมการก่อให้เกิดหมอกควันพิษ (มาตรา 16)
+* หากเป็นกรณีหมอกควันข้ามพรมแดนมาฝั่งไทย  ผู้ฟ้องไม่จำเป็นต้องพิสูจน์ว่าตนป่วยจากสาเหตุฝุ่นควัน 
+แต่ผู้ก่อมลพิษมีภาระต้องพิสูจน์ว่าไม่ได้เป็นผู้ก่อปัญหาฝุ่น
+","Tharathorn works as a motorcycle taxi driver transporting people and goods. If one day he becomes sick seemingly due to the air pollution and wants to “call for environmental justice”. What should he do?
+
+
+
+
+Tharathorn can consult a private organization whom the law says can conduct a lawsuit as a representative for an individual.
+The organization investigates Tharathorn’s case and figures out where the pollution comes from. For example, Tharathorn who works on the road everyday could potentially be exposed to pollutants emitted from public buses all day. Therefore, it can be assumed that the buses are the main cause for the air pollution, resulting in Tharathorn’s sickness. Meanwhile, Bangkok Mass Transit Authority is responsible for controling the following emission.
+The organization may then sue Bangkok Mass Transit Authority in charge of the failure to complete their responsibilities, without Tharathorn having to be the one to prove the cause of his sickness, instead it is the defendant who would have to provide evidences to protect themselves.
+The act of sue includes cross-border pollution cases.","
+""figure"" should be ""figures""
+Finish the sentence ""where the pollution comes from"" and then begin the next sentence with ""For example, Tharathorn who works...etc""
+
+""without Tharathorn having to be the one to prove the cause of his sickness.""
+
+""are already included in the international laws regarding human rights"" -- did you mean to type internal or international?"
+opinion.question,หน่วยงานรัฐไทยคิดอย่างไรกับกฎหมายตัวนี้?,"What do Thai officers think about this law?
+",
+opinion.person3.quote,"""โดยหลักการผมเห็นด้วยอยู่แล้ว แต่เราตั้งอยู่บนหลักการว่ากฎหมายหนึ่งควรจะครอบคลุมหลายประเด็น เรากำลังผลักดัน
+พ.ร.บ.ส่งเสริมและรักษาคุณภาพสิ่งแวดล้อมเพื่อจัดการครอบคลุมมลพิษทุกเรื่อง เช่น น้ำเสีย ขยะ และอากาศ 
+เราจะเอาเนื้อหาสาระของพ.ร.บ.อากาศสะอาดมาบรรจุด้วย เพราะมลพิษทุกด้านมีความสะอาดไม่ยิ่งหย่อนกัน""
+
+อรรถพล เจริญชันษา , อธิบดีกรมควบคุมมลพิษ
+","""I completely agree with the concept. But we all believe that one law should cover many issues. We’re driving the Promotion and Conservation of National Environmental Quality Act in order to fix all pollution-related problems, such as contaminated water, garbage, and air pollution. We’re going to include the content of Clean Air Act in this because all pollution-related issues deserve to be treated the same way.""
+
+Athapol Charoenshunsa, Director General of Pollution Control Department
+",
+opinion.person4.quote,"""ผมเชื่อว่ากฎหมายตัวนี้มีจุดประสงค์ดี กรมโรงงานอุตสาหกรรมมีบทบาทเฝ้าระวังและติดตามการเกิดมลพิษด้วยเครื่องมือทางกฎหมายที่มี 
+ปัญหา PM2.5 เป็นปัญหาที่ภาคอุตสาหกรรมรับทราบแล้วและทำงานร่วมกันมาตลอด""
+
+ศุภกิจ บุญศิริ รองอธิบดีกรมโรงงานอุตสาหกรรม 
+
+
+","“I believe that there’s good intention behind this law.
+Department of Industrial Works’ job is to monitor and track sources of pollution with the use of existing legalized tools. Industrial sectors are well aware of the issue and are working closely to solve the problem together.""
+
+Supakit Boonsiri, Deputy Director General of Department of Industrial Works
+",
+summary.person5.quote,"""แม้ว่าทุกวันนี้ระบบกฎหมายไทยยังไม่เคยรับรองสิทธิที่จะหายใจอากาศสะอาดอย่างเป็นทางการ แต่มันคือสิทธิในชีวิต
+และสิทธิในสุขภาพซึ่งเป็นสิทธิมนุษยชน อันเป็นสิทธิขั้นพื้นฐานตามรัฐธรรมนูญของไทยและสากลมานานแล้ว 
+รัฐจึงไม่มีเหตุผลที่จะละเลยการจัดการปัญหา PM2.5 
+
+อย่างไรก็ตาม สิ่งสำคัญที่เราอยากเห็นที่สุด ไม่ใช้กฎหมายอากาศสะอาด แต่เป็นการที่พวกเราคนไทยตระหนักว่า
+สิทธิที่จะหายใจนั้นเป็นสิทธิของพวกเรา""
+
+ทีมกฎหมาย เครือข่ายอากาศสะอาด
+","""Although today’s Thai laws still don’t officially recognize the right to breathe clean air, the right to live and possess a healthy life, which are parts of the right to breathe clean air, are already included in the international laws about human rights. They are also fundamental rights recognized by Constitution of Thailand for a long time. There’s no excuse for the government to ignore the issue of air pollution.
+
+Not only we hope for the success it, but also the ongoing process that would allow Thai people to understand and become aware of their own rights to breath clean air.”
+
+Law Team, Thailand Clean Air Network
+",
+calltoaction,"ร่วมกันปกป้องสิทธิที่จะหายใจ
+1.เป็นหูเป็นตา ติดตามแผนปฏิบัติการขับเคลื่อนวาระแห่งชาติการแก้ไขปัญหาฝุ่น 2564 - 2567
+2.อ่านเพิ่มเรื่องกฎหมายอากาศสะอาดและวิธีลงชื่อ https://thaicleanair.org/ร่วมลงชื่อเสนอร่าง-พรบ 
+3.แชร์บนโซเชียล","Let's help create our own clean air together with
+1. keep updated with the government's clean air policies of 
+2. Find out more about Clean Air Act and how to sign the petition at https://thaicleanair.org/ร่วมลงชื่อเสนอร่าง-พรบ
+3. Spread the words on your social media",
+database,,,
+credit,"การสืบค้นและจัดทำงานชิ้นได้รับการสนับสนุนจากทุนพัฒนาศักยภาพสื่อโดย 
+Stockholm Environment Institute (SEI)
+ขอบคุณข้อมูล: 
+อรรถพล เจริญชันษา, ศุภกิจ บุญศิริ, ไพสิฐ พานิชกุล, เครือข่ายอากาศสะอาด,  สภาลมหายใจเชียงใหม่
+, ธราธร อินทรเทพและGRABสันทนาการFamily, นุชนารถ แท่นทอง, กฤษฎิ์ บัวเผื่อน, EPA, สวนดุสิตโพล 
+, คณะกรรมาธิการวิสามัญพิจารณาศึกษาแนวทางการป้องกันและแก้ไขปัญหาฝุ่นละอองขนาดเล็กอย่างเป็นระบบ สภาผู้แทนราษฎร
+
+
+","The research and publishing are supported by ทุนพัฒนาศักยภาพสื่อ by Stockholm Environment Institute (SEI)
+Information Sources: 
+Athapol Charoenshunsa, Supakit Boonsiri, Paisit Panichakul, Thailand Clean Air Networks,  Chiang Mai Breath Council,  Tharathorn Intaratep and Grab Santanakan Family, Nuchanart Tantong, Krit Buaphuan, EPA, PM2.5 Committee of House of Representatives of Thailand",

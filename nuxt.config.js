@@ -1,3 +1,5 @@
+import { parseTranslation } from './utils/translation'
+
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
@@ -28,12 +30,13 @@ export default {
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
-    // https://i18n.nuxtjs.org
-    'nuxt-i18n',
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
-  modules: [],
+  modules: [
+    // https://i18n.nuxtjs.org
+    'nuxt-i18n',
+  ],
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
@@ -51,14 +54,7 @@ export default {
     defaultLocale: 'th',
     vueI18n: {
       fallbackLocale: 'th',
-      messages: {
-        th: {
-          welcome: 'สวัสดี',
-        },
-        en: {
-          welcome: 'Hello',
-        },
-      },
+      messages: parseTranslation('./assets/data/translation.csv'),
     },
   },
 }
