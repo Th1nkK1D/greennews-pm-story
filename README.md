@@ -1,5 +1,10 @@
 # greennews-pm-story
 
+## Environments
+
+- Staging: https://th1nkk1d.github.io/greennews-pm-story/
+- Production: not deployed yet
+
 ## Build Setup
 
 ```bash
