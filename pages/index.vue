@@ -1,8 +1,7 @@
 <template>
-  <div class="p-4">
-    <LanguageSwitch class="text-right" />
-    <div class="text-72 font-bold">{{ $t('intro.title') }}</div>
-    <pre>{{ $t('calltoaction') }}</pre>
+  <div class="relative flex flex-col min-h-screen">
+    <LanguageSwitch class="absolute top-1 right-1" />
+    <Intro />
   </div>
 </template>
 

@@ -1,13 +1,10 @@
 <template>
-  <p class="text-right">
-    switch to
-    <nuxt-link
-      class="text-blue-600 hover:underline"
-      :to="switchLocalePath(inactiveLanguage)"
-    >
-      {{ inactiveLanguage.toUpperCase() }}
-    </nuxt-link>
-  </p>
+  <nuxt-link
+    class="text-blue-600 hover:underline"
+    :to="switchLocalePath(inactiveLanguage)"
+  >
+    {{ inactiveLanguage.toUpperCase() }}
+  </nuxt-link>
 </template>
 
 <script>
