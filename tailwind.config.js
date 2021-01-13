@@ -1,8 +1,4 @@
 module.exports = {
-  future: {
-    removeDeprecatedGapUtilities: true,
-    purgeLayersByDefault: true,
-  },
   purge: [
     './components/**/*.{vue,js}',
     './layouts/**/*.vue',
@@ -10,7 +6,11 @@ module.exports = {
     './plugins/**/*.{js,ts}',
     './nuxt.config.{js,ts}',
   ],
+  darkMode: false,
   theme: {
+    fontFamily: {
+      sans: ['IBM Plex Sans Thai', 'Helvetica Neue', 'Arial', 'sans-serif'],
+    },
     extend: {},
   },
   variants: {},
