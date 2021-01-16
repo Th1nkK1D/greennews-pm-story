@@ -30,7 +30,11 @@ module.exports = {
       'green-3': '#C7DEDD',
       'green-4': '#D5EFEE',
     },
-    extend: {},
+    extend: {
+      zIndex: {
+        '-1': -1,
+      },
+    },
   },
   variants: {},
   plugins: [],

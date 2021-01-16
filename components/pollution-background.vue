@@ -1,5 +1,11 @@
 <template>
-  <div class="relative overflow-hidden"><slot /></div>
+  <div class="relative">
+    <slot />
+    <div
+      ref="pollutionContainer"
+      class="fixed top-0 left-0 right-0 h-screen overflow-hidden -z-1"
+    />
+  </div>
 </template>
 
 <script>
@@ -16,7 +22,7 @@ export default {
       particle.style.left = `${Math.random() * 100}%`
       particle.style.scale = Math.random() + 0.5
 
-      this.$el.appendChild(particle)
+      this.$refs.pollutionContainer.appendChild(particle)
 
       anime({
         targets: particle,
