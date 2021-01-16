@@ -34,6 +34,9 @@ module.exports = {
       zIndex: {
         '-1': -1,
       },
+      transitionProperty: {
+        width: 'width',
+      },
     },
   },
   variants: {},
