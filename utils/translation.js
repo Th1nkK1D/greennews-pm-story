@@ -6,7 +6,7 @@ export const parseTranslation = (filePath) => {
   const [, ...contentRows] = CSV.parse(csvString)
 
   return contentRows.reduce(
-    ({ en, th }, [key, thai, english]) => ({
+    ({ en, th }, [section, key, thai, english]) => ({
       th: { ...th, [key]: thai },
       en: { ...en, [key]: english },
     }),
