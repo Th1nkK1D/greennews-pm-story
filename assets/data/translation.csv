@@ -2,11 +2,12 @@ Section,Key,thai,eng,,,
 intro,intro.prologue1,"คนไทยหายใจอากาศที่มี PM2.5 เกินมาตรฐานมาแล้ว 20 ปี
 ","Thai people have lived with PM 2.5 issue for more than 20 years.
 ",,,
-intro,intro.prologue2,เราประกาศให้ปัญหาฝุ่นควันเป็นวาระแห่งชาติ,,,,
-intro,intro.prologue3,แต่ทำไมเรายังแก้ไม่ได้สักที,Why can’t we still find a way to solve this PM2.5 issue?,,,
+,intro.prologue2,เรากำหนดให้ปัญหาฝุ่นควันเป็นวาระแห่งชาติ,,,,
+intro,intro.prologue3,เมื่อเราต่างฝันถึงวันไร้ฝุ่น,We all dream of a day where we live without it.,,,
+intro,intro.prologue4,แต่ทำไมเราแก้ไม่ได้สักที,Why can’t we still find a way to solve the issue?,,,
 intro,intro.title,สิทธิที่จะหายใจ สิทธิที่หายไปของคนไทย,,,,
 intro,intro.button1,ออกตามหา,,,,
-intro,intro.button2,เช็คมาตรการแก้ปัญหาฝุ่น 2564-2567,Click to see database of PM2.5 Government Policies 2021-2024,,,
+intro,intro.button2,เช็กมาตรการแก้ปัญหาฝุ่น 2564-2567,Click to see database of PM2.5 Government Policies 2021-2024,,,
 chapter1,chapter1.story1,"""ช่วงหน้าฝุ่นครั้งก่อน ผมรู้สึกระคายตาข้างซ้ายจนต้องไปโรงพยาบาล
 หมอเอาวัตถุปลายแหลมเขี่ยบางอย่างออกจากกระจกตาของผม
 เขาโชว์ไอ้ที่เขี่ยออกมาให้ดู มันเล็กมากจนผมมองไม่เห็น หมอบอกว่าเป็นฝุ่นละออง""","During the last PM2.5 season, my eyes were so irritated that I had to go to the hospital. The doctor used a sharp-edged tool and got something out of my eyes. He showed me what he just got rid of but I couldn’t see because it was so small. The doctor said it was a particle matter.",,,
@@ -30,8 +31,9 @@ chapter1,chapter1.link,ปัญหาฝุ่นเป็นเรื่อง
 chapter1,chapter1.whatispm.title,ปัญหา PM2.5 เกิดจากปัจจัยทางธรรมชาติและทางมนุษย์,PM2.5 issue ,,,
 chapter1,chapter1.whatispm.body1,แหล่งกำเนิดฝุ่นควัน + สภาพอากาศและสภาพภูมิศาสตร์ในพื้นที่, the source of PM2.5 + the weather and the geography of the area,,,
 chapter1,chapter1.whatispm.body2,"ปัจจัย 2 อย่างนี้ทำให้พื้นที่ต่างๆ เจอปัญหาฝุ่นต่างช่วงเวลากันในแต่ละปี
-ภาคกลาง พฤศจิกายน - เมษายน
-ภาคเหนือ มกราคม - พฤษภาคม",,,,
+ภาคกลาง พฤศจิกายน - พฤษภาคม
+ภาคเหนือและตะวันออกเฉียงเหนือ มกราคม - พฤษภาคม
+ภาคใต้ กรกฎาคม - กันยายน",,,,
 chapter1,chapter1.whatwedo.title,เมื่อฤดูฝุ่นมาถึง รัฐไทยรับมืออย่างไรบ้าง?,And what is our Thai government doing about this?,,,
 chapter1,chapter1.whatwedo.body1,"ป้องกัน  เช่น ตั้ง Clean Room พื้นที่สาธารณะที่มีเครื่องฟอกอากาศให้บริการฟรี , ติดตั้งเครื่องฟอกอากาศ
 , อัพเดตสถานการณ์ฝุ่นควันแก่ประชาชน, ประกาศปิดโรงเรียนเมื่อค่าคุณภาพอากาศเกินเกณฑ์อันตราย
@@ -108,14 +110,13 @@ chapter3,chapter3.scenario.timeline2,"ธราธรสามารถกล่
 (มาตรา 15) ",Tharathorn can request a support for his right to breathe clean air. (section 15),,,
 chapter3,chapter3.scenario.timeline3,"ธราธรสามารถขอให้องค์กรเอกชนที่ให้ความช่วยเหลือกลุ่มคนเปราะบางช่วยดำเนินคดีและ
 ดำเนินเรื่องเรียกค่าสินไหมทดแทนกับค่าเสียหายได้",Tharathorn can consult a private organization who works to help vulnerable subjects for to conduct a lawsuit and claim damages in the form of a compensation.,,,
-chapter3,chapter3.scenario.timeline4,"
-ธราธรสามารถเป็นตัวแทนฟ้องคดีแทนมอเตอร์ไซค์รับจ้างคนอื่นๆ  (Class Action) ทำให้คนอื่นได้รับผลชดเชยเดียวกัน",The organization can also be a representative for other motorcycle taxi drivers according to the class action regulation.,,,
+chapter3,chapter3.scenario.timeline4,ธราธรสามารถเป็นตัวแทนฟ้องคดีแทนมอเตอร์ไซค์รับจ้างคนอื่นๆ  (Class Action) ทำให้คนอื่นได้รับผลชดเชยเดียวกัน,The organization can also be a representative for other motorcycle taxi drivers according to the class action regulation.,,,
 chapter3,chapter3.scenario.timeline5,เมื่อศาลพิจารณาแล้ว หน่วยงานรัฐหรือเอกชนที่ถูกฟ้องต้องยุติกิจกรรมการก่อให้เกิดหมอกควันพิษ (มาตรา 16)," Once the lawsuit is complete, the following government agencies or private organizations would then have to terminate all activities that cause PM2.5 (Section 16)",,,
 chapter3,chapter3.scenario.note,"
 
 หมายเหตุ: หากเป็นกรณีหมอกควันข้ามพรมแดนมาฝั่งไทย  ผู้ฟ้องไม่จำเป็นต้องพิสูจน์ว่าตนป่วยจากสาเหตุฝุ่นควัน 
 แต่ผู้ก่อมลพิษมีภาระต้องพิสูจน์ว่าไม่ได้เป็นผู้ก่อปัญหาฝุ่น
-","* For cross-border pollution cases coming from other countries, it is not the plaintiff who has to prove the cause of his or her sickness, instead it is the defendant who would have to provide evidences to protect themselves.",,,"
+","note: For cross-border pollution cases coming from other countries, it is not the plaintiff who has to prove the cause of his or her sickness, instead it is the defendant who would have to provide evidences to protect themselves.",,,"
 The organization investigates Tharathorn’s case and figures out where the pollution comes from. For example, Tharathorn who works on the road everyday could potentially be exposed to pollutants emitted from public buses all day. Therefore, it can be assumed that the buses are the main cause for the air pollution, resulting in Tharathorn’s sickness. Meanwhile, Bangkok Mass Transit Authority is responsible for controling the following emission.
 The organization may then sue Bangkok Mass Transit Authority in charge of the failure to complete their responsibilities, without Tharathorn having to be the one to prove the cause of his sickness, instead it is the defendant who would have to provide evidences to protect themselves.
 The act of sue includes cross-border pollution cases."
@@ -179,11 +180,11 @@ Stockholm Environment Institute (SEI) โดยผลงานไม่จำเ
 
 ข้อมูล: 
 อรรถพล เจริญชันษา, ศุภกิจ บุญศิริ, ไพสิฐ พานิชกุล, เครือข่ายอากาศสะอาด,  สภาลมหายใจเชียงใหม่
-, ธราธร อินทรเทพและGRABสันทนาการFamily, นุชนารถ แท่นทอง, กฤษฎิ์ บัวเผื่อน, EPA, สวนดุสิตโพล , GISTDA
+, ธราธร อินทรเทพและ GRABสันทนาการFamily, นุชนารถ แท่นทอง, กฤษฎิ์ บัวเผื่อน, GISTDA
 , คณะกรรมาธิการวิสามัญพิจารณาศึกษาแนวทางการป้องกันและแก้ไขปัญหาฝุ่นละอองขนาดเล็กอย่างเป็นระบบ สภาผู้แทนราษฎร
 
 
 ","This story was produced as part of the Stockholm Environment Institute (Asia) media grant for environmental reporting. It does not necessarily reflect the views of SEI or its funders.
 
 Information Sources: 
-Athapol Charoenshunsa, Supakit Boonsiri, Paisit Panichakul, Thailand Clean Air Networks,  Chiang Mai Breath Council,  Tharathorn Intaratep and Grab Santanakan Family, Nuchanart Tantong, Krit Buaphuan, EPA, PM2.5 Committee of House of Representatives of Thailand , GISTDA",,,
+Athapol Charoenshunsa, Supakit Boonsiri, Paisit Panichakul, Thailand Clean Air Networks,  Chiang Mai Breath Council,  Tharathorn Intaratep and Grab Santanakan Family, Nuchanart Tantong, Krit Buaphuan, PM2.5 Committee of House of Representatives of Thailand , GISTDA",,,
