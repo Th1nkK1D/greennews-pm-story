@@ -5,6 +5,7 @@
     <Intro />
     <Part1 />
     <Part2 />
+    <Part3 />
     <Footer />
   </div>
 </template>
