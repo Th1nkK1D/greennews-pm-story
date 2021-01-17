@@ -29,6 +29,6 @@ export default {
 <style>
 html {
   @apply font-sans;
-  @apply text-18;
+  @apply text-body1;
 }
 </style>
