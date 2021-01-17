@@ -1,9 +1,7 @@
 <template>
   <section>
     <div class="flex flex-col bg-black-4 py-48 space-y-48">
-      <div class="p-2 bg-green-3 text-green-1 text-h6 font-bold mx-auto -my-24">
-        รู้จักปัญหา: หน้าตา
-      </div>
+      <PartLabel class="-my-24">รู้จักปัญหา: หน้าตา</PartLabel>
       <div class="space-y-24">
         <img
           src="https://via.placeholder.com/800x400?text=motocycler_illustration"
@@ -11,9 +9,17 @@
           class="w-full max-w-2xl m-auto"
         />
         <div class="max-w-lg m-auto space-y-8">
-          <p class="text-indent">{{ $t('chapter1.story1') }}</p>
-          <p class="text-indent">{{ $t('chapter1.story2') }}</p>
-          <p class="text-indent">{{ $t('chapter1.story3') }}</p>
+          <p
+            v-for="p in [
+              'chapter1.story1',
+              'chapter1.story2',
+              'chapter1.story3',
+            ]"
+            :key="p"
+            class="text-indent"
+          >
+            {{ $t(p) }}
+          </p>
         </div>
       </div>
       <div class="space-y-24">
@@ -23,8 +29,13 @@
           class="w-full max-w-2xl m-auto"
         />
         <div class="max-w-lg m-auto space-y-8">
-          <p class="text-indent">{{ $t('chapter1.factbox') }}</p>
-          <p class="text-indent">{{ $t('chapter1.story4') }}</p>
+          <p
+            v-for="p in ['chapter1.factbox', 'chapter1.story4']"
+            :key="p"
+            class="text-indent"
+          >
+            {{ $t(p) }}
+          </p>
         </div>
       </div>
       <div class="space-y-4 max-w-2xl m-auto">
@@ -51,21 +62,19 @@
           {{ $t('chapter1.whatispm.title') }}
         </p>
         <div class="flex flex-row justify-between max-w-2xl mx-auto">
-          <div>
+          <div
+            v-for="item in [
+              'chapter1.whatispm.body1',
+              'chapter1.whatispm.body1',
+            ]"
+            :key="item"
+          >
             <img
               src="https://via.placeholder.com/200"
               alt=""
               class="rounded-full mx-auto mb-4"
             />
-            {{ $t('chapter1.whatispm.body1') }}
-          </div>
-          <div>
-            <img
-              src="https://via.placeholder.com/200"
-              alt=""
-              class="rounded-full mx-auto mb-4"
-            />
-            {{ $t('chapter1.whatispm.body1') }}
+            {{ $t(item) }}
           </div>
         </div>
         <p class="max-w-lg mx-auto">
@@ -77,15 +86,14 @@
           {{ $t('chapter1.whatwedo.title') }}
         </h3>
         <div class="flex flex-row space-x-12">
-          <div class="flex-1">
-            <img
-              src="https://via.placeholder.com/300x200"
-              alt=""
-              class="w-full mb-8"
-            />
-            {{ $t('chapter1.whatwedo.body1') }}
-          </div>
-          <div class="flex-1">
+          <div
+            v-for="item in [
+              'chapter1.whatwedo.body1',
+              'chapter1.whatwedo.body1',
+            ]"
+            :key="item"
+            class="flex-1"
+          >
             <img
               src="https://via.placeholder.com/300x200"
               alt=""
