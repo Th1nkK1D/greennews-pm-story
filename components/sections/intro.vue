@@ -2,7 +2,7 @@
   <section class="flex flex-col text-center">
     <PollutionBackground>
       <div class="h-screen flex">
-        <div class="max-w-2xl m-auto flex flex-col space-y-8">
+        <div class="max-w-3xl m-auto flex flex-col space-y-8">
           <p class="text-h5">
             {{ $t('intro.prologue1') }}
             <br />
@@ -13,7 +13,7 @@
         </div>
       </div>
       <div class="h-screen flex">
-        <div class="max-w-lg m-auto flex flex-col space-y-24">
+        <div class="max-w-xl m-auto flex flex-col space-y-24">
           <h1 class="text-h1 font-bold">{{ $t('intro.title') }}</h1>
           <div class="flex flex-row space-x-12">
             <button

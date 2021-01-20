@@ -1,14 +1,14 @@
 <template>
   <section>
-    <div class="flex flex-col bg-black-4 py-48 space-y-48">
+    <div class="flex flex-col bg-black-4 py-48 px-4 space-y-48">
       <PartLabel class="-my-24">รู้จักปัญหา: หน้าตา</PartLabel>
       <div class="space-y-24">
         <img
           src="https://via.placeholder.com/800x400?text=motocycler_illustration"
           alt=""
-          class="w-full max-w-2xl m-auto"
+          class="w-full max-w-3xl m-auto"
         />
-        <div class="max-w-lg m-auto space-y-8">
+        <div class="max-w-xl m-auto space-y-8">
           <p
             v-for="p in [
               'chapter1.story1',
@@ -26,9 +26,9 @@
         <img
           src="https://via.placeholder.com/800x400?text=pm2.5_illustration"
           alt=""
-          class="w-full max-w-2xl m-auto"
+          class="w-full max-w-3xl m-auto"
         />
-        <div class="max-w-lg m-auto space-y-8">
+        <div class="max-w-xl m-auto space-y-8">
           <p
             v-for="p in ['chapter1.factbox', 'chapter1.story4']"
             :key="p"
@@ -38,7 +38,7 @@
           </p>
         </div>
       </div>
-      <div class="space-y-4 max-w-2xl m-auto">
+      <div class="space-y-4 max-w-3xl m-auto">
         <img
           src="https://via.placeholder.com/800x400?text=pm2.5_heatmap"
           alt=""
@@ -51,7 +51,7 @@
     </div>
 
     <div class="flex flex-col bg-black-3 py-48 space-y-40">
-      <p class="text-h6 max-w-lg m-auto text-center">
+      <p class="text-h6 max-w-xl m-auto text-center">
         {{ $t('chapter1.fact1') }}
       </p>
       <p class="text-h4 text-center">
@@ -61,7 +61,7 @@
         <p class="text-h5">
           {{ $t('chapter1.whatispm.title') }}
         </p>
-        <div class="flex flex-row justify-between max-w-2xl mx-auto">
+        <div class="flex flex-row justify-between max-w-3xl mx-auto">
           <div
             v-for="item in [
               'chapter1.whatispm.body1',
@@ -77,11 +77,11 @@
             {{ $t(item) }}
           </div>
         </div>
-        <p class="max-w-lg mx-auto">
+        <p class="max-w-xl mx-auto">
           {{ $t('chapter1.whatispm.body2') }}
         </p>
       </div>
-      <div class="max-w-2xl mx-auto space-y-12">
+      <div class="max-w-3xl mx-auto space-y-12">
         <h3 class="text-h3 text-center">
           {{ $t('chapter1.whatwedo.title') }}
         </h3>
@@ -103,7 +103,7 @@
           </div>
         </div>
       </div>
-      <div class="flex flex-col space-y-20 max-w-2xl m-auto">
+      <div class="flex flex-col space-y-20 max-w-3xl m-auto">
         <div class="flex flex-row space-x-8">
           <div class="flex-1">
             <img
