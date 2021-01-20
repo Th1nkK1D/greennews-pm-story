@@ -43,23 +43,31 @@
 </template>
 
 <script>
-import policies from '../assets/data/policy-2564-2570'
-
-const yearOptions = [...new Set(policies.map(({ year }) => year))].sort()
-const categoryOptions = [...new Set(policies.map(({ category }) => category))]
-
 export default {
+  fetch() {
+    this.policies = require(`../assets/data/policy-${this.$i18n.locale}`)
+
+    this.yearOptions = [
+      ...new Set(this.policies.map(({ year }) => year)),
+    ].sort()
+    this.categoryOptions = [
+      ...new Set(this.policies.map(({ category }) => category)),
+    ]
+    this.selectedYear = this.yearOptions[0]
+    this.selectedCategory = this.categoryOptions[0]
+  },
   data() {
     return {
-      yearOptions,
-      categoryOptions,
-      selectedYear: yearOptions[0],
-      selectedCategory: categoryOptions[0],
+      policies: [],
+      yearOptions: [],
+      categoryOptions: [],
+      selectedYear: null,
+      selectedCategory: null,
     }
   },
   computed: {
     filteredPolicies() {
-      return policies.filter(
+      return this.policies.filter(
         ({ year, category }) =>
           year === this.selectedYear && category === this.selectedCategory
       )
@@ -67,7 +75,7 @@ export default {
   },
   methods: {
     updateCharacter(character) {
-      this.selectedCategory = categoryOptions[character - 1]
+      this.selectedCategory = this.categoryOptions[character - 1]
     },
   },
 }

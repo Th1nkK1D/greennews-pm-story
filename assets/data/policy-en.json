@@ -1,0 +1,817 @@
+[
+  {
+    "character": 1,
+    "year": 2023,
+    "category": "Control pollution from cars",
+    "policy": "Improve the quality of fuel, limiting the consisting sulfur to 10 ppm",
+    "department": "Ministry of Energy"
+  },
+  {
+    "character": 1,
+    "year": 2024,
+    "category": "Control pollution from cars",
+    "policy": "Enforce the use of fuel consisting of no more than 10 ppm of sufur",
+    "department": "Ministry of Energy",
+    "source": "National Agenda Scheme to solve PM2.5 issue"
+  },
+  {
+    "character": 1,
+    "year": 2021,
+    "category": "Control pollution from cars",
+    "policy": "Increase transportation alternatives that are convenient and safe for citizens e.g. bikeways, pathways",
+    "department": "Ministry of Transport, Provincial Authority, Local Authority",
+    "source": "Special urgent scheme to solve PM2.5 issue"
+  },
+  {
+    "character": 1,
+    "year": 2021,
+    "category": "Control pollution from cars",
+    "policy": "Speed up the connections between public transportation",
+    "department": "Ministry of Transport",
+    "source": "The National Environmental Board Meeting, 20 July 2020"
+  },
+  {
+    "character": 1,
+    "year": 2022,
+    "category": "Control pollution from cars",
+    "policy": "Speed up the connections between public transportation",
+    "department": "Ministry of Transport",
+    "source": "The National Environmental Board Meeting, 20 July 2020"
+  },
+  {
+    "character": 1,
+    "year": 2023,
+    "category": "Control pollution from cars",
+    "policy": "Speed up the connections between public transportation",
+    "department": "Ministry of Transport",
+    "source": "The National Environmental Board Meeting, 20 July 2020"
+  },
+  {
+    "character": 1,
+    "year": 2024,
+    "category": "Control pollution from cars",
+    "policy": "Speed up the connections between public transportation",
+    "department": "Ministry of Transport",
+    "source": "The National Environmental Board Meeting, 20 July 2020"
+  },
+  {
+    "character": 1,
+    "year": 2021,
+    "category": "Control pollution from cars",
+    "policy": "Control the import of old engines (cars and boats), limiting to less than 5 years of usage and must be aligned by the standardized air pollution control for new car policies that are active during the time of import",
+    "department": "Ministry of Commerce"
+  },
+  {
+    "character": 1,
+    "year": 2022,
+    "category": "Control pollution from cars",
+    "policy": "Prohibit the import of used engines of all kinds",
+    "department": "Ministry of Commerce"
+  },
+  {
+    "character": 1,
+    "year": 2023,
+    "category": "Control pollution from cars",
+    "policy": "Prohibit the import of used engines of all kinds",
+    "department": "Ministry of Commerce"
+  },
+  {
+    "character": 1,
+    "year": 2024,
+    "category": "Control pollution from cars",
+    "policy": "Prohibit the import of used engines of all kinds",
+    "department": "Ministry of Commerce"
+  },
+  {
+    "character": 1,
+    "year": 2021,
+    "category": "Control pollution from cars",
+    "policy": "Increase the standards and the methods to inspect the pollutant ventilation from cars and reduce the number of years for car annual check up",
+    "department": "Ministry of Transport",
+    "": "",
+    "__1": "Note"
+  },
+  {
+    "character": 1,
+    "year": 2021,
+    "category": "Control pollution from cars",
+    "policy": "Launch incentive programs to encourage the use of electric cars",
+    "department": "Ministry of Industry, Ministry of Energy, Ministry of Transport",
+    "": "",
+    "__1": "Ministry of Higher Education, Science, Research and Innovation เป็นชื่อกระทรวง มีลูกน้ำคั่นอยู่ในชื่อเฉพาะ ไม่ใช่คั่นระหว่างองค์กร"
+  },
+  {
+    "character": 1,
+    "year": 2021,
+    "category": "Control pollution from cars",
+    "policy": "Replace old public service cars with electric ones",
+    "department": "Government Office"
+  },
+  {
+    "character": 1,
+    "year": 2022,
+    "category": "Control pollution from cars",
+    "policy": "Replace old public service cars with electric ones",
+    "department": "Government Office"
+  },
+  {
+    "character": 1,
+    "year": 2023,
+    "category": "Control pollution from cars",
+    "policy": "Replace old public service cars with electric ones",
+    "department": "Government Office"
+  },
+  {
+    "character": 1,
+    "year": 2024,
+    "category": "Control pollution from cars",
+    "policy": "Replace old public service cars with electric ones",
+    "department": "Government Office"
+  },
+  {
+    "character": 1,
+    "year": 2021,
+    "category": "Control pollution from cars",
+    "policy": "Limit the areas and set up policies to limit the number of cars that can enter the center of the city",
+    "department": "Royal Thai Police"
+  },
+  {
+    "character": 1,
+    "year": 2024,
+    "category": "Control pollution from cars",
+    "policy": "Enforce the use of the standard level of Euro 5 car pollution release",
+    "department": "Ministry of Industry"
+  },
+  {
+    "character": 1,
+    "year": 2025,
+    "category": "Control pollution from cars",
+    "policy": "Enforce the use of the standard level of Euro 6 car pollution release",
+    "department": "Ministry of Industry"
+  },
+  {
+    "character": 1,
+    "year": 2024,
+    "category": "Control pollution from cars",
+    "policy": "Make standardized Euro 5 oil available in the market",
+    "department": "Ministry of Energy"
+  },
+  {
+    "character": 1,
+    "year": 2022,
+    "category": "Control pollution from cars",
+    "policy": "Change all Bangkok Mass Transit Authority's buses to ones that release low pollutants (electric cars/NGV/standard Euro 6)",
+    "department": "Ministry of Transport, Bangkok Mass Transit Authority"
+  },
+  {
+    "character": 1,
+    "year": 2023,
+    "category": "Control pollution from cars",
+    "policy": "Change all Bangkok Mass Transit Authority's buses to ones that release low pollutants (electric cars/NGV/standard Euro 6)",
+    "department": "Ministry of Transport, Bangkok Mass Transit Authority"
+  },
+  {
+    "character": 1,
+    "year": 2024,
+    "category": "Control pollution from cars",
+    "policy": "Change all Bangkok Mass Transit Authority's buses to ones that release low pollutants (electric cars/NGV/standard Euro 6)",
+    "department": "Ministry of Transport, Bangkok Mass Transit Authority"
+  },
+  {
+    "character": 1,
+    "year": 2022,
+    "category": "Control pollution from cars",
+    "policy": "Control dust release from transporting goods at piers and between boats",
+    "department": "Ministry of Transport"
+  },
+  {
+    "character": 1,
+    "year": 2023,
+    "category": "Control pollution from cars",
+    "policy": "Control dust release from transporting goods at piers and between boats",
+    "department": "Ministry of Transport"
+  },
+  {
+    "character": 1,
+    "year": 2024,
+    "category": "Control pollution from cars",
+    "policy": "Control dust release from transporting goods at piers and between boats",
+    "department": "Ministry of Transport"
+  },
+  {
+    "character": 1,
+    "year": 2022,
+    "category": "Control pollution from cars",
+    "policy": "Consider removing Khlong Toei Pier from Bangkok area",
+    "department": "Ministry of Transport"
+  },
+  {
+    "character": 1,
+    "year": 2023,
+    "category": "Control pollution from cars",
+    "policy": "Consider removing Khlong Toei Pier from Bangkok area",
+    "department": "Ministry of Transport"
+  },
+  {
+    "character": 1,
+    "year": 2024,
+    "category": "Control pollution from cars",
+    "policy": "Consider removing Khlong Toei Pier from Bangkok area",
+    "department": "Ministry of Transport"
+  },
+  {
+    "character": 2,
+    "year": 2021,
+    "category": "Control pollution from burning in open spaces / agriculture",
+    "policy": "Encourage the reuse of agricultural wastes to reduce burnings",
+    "department": "Ministry of Agriculture and Cooperatives"
+  },
+  {
+    "character": 2,
+    "year": 2022,
+    "category": "Control pollution from burning in open spaces / agriculture",
+    "policy": "Encourage the reuse of agricultural wastes to reduce burnings",
+    "department": "Ministry of Agriculture and Cooperatives"
+  },
+  {
+    "character": 2,
+    "year": 2023,
+    "category": "Control pollution from burning in open spaces / agriculture",
+    "policy": "Encourage the reuse of agricultural wastes to reduce burnings",
+    "department": "Ministry of Agriculture and Cooperatives"
+  },
+  {
+    "character": 2,
+    "year": 2024,
+    "category": "Control pollution from burning in open spaces / agriculture",
+    "policy": "Encourage the reuse of agricultural wastes to reduce burnings",
+    "department": "Ministry of Agriculture and Cooperatives"
+  },
+  {
+    "character": 2,
+    "year": 2021,
+    "category": "Control pollution from burning in open spaces / agriculture",
+    "policy": "Encourage the agriculture of different kinds of plants as replacements for single plants/plants that require burnings",
+    "department": "Ministry of Agriculture and Cooperatives"
+  },
+  {
+    "character": 2,
+    "year": 2022,
+    "category": "Control pollution from burning in open spaces / agriculture",
+    "policy": "Encourage the agriculture of different kinds of plants as replacements for single plants/plants that require burnings",
+    "department": "Ministry of Agriculture and Cooperatives"
+  },
+  {
+    "character": 2,
+    "year": 2023,
+    "category": "Control pollution from burning in open spaces / agriculture",
+    "policy": "Encourage the agriculture of different kinds of plants as replacements for single plants/plants that require burnings",
+    "department": "Ministry of Agriculture and Cooperatives"
+  },
+  {
+    "character": 2,
+    "year": 2024,
+    "category": "Control pollution from burning in open spaces / agriculture",
+    "policy": "Encourage the agriculture of different kinds of plants as replacements for single plants/plants that require burnings",
+    "department": "Ministry of Agriculture and Cooperatives"
+  },
+  {
+    "character": 2,
+    "year": 2021,
+    "category": "Control pollution from burning in open spaces / agriculture",
+    "policy": "Prohibit any kinds of burnings (including waste) in roadside communities",
+    "department": "Ministry of Interior, Ministry of Transport, Bangkok Metropolitan Administrator, Provincial Authority, Local Authority"
+  },
+  {
+    "character": 2,
+    "year": 2022,
+    "category": "Control pollution from burning in open spaces / agriculture",
+    "policy": "Prohibit any kinds of burnings (including waste) in roadside communities",
+    "department": "Ministry of Interior, Ministry of Transport, Bangkok Metropolitan Administrator, Provincial Authority, Local Authority"
+  },
+  {
+    "character": 2,
+    "year": 2023,
+    "category": "Control pollution from burning in open spaces / agriculture",
+    "policy": "Prohibit any kinds of burnings (including waste) in roadside communities",
+    "department": "Ministry of Interior, Ministry of Transport, Bangkok Metropolitan Administrator, Provincial Authority, Local Authority"
+  },
+  {
+    "character": 2,
+    "year": 2024,
+    "category": "Control pollution from burning in open spaces / agriculture",
+    "policy": "Prohibit any kinds of burnings (including waste) in roadside communities",
+    "department": "Ministry of Interior, Ministry of Transport, Bangkok Metropolitan Administrator, Provincial Authority, Local Authority"
+  },
+  {
+    "character": 2,
+    "year": 2021,
+    "category": "Control pollution from burning in open spaces / agriculture",
+    "policy": "Allow sugar factories to receive burnt canes not more than 20% per day",
+    "department": "Ministry of Industry"
+  },
+  {
+    "character": 2,
+    "year": 2022,
+    "category": "Control pollution from burning in open spaces / agriculture",
+    "policy": "100% no burning inside the sugar cane field",
+    "department": "Ministry of Industry"
+  },
+  {
+    "character": 2,
+    "year": 2021,
+    "category": "Control pollution from burning in open spaces / agriculture",
+    "policy": "Prohibit any kinds of burnings (including waste) in roadside communities",
+    "department": "Ministry of Interior, Ministry of Transport, Bangkok Metropolitan Administrator, Provincial Authority, Local Authority"
+  },
+  {
+    "character": 2,
+    "year": 2022,
+    "category": "Control pollution from burning in open spaces / agriculture",
+    "policy": "Prohibit any kinds of burnings (including waste) in roadside communities",
+    "department": "Ministry of Interior, Ministry of Transport, Bangkok Metropolitan Administrator, Provincial Authority, Local Authority"
+  },
+  {
+    "character": 2,
+    "year": 2023,
+    "category": "Control pollution from burning in open spaces / agriculture",
+    "policy": "Prohibit any kinds of burnings (including waste) in roadside communities",
+    "department": "Ministry of Interior, Ministry of Transport, Bangkok Metropolitan Administrator, Provincial Authority, Local Authority"
+  },
+  {
+    "character": 2,
+    "year": 2024,
+    "category": "Control pollution from burning in open spaces / agriculture",
+    "policy": "Prohibit any kinds of burnings (including waste) in roadside communities",
+    "department": "Ministry of Interior, Ministry of Transport, Bangkok Metropolitan Administrator, Provincial Authority, Local Authority"
+  },
+  {
+    "character": 2,
+    "year": 2027,
+    "category": "Control pollution from burning in open spaces / agriculture",
+    "policy": "Speed up the reforestation and wildfire protection programs in all 76 provinces",
+    "department": "Royal Volunteer Spirit Institution"
+  },
+  {
+    "character": 2,
+    "year": 2022,
+    "category": "Control pollution from burning in open spaces / agriculture",
+    "policy": "Consider the improvement of the agricultural product standards that would reduce the burnings of materials both before and after the harvest, and the improvement of economic mechanisms to help product sales",
+    "department": "Ministry of Agriculture and Cooperatives"
+  },
+  {
+    "character": 2,
+    "year": 2023,
+    "category": "Control pollution from burning in open spaces / agriculture",
+    "policy": "Consider the improvement of the agricultural product standards that would reduce the burnings of materials both before and after the harvest, and the improvement of economic mechanisms to help product sales",
+    "department": "Ministry of Agriculture and Cooperatives"
+  },
+  {
+    "character": 2,
+    "year": 2024,
+    "category": "Control pollution from burning in open spaces / agriculture",
+    "policy": "Consider the improvement of the agricultural product standards that would reduce the burnings of materials both before and after the harvest, and the improvement of economic mechanisms to help product sales",
+    "department": "Ministry of Agriculture and Cooperatives"
+  },
+  {
+    "character": 2,
+    "year": 2022,
+    "category": "Control pollution from burning in open spaces / agriculture",
+    "policy": "Improve the management of nitrogen fertilizers",
+    "department": "Ministry of Agriculture and Cooperatives"
+  },
+  {
+    "character": 2,
+    "year": 2023,
+    "category": "Control pollution from burning in open spaces / agriculture",
+    "policy": "Improve the management of nitrogen fertilizers",
+    "department": "Ministry of Agriculture and Cooperatives"
+  },
+  {
+    "character": 2,
+    "year": 2024,
+    "category": "Control pollution from burning in open spaces / agriculture",
+    "policy": "Improve the management of nitrogen fertilizers",
+    "department": "Ministry of Agriculture and Cooperatives"
+  },
+  {
+    "character": 2,
+    "year": 2022,
+    "category": "Control pollution from burning in open spaces / agriculture",
+    "policy": "Improve the management of animal waste from livestock",
+    "department": "Ministry of Agriculture and Cooperatives"
+  },
+  {
+    "character": 2,
+    "year": 2023,
+    "category": "Control pollution from burning in open spaces / agriculture",
+    "policy": "Improve the management of nitrogen fertilizers",
+    "department": "Ministry of Agriculture and Cooperatives"
+  },
+  {
+    "character": 2,
+    "year": 2024,
+    "category": "Control pollution from burning in open spaces / agriculture",
+    "policy": "Improve the management of nitrogen fertilizers",
+    "department": "Ministry of Agriculture and Cooperatives"
+  },
+  {
+    "character": 2,
+    "year": 2021,
+    "category": "Control pollution from burning in open spaces / agriculture",
+    "policy": "Increase efficiency to manage waste in local areas to reduce burnings",
+    "department": "Ministry of Interior, Provincial Authority, Local Authority"
+  },
+  {
+    "character": 2,
+    "year": 2022,
+    "category": "Control pollution from burning in open spaces / agriculture",
+    "policy": "Increase efficiency to manage waste in local areas to reduce burnings",
+    "department": "Ministry of Interior, Provincial Authority, Local Authority"
+  },
+  {
+    "character": 2,
+    "year": 2023,
+    "category": "Control pollution from burning in open spaces / agriculture",
+    "policy": "Increase efficiency to manage waste in local areas to reduce burnings",
+    "department": "Ministry of Interior, Provincial Authority, Local Authority"
+  },
+  {
+    "character": 2,
+    "year": 2024,
+    "category": "Control pollution from burning in open spaces / agriculture",
+    "policy": "Increase efficiency to manage waste in local areas to reduce burnings",
+    "department": "Ministry of Interior, Provincial Authority, Local Authority"
+  },
+  {
+    "character": 2,
+    "year": 2021,
+    "category": "Control pollution from burning in open spaces / agriculture",
+    "policy": "Control the use of infectious waste kilns in hospitals",
+    "department": "Ministry of Public Health"
+  },
+  {
+    "character": 2,
+    "year": 2022,
+    "category": "Control pollution from burning in open spaces / agriculture",
+    "policy": "Control the use of infectious waste kilns in hospitals",
+    "department": "Ministry of Public Health"
+  },
+  {
+    "character": 2,
+    "year": 2023,
+    "category": "Control pollution from burning in open spaces / agriculture",
+    "policy": "Control the use of infectious waste kilns in hospitals",
+    "department": "Ministry of Public Health"
+  },
+  {
+    "character": 2,
+    "year": 2024,
+    "category": "Control pollution from burning in open spaces / agriculture",
+    "policy": "Control the use of infectious waste kilns in hospitals",
+    "department": "Ministry of Public Health"
+  },
+  {
+    "character": 3,
+    "year": 2021,
+    "category": "Control pollution from constructions and the city plan",
+    "policy": "Set up policies and work processes for controling dust release from construction e.g. buildings, roads, and special railway construction",
+    "department": "Provincial Authority, Local Authority"
+  },
+  {
+    "character": 3,
+    "year": 2021,
+    "category": "Control pollution from constructions and the city plan",
+    "policy": "Encourage the management of urban planning and construction of buildings that require assessments of factors that have effects on pollutant accumulation and ventilation",
+    "department": "Ministry of Interior, Provincial Authority, Local Authority"
+  },
+  {
+    "character": 3,
+    "year": 2021,
+    "category": "Control pollution from constructions and the city plan",
+    "policy": "Enforce the use of the law on those who cause construction materials to fall onto the roads",
+    "department": "Provincial Authority, Local Authority, Royal Thai Police"
+  },
+  {
+    "character": 3,
+    "year": 2022,
+    "category": "Control pollution from constructions and the city plan",
+    "policy": "Enforce the use of the law on those who cause construction materials to fall onto the roads",
+    "department": "Provincial Authority, Local Authority, Royal Thai Police"
+  },
+  {
+    "character": 3,
+    "year": 2023,
+    "category": "Control pollution from constructions and the city plan",
+    "policy": "Enforce the use of the law on those who cause construction materials to fall onto the roads",
+    "department": "Provincial Authority, Local Authority, Royal Thai Police"
+  },
+  {
+    "character": 3,
+    "year": 2024,
+    "category": "Control pollution from constructions and the city plan",
+    "policy": "Enforce the use of the law on those who cause construction materials to fall onto the roads",
+    "department": "Provincial Authority, Local Authority, Royal Thai Police"
+  },
+  {
+    "character": 3,
+    "year": 2021,
+    "category": "Control pollution from constructions and the city plan",
+    "policy": "Increase green spaces in the city area to meet the international standard appointed by WHO (9 square meters/person)",
+    "department": "Provincial Authority, Local Authority"
+  },
+  {
+    "character": 3,
+    "year": 2022,
+    "category": "Control pollution from constructions and the city plan",
+    "policy": "Increase green spaces in the city area to meet the international standard appointed by WHO (9 square meters/person)",
+    "department": "Provincial Authority, Local Authority"
+  },
+  {
+    "character": 3,
+    "year": 2023,
+    "category": "Control pollution from constructions and the city plan",
+    "policy": "Increase green spaces in the city area to meet the international standard appointed by WHO (9 square meters/person)",
+    "department": "Provincial Authority, Local Authority"
+  },
+  {
+    "character": 3,
+    "year": 2024,
+    "category": "Control pollution from constructions and the city plan",
+    "policy": "Increase green spaces in the city area to meet the international standard appointed by WHO (9 square meters/person)",
+    "department": "Provincial Authority, Local Authority"
+  },
+  {
+    "character": 4,
+    "year": 2021,
+    "category": "Control pollution from industries",
+    "policy": "Set up a standard for air pollutant release in the the form of \"Loading\" by considering the capability on pollution management for each of the areas",
+    "department": "Ministry of Natural Resources and Environment, Ministry of Industry"
+  },
+  {
+    "character": 4,
+    "year": 2021,
+    "category": "Control pollution from industries",
+    "policy": "Set up an automatic checking system on air pollution at the chimneys of the industrial factories with three kilns, and make them report the results to Ministry of Industry via an online channel",
+    "department": "Ministry of Industry"
+  },
+  {
+    "character": 4,
+    "year": 2021,
+    "category": "Control pollution from industries",
+    "policy": "Create the Pollutant Release and Transfer Register",
+    "department": "Ministry of Industry"
+  },
+  {
+    "character": 4,
+    "year": 2022,
+    "category": "Control pollution from industries",
+    "policy": "Improve the standards of pollutant ventilation from industrial factories to align with international standards",
+    "department": "Ministry of Natural Resources and Environment, Ministry of Industry"
+  },
+  {
+    "character": 4,
+    "year": 2023,
+    "category": "Control pollution from industries",
+    "policy": "Improve the standards of pollutant ventilation from industrial factories to align with international standards",
+    "department": "Ministry of Natural Resources and Environment, Ministry of Industry"
+  },
+  {
+    "character": 4,
+    "year": 2024,
+    "category": "Control pollution from industries",
+    "policy": "Improve the standards of pollutant ventilation from industrial factories to align with international standards",
+    "department": "Ministry of Natural Resources and Environment, Ministry of Industry"
+  },
+  {
+    "character": 4,
+    "year": 2022,
+    "category": "Control pollution from industries",
+    "policy": "Increase the use of renewable energy and alternative power sources for electricity",
+    "department": "Ministry of Energy"
+  },
+  {
+    "character": 4,
+    "year": 2023,
+    "category": "Control pollution from industries",
+    "policy": "Increase the use of renewable energy and alternative power sources for electricity",
+    "department": "Ministry of Energy"
+  },
+  {
+    "character": 4,
+    "year": 2024,
+    "category": "Control pollution from industries",
+    "policy": "Increase the use of renewable energy and alternative power sources for electricity",
+    "department": "Ministry of Energy"
+  },
+  {
+    "character": 5,
+    "year": 2021,
+    "category": "Control pollutant from households",
+    "policy": "Improve and encourage the use of pollutant-free stoves and grills",
+    "department": "Ministry of Energy"
+  },
+  {
+    "character": 5,
+    "year": 2022,
+    "category": "Control pollutant from households",
+    "policy": "Improve and encourage the use of pollutant-free stoves and grills",
+    "department": "Ministry of Energy"
+  },
+  {
+    "character": 5,
+    "year": 2023,
+    "category": "Control pollutant from households",
+    "policy": "Improve and encourage the use of pollutant-free stoves and grills",
+    "department": "Ministry of Energy"
+  },
+  {
+    "character": 5,
+    "year": 2024,
+    "category": "Control pollutant from households",
+    "policy": "Improve and encourage the use of pollutant-free stoves and grills",
+    "department": "Ministry of Energy"
+  },
+  {
+    "character": 5,
+    "year": 2021,
+    "category": "Control pollutant from households",
+    "policy": "Improve and encourage the use of pollutant-free brickkilns and coals",
+    "department": "Ministry of Energy"
+  },
+  {
+    "character": 5,
+    "year": 2022,
+    "category": "Control pollutant from households",
+    "policy": "Improve and encourage the use of pollutant-free brickkilns and coals",
+    "department": "Ministry of Energy"
+  },
+  {
+    "character": 5,
+    "year": 2023,
+    "category": "Control pollutant from households",
+    "policy": "Improve and encourage the use of pollutant-free brickkilns and coals",
+    "department": "Ministry of Energy"
+  },
+  {
+    "character": 5,
+    "year": 2024,
+    "category": "Control pollutant from households",
+    "policy": "Improve and encourage the use of pollutant-free brickkilns and coals",
+    "department": "Ministry of Energy"
+  },
+  {
+    "character": 6,
+    "year": 2021,
+    "category": "Increase efficiency to control pollution",
+    "policy": "Enforce all provinces to check and monitor air quality in their areas, tracking all kinds of chemical substances",
+    "department": "Ministry of Natural Resources and Environment, Ministry of Interior"
+  },
+  {
+    "character": 6,
+    "year": 2022,
+    "category": "Increase efficiency to control pollution",
+    "policy": "Enforce all provinces to check and monitor air quality in their areas, tracking all kinds of chemical substances",
+    "department": "Ministry of Natural Resources and Environment, Ministry of Interior"
+  },
+  {
+    "character": 6,
+    "year": 2023,
+    "category": "Increase efficiency to control pollution",
+    "policy": "Enforce all provinces to check and monitor air quality in their areas, tracking all kinds of chemical substances",
+    "department": "Ministry of Natural Resources and Environment, Ministry of Interior"
+  },
+  {
+    "character": 6,
+    "year": 2024,
+    "category": "Increase efficiency to control pollution",
+    "policy": "Enforce all provinces to check and monitor air quality in their areas, tracking all kinds of chemical substances",
+    "department": "Ministry of Natural Resources and Environment, Ministry of Interior"
+  },
+  {
+    "character": 6,
+    "year": 2021,
+    "category": "Increase efficiency to control pollution",
+    "policy": "Adjust the standard annual mean of PM2.5  to align with WHO air quality guideline (more than 15 μg/m³)",
+    "department": "Ministry of Natural Resources and Environment"
+  },
+  {
+    "character": 6,
+    "year": 2022,
+    "category": "Increase efficiency to control pollution",
+    "policy": "Consider the adjustment in the standard 24-hour mean of PM2.5 to align with WHO air quality guideline (more than 37.5 μg/m³)",
+    "department": "Ministry of Natural Resources and Environment"
+  },
+  {
+    "character": 6,
+    "year": 2023,
+    "category": "Increase efficiency to control pollution",
+    "policy": "Consider the adjustment in the standard 24-hour mean of PM2.5 to align with WHO air quality guideline (more than 37.5 μg/m³)",
+    "department": "Ministry of Natural Resources and Environment"
+  },
+  {
+    "character": 6,
+    "year": 2024,
+    "category": "Increase efficiency to control pollution",
+    "policy": "Consider the adjustment in the standard 24-hour mean of PM2.5 to align with WHO air quality guideline (more than 37.5 μg/m³)",
+    "department": "Ministry of Natural Resources and Environment"
+  },
+  {
+    "character": 6,
+    "year": 2021,
+    "category": "Increase efficiency to control pollution",
+    "policy": "Improve the management of air pollution in the Enhancement and Conservation of National Environmental Quality Act, B.E. 2535 and conduct research on the clean air act",
+    "department": "Ministry of Natural Resources and Environment"
+  },
+  {
+    "character": 6,
+    "year": 2022,
+    "category": "Increase efficiency to control pollution",
+    "policy": "Consider the quality of the use of sensor machines to check air quality",
+    "department": "Ministry of Higher Education, Science, Research and Innovation, Ministry of Natural Resources and Environment"
+  },
+  {
+    "character": 6,
+    "year": 2023,
+    "category": "Increase efficiency to control pollution",
+    "policy": "Consider the quality of the use of sensor machines to check air quality",
+    "department": "Ministry of Higher Education, Science, Research and Innovation, Ministry of Natural Resources and Environment"
+  },
+  {
+    "character": 6,
+    "year": 2024,
+    "category": "Increase efficiency to control pollution",
+    "policy": "Consider the quality of the use of sensor machines to check air quality",
+    "department": "Ministry of Higher Education, Science, Research and Innovation, Ministry of Natural Resources and Environment"
+  },
+  {
+    "character": 6,
+    "year": 2021,
+    "category": "Increase efficiency to control pollution",
+    "policy": "Test the probability of equipping diesel particulate filters (DPF) in cars",
+    "department": "Ministry of Higher Education, Science, Research and Innovation"
+  },
+  {
+    "character": 6,
+    "year": 2021,
+    "category": "Increase efficiency to control pollution",
+    "policy": "Publish teaching handbooks about the weather change and air pollution",
+    "department": "Ministry of Education"
+  },
+  {
+    "character": 6,
+    "year": 2021,
+    "category": "Increase efficiency to control pollution",
+    "policy": "Build a civil society network for cooperation regarding air pollution, including public and private sectors, local authorities, and citizens",
+    "department": "Ministry of Natural Resources and Environment, Office of the Prime Minister, Ministry of Public Health"
+  },
+  {
+    "character": 6,
+    "year": 2022,
+    "category": "Increase efficiency to control pollution",
+    "policy": "Build a civil society network for cooperation regarding air pollution, including public and private sectors, local authorities, and citizens",
+    "department": "Ministry of Natural Resources and Environment, Office of the Prime Minister, Ministry of Public Health"
+  },
+  {
+    "character": 6,
+    "year": 2023,
+    "category": "Increase efficiency to control pollution",
+    "policy": "Build a civil society network for cooperation regarding air pollution, including public and private sectors, local authorities, and citizens",
+    "department": "Ministry of Natural Resources and Environment, Office of the Prime Minister, Ministry of Public Health"
+  },
+  {
+    "character": 6,
+    "year": 2024,
+    "category": "Increase efficiency to control pollution",
+    "policy": "Build a civil society network for cooperation regarding air pollution, including public and private sectors, local authorities, and citizens",
+    "department": "Ministry of Natural Resources and Environment, Office of the Prime Minister, Ministry of Public Health"
+  },
+  {
+    "character": 6,
+    "year": 2021,
+    "category": "Increase efficiency to control pollution",
+    "policy": "Facilitate the cross-border cooperation in solving PM2.5 issue according to ASEAN Transboundary Haze-Free Roadmap and Chiang Rai Plan 2017",
+    "department": "Ministry of Natural Resources and Environment, Ministry of Defence, Ministry of Interior"
+  },
+  {
+    "character": 6,
+    "year": 2022,
+    "category": "Increase efficiency to control pollution",
+    "policy": "Facilitate the cross-border cooperation in solving PM2.5 issue according to ASEAN Transboundary Haze-Free Roadmap and Chiang Rai Plan 2017",
+    "department": "Ministry of Natural Resources and Environment, Ministry of Defence, Ministry of Interior"
+  },
+  {
+    "character": 6,
+    "year": 2023,
+    "category": "Increase efficiency to control pollution",
+    "policy": "Facilitate the cross-border cooperation in solving PM2.5 issue according to ASEAN Transboundary Haze-Free Roadmap and Chiang Rai Plan 2017",
+    "department": "Ministry of Natural Resources and Environment, Ministry of Defence, Ministry of Interior"
+  },
+  {
+    "character": 6,
+    "year": 2024,
+    "category": "Increase efficiency to control pollution",
+    "policy": "Facilitate the cross-border cooperation in solving PM2.5 issue according to ASEAN Transboundary Haze-Free Roadmap and Chiang Rai Plan 2017",
+    "department": "Ministry of Natural Resources and Environment, Ministry of Defence, Ministry of Interior"
+  }
+]
