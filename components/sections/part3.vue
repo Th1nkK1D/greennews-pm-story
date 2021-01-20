@@ -111,11 +111,7 @@
           </div>
         </div>
       </div>
-      <div class="w-full max-w-3xl mx-auto">
-        <h4 class="text-h4 font-bold">
-          {{ $t('chapter3.action1.database.title') }}
-        </h4>
-      </div>
+      <PolicyTable class="w-full max-w-3xl mx-auto" />
     </div>
 
     <div class="bg-green-3 py-24 px-4">
