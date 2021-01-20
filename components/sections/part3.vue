@@ -23,16 +23,14 @@
             class="rounded-full"
           />
           <p class="text-h3">{{ index + 1 }}.</p>
-          <p>{{ $t(`chapter3.solution.${purpose}`) }}</p>
+          <Parse :t="`chapter3.solution.${purpose}`" />
         </div>
-        <div class="col-span-2 text-body2">
-          {{ $t('chapter3.solution.source') }}
-        </div>
+        <Parse t="chapter3.solution.source" class="col-span-2 text-body2" />
       </div>
       <div class="text-center space-y-12 max-w-3xl mx-auto">
-        <p class="text-h4">{{ $t('chapter3.solution.body2') }}</p>
-        <p class="text-h3">{{ $t('chapter3.scenario.title') }}</p>
-        <p class="text-h5">{{ $t('chapter3.scenario.body1') }}</p>
+        <Parse t="chapter3.solution.body2" class="text-h4" />
+        <Parse t="chapter3.scenario.title" class="text-h3" />
+        <Parse t="chapter3.scenario.body1" class="text-h5" />
       </div>
       <div class="flex flex-col max-w-2xl mx-auto space-y-8">
         <div
@@ -46,42 +44,36 @@
           class="flex flex-row space-x-4"
         >
           <div class="rounded-full w-3 h-3 bg-green-1 m-auto" />
-          <div class="flex-1">{{ $t(`chapter3.scenario.${timeline}`) }}</div>
+          <Parse :t="`chapter3.scenario.${timeline}`" class="flex-1" />
         </div>
-        <p>{{ $t('chapter3.scenario.note') }}</p>
+        <Parse t="chapter3.scenario.note" />
       </div>
       <div class="max-w-3xl mx-auto space-y-20">
         <h3 class="text-h3">{{ $t('chapter3.opinion.title') }}</h3>
         <div class="flex flex-row max-w-3xl mx-auto space-x-20">
           <div>
             <img src="https://via.placeholder.com/250" alt="" />
-            <p class="text-right">{{ $t('chapter3.opinion1.source') }}</p>
+            <Parse t="chapter3.opinion1.source" />
           </div>
           <QuoteBlock class="flex-1">
-            {{ $t('chapter3.opinion1.content') }}
+            <Parse t="chapter3.opinion1.content" />
           </QuoteBlock>
         </div>
         <div class="flex flex-row max-w-3xl mx-auto space-x-20">
           <QuoteBlock class="flex-1">
-            {{ $t('chapter3.opinion2.content') }}
+            <Parse t="chapter3.opinion2.content" />
           </QuoteBlock>
           <div>
             <img src="https://via.placeholder.com/250" alt="" />
-            <p class="text-right">{{ $t('chapter3.opinion2.source') }}</p>
+            <Parse t="chapter3.opinion2.source" class="text-right" />
           </div>
         </div>
       </div>
-      <p class="text-h5 max-w-xl mx-auto text-center">
-        {{ $t('chapter3.link') }}
-      </p>
+      <Parse t="chapter3.link" class="text-h5 max-w-xl mx-auto text-center" />
       <QuoteBlock horizontal class="max-w-3xl mx-auto">
-        <p class="text-h6 text-center">
-          {{ $t('chapter3.opinion3') }}
-        </p>
+        <Parse t="chapter3.opinion3" class="text-h6 text-center" />
       </QuoteBlock>
-      <p class="text-h4 max-w-xl mx-auto text-center">
-        {{ $t('chapter3.link') }}
-      </p>
+      <Parse t="chapter3.link" class="text-h4 max-w-xl mx-auto text-center" />
     </div>
 
     <div class="flex flex-col bg-green-4 space-y-48 py-48 px-4">
@@ -117,7 +109,7 @@
           <h4 class="text-h4 font-bold text-green-1">
             {{ $t('chapter3.action2.title') }}
           </h4>
-          <p class="text-h6">{{ $t('chapter3.action2.content') }}</p>
+          <Parse t="chapter3.action2.content" class="text-h6" />
           <a
             class="inline-block bg-green-1 rounded p-2 text-white"
             href="https://thaicleanair.org/ร่วมลงชื่อเสนอร่าง-พรบ"

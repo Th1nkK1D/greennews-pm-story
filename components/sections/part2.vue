@@ -27,7 +27,7 @@
             <h5 class="text-h5">
               {{ $t(`chapter2.${coreprob}.title`) }}
             </h5>
-            <p>{{ $t(`chapter2.${coreprob}.content`) }}</p>
+            <Parse :t="`chapter2.${coreprob}.content`" />
           </div>
         </div>
       </div>
@@ -41,13 +41,11 @@
         <p class="">{{ $t('chapter2.coreprob.quote.source') }}</p>
       </div>
       <QuoteBlock class="flex-1">
-        {{ $t('chapter2.coreprob.quote.content') }}
+        <Parse t="chapter2.coreprob.quote.content" />
       </QuoteBlock>
     </div>
     <div class="flex py-48">
-      <p class="m-auto text-h4">
-        {{ $t('chapter2.link') }}
-      </p>
+      <Parse t="chapter2.link" class="m-auto text-h4" />
     </div>
   </section>
 </template>

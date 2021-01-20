@@ -12,10 +12,10 @@ chapter1,chapter1.name,รู้จักปัญหา: หน้าตา,,,,
 chapter1,chapter1.story1,"""ช่วงหน้าฝุ่นครั้งก่อน ผมรู้สึกระคายตาข้างซ้ายจนต้องไปโรงพยาบาล
 หมอเอาวัตถุปลายแหลมเขี่ยบางอย่างออกจากกระจกตาของผม
 เขาโชว์ไอ้ที่เขี่ยออกมาให้ดู มันเล็กมากจนผมมองไม่เห็น หมอบอกว่าเป็นฝุ่นละออง""","During the last PM2.5 season, my eyes were so irritated that I had to go to the hospital. The doctor used a sharp-edged tool and got something out of my eyes. He showed me what he just got rid of but I couldn’t see because it was so small. The doctor said it was a particle matter.",,,
-chapter1,chapter1.story2,"ธราธร อินทรเทพ เล่าให้เราฟังระหว่างช่วงเวลาที่พักจากการวิ่งรถ
+chapter1,chapter1.story2,"**ธราธร อินทรเทพ** เล่าให้เราฟังระหว่างช่วงเวลาที่พักจากการวิ่งรถ
 เขาใช้เวลาบนถนนวันละ 14-16 ชั่วโมง ขับมอเตอร์ไซค์รับจ้าง รับส่งคนและอาหารผ่านแอพพลิเคชั่นหลากหลาย
 เขาทำงานนี้มาแล้วหลายปีเพราะรักในความอิสระของงาน
-","Tharathorn Intaratep told us about his story during his break time.  As a motorcycle taxi driver, he spends between 14-16 hours on the road every day transporting people and delivering foods via different mobile applications. He has been working as a driver for many years since it gives him the freedom he longs for.",,,
+","**Tharathorn Intaratep** told us about his story during his break time.  As a motorcycle taxi driver, he spends between 14-16 hours on the road every day transporting people and delivering foods via different mobile applications. He has been working as a driver for many years since it gives him the freedom he longs for.",,,
 chapter1,chapter1.story3,"""หลังจากวันนั้น ผมต้องปิดตา วิ่งงานไม่ได้ 2-3 วัน และไปหาหมอเป็นระยะ
 หมอแนะให้สวมหน้ากากและใส่หมวกกันน็อกที่ปิดกระจกบริเวณตา แต่ผมก็ทำไม่ได้ตลอด 
 เพราะเวลาวิ่งกลางคืนมันมองไม่เห็น""","After that day, I had to wear an eye patch and couldn’t work for a couple of days. I still had to see a doctor every once in a while. They suggested I wear a mask and a helmet with an eye shield. However, I couldn’t always wear that since it won’t let me see clearly at night.",,,
@@ -183,7 +183,7 @@ chapter3,chapter3.action1.database.policy,มาตรการ,,,,
 chapter3,chapter3.action1.database.department,หน่วยงานหลัก,,,,
 chapter3,chapter3.action1.database.source,"อ้างอิงจาก แผนปฏิบัติการขับเคลื่อนวาระแห่งชาติการแก้ไขปัญหามลพิษด้านฝุ่นละออง, แผนเฉพาะกิจเพื่อการแก้ไขปัญหามลพิษด้านฝุ่นละออง, ที่ประชุมคณะกรรมการสิ่งแวดล้อมแห่งชาติ 20 กรกฎาคม 2563",,,,
 chapter3,chapter3.action2.title,อ่านเพิ่มเติม,,,,
-chapter3,chapter3.action2.content,เรียนรู้เพิ่มเติมเรื่องกฎหมายอากาศสะอาดและวิธีลงชื่อ ,2. Find out more about Clean Air Act and how to sign the petition,,,
+chapter3,chapter3.action2.content,เรียนรู้เพิ่มเติมเรื่องกฎหมายอากาศสะอาดและวิธีลงชื่อ,2. Find out more about Clean Air Act and how to sign the petition,,,
 chapter3,chapter3.action2.button,ร่วมลงชื่อเสนอร่าง-พรบ,,,,
 chapter3,chapter3.action3,แชร์ต่อให้คนรอบตัว,3. Spread the words on your social media,,,
 chapter3,chapter3.credit1,"โดย ณิชา เวชพานิช , สปัญญา ศรีสุข และ วิถี ภูษิตาศัย
