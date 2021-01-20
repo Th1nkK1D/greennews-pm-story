@@ -8,6 +8,7 @@ intro,intro.prologue4,แต่ทำไมเราแก้ไม่ได้�
 intro,intro.title,สิทธิที่จะหายใจ สิทธิที่หายไปของคนไทย,,,,
 intro,intro.button1,ออกตามหา,,,,
 intro,intro.button2,เช็กมาตรการแก้ปัญหาฝุ่น 2564-2567,Click to see database of PM2.5 Government Policies 2021-2024,,,
+chapter1,chapter1.name,รู้จักปัญหา: หน้าตา,,,,
 chapter1,chapter1.story1,"""ช่วงหน้าฝุ่นครั้งก่อน ผมรู้สึกระคายตาข้างซ้ายจนต้องไปโรงพยาบาล
 หมอเอาวัตถุปลายแหลมเขี่ยบางอย่างออกจากกระจกตาของผม
 เขาโชว์ไอ้ที่เขี่ยออกมาให้ดู มันเล็กมากจนผมมองไม่เห็น หมอบอกว่าเป็นฝุ่นละออง""","During the last PM2.5 season, my eyes were so irritated that I had to go to the hospital. The doctor used a sharp-edged tool and got something out of my eyes. He showed me what he just got rid of but I couldn’t see because it was so small. The doctor said it was a particle matter.",,,
@@ -29,70 +30,76 @@ chapter1,chapter1.datavisual.source,ข้อมูล: กรมควบคุ
 chapter1,chapter1.fact1,"องค์การอนามัยโลก เผยว่าทุกปี คนราว  7,000,000 คน ทั่วโลกเสียชีวิตเพราะสัมผัสมลพิษทางอากาศสะสม","The World Health Organization revealed that every year 7,000,000 people die from air pollution.",,,
 chapter1,chapter1.link,ปัญหาฝุ่นเป็นเรื่อง ธรรมชาติ ที่เราเปลี่ยนแปลงไม่ได้จริงหรือ?,,,,
 chapter1,chapter1.whatispm.title,ปัญหา PM2.5 เกิดจากปัจจัยทางธรรมชาติและทางมนุษย์,PM2.5 issue ,,,
-chapter1,chapter1.whatispm.body1,แหล่งกำเนิดฝุ่นควัน + สภาพอากาศและสภาพภูมิศาสตร์ในพื้นที่, the source of PM2.5 + the weather and the geography of the area,,,
-chapter1,chapter1.whatispm.body2,"ปัจจัย 2 อย่างนี้ทำให้พื้นที่ต่างๆ เจอปัญหาฝุ่นต่างช่วงเวลากันในแต่ละปี
-ภาคกลาง พฤศจิกายน - พฤษภาคม
+chapter1,chapter1.whatispm.factor1,แหล่งกำเนิดฝุ่นควัน,the source of PM2.5,,,
+chapter1,chapter1.whatispm.factor2,สภาพอากาศและสภาพภูมิศาสตร์ในพื้นที่,the weather and the geography of the area,,,
+chapter1,chapter1.whatispm.body1,"ปัจจัย 2 อย่างนี้ทำให้พื้นที่ต่างๆ เจอปัญหาฝุ่นต่างช่วงเวลากันในแต่ละปี
+",,,,
+chapter1,chapter1.whatispm.body2,"ภาคกลาง พฤศจิกายน - พฤษภาคม
 ภาคเหนือและตะวันออกเฉียงเหนือ มกราคม - พฤษภาคม
 ภาคใต้ กรกฎาคม - กันยายน",,,,
 chapter1,chapter1.whatwedo.title,เมื่อฤดูฝุ่นมาถึง รัฐไทยรับมืออย่างไรบ้าง?,And what is our Thai government doing about this?,,,
-chapter1,chapter1.whatwedo.body1,"ป้องกัน  เช่น ตั้ง Clean Room พื้นที่สาธารณะที่มีเครื่องฟอกอากาศให้บริการฟรี , ติดตั้งเครื่องฟอกอากาศ
-, อัพเดตสถานการณ์ฝุ่นควันแก่ประชาชน, ประกาศปิดโรงเรียนเมื่อค่าคุณภาพอากาศเกินเกณฑ์อันตราย
-
-รุกลด  เช่น กำหนดช่วงเวลาห้ามรถบรรทุกวิ่งเข้าเขตเมือง ช่วงเวลาห้ามเผาทางการเกษตรและก่อสร้าง  
+chapter1,chapter1.whatwedo.policy1.title,ป้องกัน,Prevention,,,
+chapter1,chapter1.whatwedo.policy1.content,"เช่น ตั้ง Clean Room พื้นที่สาธารณะที่มีเครื่องฟอกอากาศให้บริการฟรี , ติดตั้งเครื่องฟอกอากาศ , อัพเดตสถานการณ์ฝุ่นควันแก่ประชาชน, ประกาศปิดโรงเรียนเมื่อค่าคุณภาพอากาศเกินเกณฑ์อันตราย","includes providing a Clean Room, a public space with air purifiers free of charge, installing air purifiers on the streets, giving knowledges and updating the current situation about PM2.5 for citizens via the mobile application Air4Thai & AirBKK, and closing schools temporarily on days that PM2.5 exceeds the standard level.",,,
+chapter1,chapter1.whatwedo.policy2.title,รุกลด ,Active Cutback,,,
+chapter1,chapter1.whatwedo.policy2.content,"เช่น กำหนดช่วงเวลาห้ามรถบรรทุกวิ่งเข้าเขตเมือง ช่วงเวลาห้ามเผาทางการเกษตรและก่อสร้าง  
 , สนับสนุนให้ชุมชนเก็บใบไม้แห้งไปทำผลิตภัณฑ์เพื่อลดไฟป่า 
 ,กระจายอำนาจให้องค์การปกครองส่วนท้องถิ่นดับไฟ
-
-","Prevention includes providing a Clean Room, a public space with air purifiers free of charge, installing air purifiers on the streets, giving knowledges and updating the current situation about PM2.5 for citizens via the mobile application Air4Thai & AirBKK, and closing schools temporarily on days that PM2.5 exceeds the standard level.
-
-Active Cutback includes limiting hours for trucks entering the central area of the city, agricultural burn, and constructions, reducing the chance of wildfires by promoting the use of dry leaves as products, teaming up to stop wildfires by allowing local authorities to handle the situation by themselves.",,,
+","limiting hours for trucks entering the central area of the city, agricultural burn, and constructions, reducing the chance of wildfires by promoting the use of dry leaves as products, teaming up to stop wildfires by allowing local authorities to handle the situation by themselves.",,,
 chapter1,chapter1.whatwedo.body2,ปี 2561 คณะรัฐมนตรีได้ยกระดับให้ปัญหาฝุ่นควันเป็น วาระแห่งชาติ ที่ต้องเร่งแก้ไข ,even though the Cabinet of Thailand has leveraged this issue as National Agenda that must be solved immediately since 2018.,,,
 chapter1,chapter1.whatwedo.body3,แต่เราก็ยังเจอปัญหาฝุ่นอยู่,,,,
 chapter1,chapter1.whatwedo.body4,คนไทย 6 ใน 10 คน มองว่าปัญหา PM2.5 เป็นปัญหาเร่งด่วนและไม่พึงพอใจการรับมือของภาครัฐ ,"6 out of 10 citizens in Thailand think that PM2.5 is an urgent issue and are not happy with the way the government is handling it,",,,
 chapter1,chapter1.whatwedo.source,"ข้อมูล: สวนดุสิตโพล สำรวจความคิดเห็นประชาชน 2563
 ",source: Suan Dusit Poll 2020,,,
 chapter1,chapter1.whatwedo.link,หรือว่าการรับมือวันนี้จะยังไม่พอ,,,,
+chapter2,chapter2.name,รู้จักปัญหา: แก่น,,,,
 chapter2,chapter2.coreprob.title,ผู้เชี่ยวชาญต่างเห็นตรงกันว่าการรับมือปัจจุบันยังขาด 4 องค์ประกอบ,,,,
-chapter2,chapter2.coreprob1,"การบูรณาการ
-ปีนี้คณะกรรมการแก้ไขปัญหาฝุ่นได้เชิญหน่วยงานรัฐ 54 แห่งที่เกี่ยวข้องมาประชุม ","lack of holistic approaches
-
-This year, PM2.5 Committee has scheduled a meeting with 54 government agencies.",,,
-chapter2,chapter2.coreprob2,"งบประมาณ
-สำนักงานการตรวจเงินแผ่นดิน ตรวจพบว่าไม่มีการตรวจสอบการทำงานของเครือข่ายดับไฟป่าเหนือกว่า 1,000 แห่งที่ได้งบแผ่นดิน
-ขณะที่ชุมชนที่อาศัยร่วมกับป่าพากันเปิดรับเงินบริจาคอุปกรณ์ดับไฟ","lack of budget
-State Audit Office of the Kingdom of Thailand discovered that there are no tracking records of the works of over 1,000 funded Northern Wildfires Networks whereas the local communities living close to the forest are raising money to buy equipment to stop the wildfires.",,,
-chapter2,chapter2.coreprob3,"องค์ความรู้
-แม่ฮ่องสอนอ่วมฝุ่น! แต่มีการวัดคุณภาพอากาศแค่ตำบลเดียว!","lack of knowledge
-Mae Hong Son full of PM2.5! Only one district gets an air quality checking!",,,
-chapter2,chapter2.coreprob4,"การทำงานต่อเนื่อง
-แผนปฏิบัติการขับเคลื่อนวาระแห่งชาติแก้ PM2.5 ประจำปี 64 เสนอเข้าครม.แค่ 1 เดือนก่อนฝุ่นบุกกรุง!","lack of consistancy
-National Plan to solve PM2.5 issue of 2021 was proposed to the Cabinet of Thailand only 1 month away from the PM2.5 season!",,,
+chapter2,chapter2.coreprob1.title,"การบูรณาการ
+","lack of holistic approaches
+",,,
+chapter2,chapter2.coreprob1.content,ปีนี้คณะกรรมการแก้ไขปัญหาฝุ่นได้เชิญหน่วยงานรัฐ 54 แห่งที่เกี่ยวข้องมาประชุม ,"This year, PM2.5 Committee has scheduled a meeting with 54 government agencies.",,,
+chapter2,chapter2.coreprob2.title,งบประมาณ,"lack of budget
+",,,
+chapter2,chapter2.coreprob2.content,"สำนักงานการตรวจเงินแผ่นดิน ตรวจพบว่าไม่มีการตรวจสอบการทำงานของเครือข่ายดับไฟป่าเหนือกว่า 1,000 แห่งที่ได้งบแผ่นดิน
+ขณะที่ชุมชนที่อาศัยร่วมกับป่าพากันเปิดรับเงินบริจาคอุปกรณ์ดับไฟ","State Audit Office of the Kingdom of Thailand discovered that there are no tracking records of the works of over 1,000 funded Northern Wildfires Networks whereas the local communities living close to the forest are raising money to buy equipment to stop the wildfires.",,,
+chapter2,chapter2.coreprob3.title,องค์ความรู้,"lack of knowledge
+",,,
+chapter2,chapter2.coreprob3.content,แม่ฮ่องสอนอ่วมฝุ่น! แต่มีการวัดคุณภาพอากาศแค่ตำบลเดียว!,Mae Hong Son full of PM2.5! Only one district gets an air quality checking!,,,
+chapter2,chapter2.coreprob4.title,"การทำงานต่อเนื่อง
+","lack of consistancy
+",,,
+chapter2,chapter2.coreprob4.content,แผนปฏิบัติการขับเคลื่อนวาระแห่งชาติแก้ PM2.5 ประจำปี 64 เสนอเข้าครม.แค่ 1 เดือนก่อนฝุ่นบุกกรุง!,National Plan to solve PM2.5 issue of 2021 was proposed to the Cabinet of Thailand only 1 month away from the PM2.5 season!,,,
 chapter2,chapter2.coreprob.body,องค์ประกอบเหล่านี้หายไปจากการแก้ไขปัญหาฝุ่น ทำให้เรายังรับมือ PM2.5 อย่างภัยพิบัติชั่วคราว,,,,
-chapter2,chapter2.coreprob.quote,"“อันดับแรกกระบวนทัศน์คุณต้องชัดเจนอยู่ก่อนว่าคุณกำลังรับมือกับปัญหาอะไร ถ้าคุณตีความว่าปัญหาฝุ่นมันคือ 
+chapter2,chapter2.coreprob.quote.content,"“อันดับแรกกระบวนทัศน์คุณต้องชัดเจนอยู่ก่อนว่าคุณกำลังรับมือกับปัญหาอะไร ถ้าคุณตีความว่าปัญหาฝุ่นมันคือ 
 ภัยพิบัติ มันก็มาแล้วไป แต่ปัญหาฝุ่น PM2.5  มันเหมือนยักษ์ที่หลับอยู่ มันเกี่ยวข้องกับ โครงสร้าง 
 การผลิตและพฤติกรรมของสังคม ที่พัฒนาอย่างไม่ยั่งยืน การเปลี่ยนการผลิตมันต้องสร้างการเปลี่ยนแปลงตลอดทั้งปี
  เรื่องนี้จึงไม่ใช่การรับมือปัญหาเพียงชั่วคราวไม่กี่เดือนที่แก้ได้เฉพาะหน้า”
-
- - บัณรส บัวคลี่ , สภาลมหายใจเชียงใหม่ ","""First of all, you have to be clear what problems you’re dealing with. If you take PM2.5 issue seriously as if it’s a catastrophe, then you’ll only care about it temporarily. In fact, this issue about PM2.5 is actually like a sleeping giant. It’s related directly with the infrastructure of manufacturing sector and social behaviors, which would not be developed sustainably. We need changes in the manufacturing sectors all year round. This the kind of problem you can’t just complete short-term solutions in a few months.""
-
-- Bunnaroth Buaklee, Chiang Mai Breath Council",,,
+","""First of all, you have to be clear what problems you’re dealing with. If you take PM2.5 issue seriously as if it’s a catastrophe, then you’ll only care about it temporarily. In fact, this issue about PM2.5 is actually like a sleeping giant. It’s related directly with the infrastructure of manufacturing sector and social behaviors, which would not be developed sustainably. We need changes in the manufacturing sectors all year round. This the kind of problem you can’t just complete short-term solutions in a few months.""
+",,,
+chapter2,chapter2.coreprob.quote.source,"บัณรส บัวคลี่ , สภาลมหายใจเชียงใหม่","Bunnaroth Buaklee, Chiang Mai Breath Council",,,
 chapter2,chapter2.link,"หรือเราควรมีเครื่องมือสำหรับแก้ไขปัญหาฝุ่นโดยเฉพาะ
 ",Or should we have something specifically to solve PM2.5 issue?,,,
+chapter3,chapter3.name,หาทางออก,,,,
 chapter3,chapter3.solution.title,"ตอนนี้ คนไทยกำลังร่วมกันผลักดัน กฎหมายอากาศสะอาด 
 ","Thai people are working together to drive a Clean Air Act
 ",,,
 chapter3,chapter3.solution.body1,"กฎหมายนี้มุ่ง…
 
-1.รับรองสิทธิที่จะหายใจอากาศว่าเป็นสิทธิพื้นฐานของประชาชนอย่างเป็นทางการ
-2.เป็นเครื่องมือใหม่ให้หน่วยงานรัฐที่มีอยู่หรือตั้งหน่วยงานใหม่เพื่อทำงานเรื่องอากาศโดยเฉพาะ
-3.รับรองสิทธิที่จะเข้าถึงข้อมูลเกี่ยวกับคุณภาพอากาศและยกระดับมาตรฐานอากาศให้ได้มาตรฐานสากล
-4.สร้างแหล่งเงินสำหรับทำงาน โดยกำหนดแรงจูงใจและค่าปรับให้ภาคส่วนต่างๆ ร่วมกันสร้างอากาศสะอาด
-
 ","These laws are intended to…
+",,,
+chapter3,chapter3.solution.purpose1,"รับรองสิทธิที่จะหายใจอากาศว่าเป็นสิทธิพื้นฐานของประชาชนอย่างเป็นทางการ
 
-1. Recognize the right to breathe clean air as an official right of Thai citizens
-2. Be used as a new working tool for the existing government agencies as well as the new ones that focus only on the air quality control
-3. Allow citizens to access information about the air quality and enhace thai air quality to meet the international standards
-4. Create a source to fund maintenance by driving motivation and penalty fees in order to encourage all sectors to contribute to better air quality
+","Recognize the right to breathe clean air as an official right of Thai citizens
+",,,
+chapter3,chapter3.solution.purpose2,"เป็นเครื่องมือใหม่ให้หน่วยงานรัฐที่มีอยู่หรือตั้งหน่วยงานใหม่เพื่อทำงานเรื่องอากาศโดยเฉพาะ
+","Be used as a new working tool for the existing government agencies as well as the new ones that focus only on the air quality control
+",,,
+chapter3,chapter3.solution.purpose3,"รับรองสิทธิที่จะเข้าถึงข้อมูลเกี่ยวกับคุณภาพอากาศและยกระดับมาตรฐานอากาศให้ได้มาตรฐานสากล
+
+","Allow citizens to access information about the air quality and enhace thai air quality to meet the international standards
+",,,
+chapter3,chapter3.solution.purpose4,"สร้างแหล่งเงินสำหรับทำงาน โดยกำหนดแรงจูงใจและค่าปรับให้ภาคส่วนต่างๆ ร่วมกันสร้างอากาศสะอาด
+
+","Create a source to fund maintenance by driving motivation and penalty fees in order to encourage all sectors to contribute to better air quality
 ",,,
 chapter3,chapter3.solution.source,"ข้อมูล:
 1.ร่างพ.ร.บ.กำกับดูแลการจัดการอากาศสะอาดเพื่อสุขภาพแบบบูรณาการ โดย เครือข่ายอากาศสะอาด
@@ -121,25 +128,25 @@ The organization investigates Tharathorn’s case and figures out where the poll
 The organization may then sue Bangkok Mass Transit Authority in charge of the failure to complete their responsibilities, without Tharathorn having to be the one to prove the cause of his sickness, instead it is the defendant who would have to provide evidences to protect themselves.
 The act of sue includes cross-border pollution cases."
 chapter3,chapter3.opinion.title,กฎหมายอากาศสะอาดนี้ผลักดันโดยภาคประชาชน แล้วหน่วยงานรัฐไทยเห็นด้วยไหม,What do Thai officers think about this law?,,,
-chapter3,chapter3.opinion1,"""ผมเชื่อว่ากฎหมายตัวนี้มีจุดประสงค์ดี กรมโรงงานอุตสาหกรรมมีบทบาทเฝ้าระวังและติดตามการเกิดมลพิษด้วยเครื่องมือทางกฎหมายที่มี 
+chapter3,chapter3.opinion1.content,"""ผมเชื่อว่ากฎหมายตัวนี้มีจุดประสงค์ดี กรมโรงงานอุตสาหกรรมมีบทบาทเฝ้าระวังและติดตามการเกิดมลพิษด้วยเครื่องมือทางกฎหมายที่มี 
 ปัญหา PM2.5 เป็นปัญหาที่ภาคอุตสาหกรรมรับทราบแล้วและทำงานร่วมกันมาตลอด""
-
-ศุภกิจ บุญศิริ รองอธิบดีกรมโรงงานอุตสาหกรรม 
 
 
 ","“I believe that there’s good intention behind this law.
 Department of Industrial Works’ job is to monitor and track sources of pollution with the use of existing legalized tools. Industrial sectors are well aware of the issue and are working closely to solve the problem together.""
-
-Supakit Boonsiri, Deputy Director General of Department of Industrial Works
 ",,,
-chapter3,chapter3.opinion2,"""โดยหลักการ ผมเห็นด้วยอยู่แล้ว แต่เราตั้งอยู่บนหลักการว่ากฎหมายหนึ่งควรจะครอบคลุมหลายประเด็น เรากำลังผลักดัน
+chapter3,chapter3.opinion1.source,"ศุภกิจ บุญศิริ รองอธิบดีกรมโรงงานอุตสาหกรรม 
+
+
+","Supakit Boonsiri, Deputy Director General of Department of Industrial Works
+",,,
+chapter3,chapter3.opinion2.content,"""โดยหลักการ ผมเห็นด้วยอยู่แล้ว แต่เราตั้งอยู่บนหลักการว่ากฎหมายหนึ่งควรจะครอบคลุมหลายประเด็น เรากำลังผลักดัน
 พ.ร.บ.ส่งเสริมและรักษาคุณภาพสิ่งแวดล้อมเพื่อจัดการครอบคลุมมลพิษทุกเรื่อง เช่น น้ำเสีย ขยะ และอากาศ 
 เราจะเอาเนื้อหาสาระของพ.ร.บ.อากาศสะอาดมาบรรจุด้วย เพราะมลพิษทุกด้านมีความสะอาดไม่ยิ่งหย่อนกัน""
-
-อรรถพล เจริญชันษา , อธิบดีกรมควบคุมมลพิษ
 ","""I completely agree with the concept. But we all believe that one law should cover many issues. We’re driving the Promotion and Conservation of National Environmental Quality Act in order to fix all pollution-related problems, such as contaminated water, garbage, and air pollution. We’re going to include the content of Clean Air Act in this because all pollution-related issues deserve to be treated the same way.""
-
-Athapol Charoenshunsa, Director General of Pollution Control Department
+",,,
+chapter3,chapter3.opinion2.source,"อรรถพล เจริญชันษา , อธิบดีกรมควบคุมมลพิษ
+","Athapol Charoenshunsa, Director General of Pollution Control Department
 ",,,
 chapter3,chapter3.link,"กฎหมายเป็นเพียงเครื่องมือหนึ่งในบรรดาเครื่องมือมากมาย
 แต่สิ่งหนึ่งที่คนไทยมีมาตลอด คือ สิทธิที่จะหายใจอากาศสะอาด ซึ่งเป็นสิทธิในสุขภาพและชีวิตที่ติดตัวทุกคนมาตั้งแต่เกิดตามหลักสิทธิมนุษยชน",,,,
@@ -161,15 +168,23 @@ chapter3,chapter3.title,"ร่วมกันสร้างอากาศส�
 ",,,
 chapter3,chapter3.action1.title,"เป็นหูเป็นตา ติดตามมาตรการแก้ปัญหาฝุ่นควันของรัฐ 
 ",1. Monitor and keep updated with the government's national agenda scheme to solve PM2.5 issue in 2021 - 2024,,,
-chapter3,chapter3.action1.subtitle,มาตรการสายไหนที่ใช่คุณ : คุณชอบใช้เวลาอยู่ที่ไหน,,,,
+chapter3,chapter3.action1.presubtitle,มาตรการสายไหนที่ใช่คุณ,,,,
+chapter3,chapter3.action1.subtitle,คุณชอบใช้เวลาอยู่ที่ไหน,,,,
 chapter3,chapter3.action1.character1,ท้องถนน,,,,
 chapter3,chapter3.action1.character2,ป่าและพื้นที่เกษตร,,,,
 chapter3,chapter3.action1.character3,เมือง,,,,
 chapter3,chapter3.action1.character4,โรงงาน,,,,
 chapter3,chapter3.action1.character5,บ้าน,,,,
 chapter3,chapter3.action1.character6,อื่นๆ,,,,
-chapter3,chapter3.action1.database,database นโยบาย,,,,
-chapter3,chapter3.action2,เรียนรู้เพิ่มเติมเรื่องกฎหมายอากาศสะอาดและวิธีลงชื่อ https://thaicleanair.org/ร่วมลงชื่อเสนอร่าง-พรบ ,2. Find out more about Clean Air Act and how to sign the petition at https://thaicleanair.org/ร่วมลงชื่อเสนอร่าง-พรบ,,,
+chapter3,chapter3.action1.database.title,แผนพัฒนาอากาศสะอาด ปี 2564 - 2567 ของประเทศไทย,,,,
+chapter3,chapter3.action1.database.year,ปี,,,,
+chapter3,chapter3.action1.database.category,ด้าน,,,,
+chapter3,chapter3.action1.database.policy,มาตรการ,,,,
+chapter3,chapter3.action1.database.department,หน่วยงานหลัก,,,,
+chapter3,chapter3.action1.database.source,"อ้างอิงจาก แผนปฏิบัติการขับเคลื่อนวาระแห่งชาติการแก้ไขปัญหามลพิษด้านฝุ่นละออง, แผนเฉพาะกิจเพื่อการแก้ไขปัญหามลพิษด้านฝุ่นละออง, ที่ประชุมคณะกรรมการสิ่งแวดล้อมแห่งชาติ 20 กรกฎาคม 2563",,,,
+chapter3,chapter3.action2.title,อ่านเพิ่มเติม,,,,
+chapter3,chapter3.action2.content,เรียนรู้เพิ่มเติมเรื่องกฎหมายอากาศสะอาดและวิธีลงชื่อ ,2. Find out more about Clean Air Act and how to sign the petition,,,
+chapter3,chapter3.action2.button,ร่วมลงชื่อเสนอร่าง-พรบ,,,,
 chapter3,chapter3.action3,แชร์ต่อให้คนรอบตัว,3. Spread the words on your social media,,,
 chapter3,chapter3.credit1,"โดย ณิชา เวชพานิช , สปัญญา ศรีสุข และ วิถี ภูษิตาศัย
 แปล ณัชชา เวชพานิช","Story by Nicha Wachpanich 

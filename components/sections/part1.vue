@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="flex flex-col bg-black-4 py-48 px-4 space-y-48">
-      <PartLabel class="-my-24">รู้จักปัญหา: หน้าตา</PartLabel>
+      <PartLabel class="-my-24">{{ $t('chapter1.name') }}</PartLabel>
       <div class="space-y-24">
         <img
           src="https://via.placeholder.com/800x400?text=motocycler_illustration"
@@ -62,24 +62,19 @@
           {{ $t('chapter1.whatispm.title') }}
         </p>
         <div class="flex flex-row justify-between max-w-3xl mx-auto">
-          <div
-            v-for="item in [
-              'chapter1.whatispm.body1',
-              'chapter1.whatispm.body1',
-            ]"
-            :key="item"
-          >
+          <div v-for="factor in ['factor1', 'factor2']" :key="factor">
             <img
               src="https://via.placeholder.com/200"
               alt=""
               class="rounded-full mx-auto mb-4"
             />
-            {{ $t(item) }}
+            {{ $t(`chapter1.whatispm.${factor}`) }}
           </div>
         </div>
-        <p class="max-w-xl mx-auto">
-          {{ $t('chapter1.whatispm.body2') }}
-        </p>
+        <div class="max-w-xl mx-auto text-center space-y-4">
+          <p>{{ $t('chapter1.whatispm.body1') }}</p>
+          <p>{{ $t('chapter1.whatispm.body2') }}</p>
+        </div>
       </div>
       <div class="max-w-3xl mx-auto space-y-12">
         <h3 class="text-h3 text-center">
@@ -87,19 +82,19 @@
         </h3>
         <div class="flex flex-row space-x-12">
           <div
-            v-for="item in [
-              'chapter1.whatwedo.body1',
-              'chapter1.whatwedo.body1',
-            ]"
-            :key="item"
+            v-for="policy in ['policy1', 'policy2']"
+            :key="policy"
             class="flex-1"
           >
             <img
               src="https://via.placeholder.com/300x200"
               alt=""
-              class="w-full mb-8"
+              class="w-full mb-6"
             />
-            {{ $t('chapter1.whatwedo.body1') }}
+            <h3 class="text-h3 mb-2">
+              {{ $t(`chapter1.whatwedo.${policy}.title`) }}
+            </h3>
+            <p>{{ $t(`chapter1.whatwedo.${policy}.content`) }}</p>
           </div>
         </div>
       </div>
@@ -134,10 +129,11 @@
               class="w-full"
             />
           </div>
-          <div class="flex flex-1">
+          <div class="flex flex-1 flex-col">
             <p class="m-auto text-center">
               {{ $t('chapter1.whatwedo.body4') }}
             </p>
+            <p class="text-body2">{{ $t('chapter1.whatwedo.source') }}</p>
           </div>
         </div>
       </div>
