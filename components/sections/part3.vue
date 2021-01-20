@@ -95,23 +95,20 @@
           <h3 class="text-h3">{{ $t('chapter3.action1.subtitle') }}</h3>
         </div>
         <div class="grid grid-cols-3">
-          <div
-            v-for="character in [
-              'character1',
-              'character2',
-              'character3',
-              'character4',
-              'character5',
-              'character6',
-            ]"
+          <a
+            v-for="character in [1, 2, 3, 4, 5, 6]"
             :key="character"
-            class="m-1 bg-white rounded-xl p-8 text-center"
+            href="#policy"
+            class="m-1 rounded-xl p-8 text-center bg-white hover:bg-green-2 hover:text-white"
+            @click="$refs.policyTable.updateCharacter(character)"
           >
-            {{ $t(`chapter3.action1.${character}`) }}
-          </div>
+            {{ $t(`chapter3.action1.character${character}`) }}
+          </a>
         </div>
       </div>
-      <PolicyTable class="w-full max-w-3xl mx-auto" />
+      <div id="policy" class="pt-12">
+        <PolicyTable ref="policyTable" class="w-full max-w-3xl mx-auto" />
+      </div>
     </div>
 
     <div class="bg-green-3 py-24 px-4">

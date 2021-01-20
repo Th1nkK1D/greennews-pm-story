@@ -65,5 +65,10 @@ export default {
       )
     },
   },
+  methods: {
+    updateCharacter(character) {
+      this.selectedCategory = categoryOptions[character - 1]
+    },
+  },
 }
 </script>
