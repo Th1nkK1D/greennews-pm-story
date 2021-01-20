@@ -40,7 +40,9 @@
         <img src="https://via.placeholder.com/250" alt="" />
         <p class="">{{ $t('chapter2.coreprob.quote.source') }}</p>
       </div>
-      <div class="flex-1">{{ $t('chapter2.coreprob.quote.content') }}</div>
+      <QuoteBlock class="flex-1">
+        {{ $t('chapter2.coreprob.quote.content') }}
+      </QuoteBlock>
     </div>
     <div class="flex py-48">
       <p class="m-auto text-h4">

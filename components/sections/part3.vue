@@ -57,10 +57,14 @@
             <img src="https://via.placeholder.com/250" alt="" />
             <p class="text-right">{{ $t('chapter3.opinion1.source') }}</p>
           </div>
-          <div class="flex-1">{{ $t('chapter3.opinion1.content') }}</div>
+          <QuoteBlock class="flex-1">
+            {{ $t('chapter3.opinion1.content') }}
+          </QuoteBlock>
         </div>
         <div class="flex flex-row max-w-3xl mx-auto space-x-20">
-          <div class="flex-1">{{ $t('chapter3.opinion2.content') }}</div>
+          <QuoteBlock class="flex-1">
+            {{ $t('chapter3.opinion2.content') }}
+          </QuoteBlock>
           <div>
             <img src="https://via.placeholder.com/250" alt="" />
             <p class="text-right">{{ $t('chapter3.opinion2.source') }}</p>
@@ -70,9 +74,11 @@
       <p class="text-h5 max-w-xl mx-auto text-center">
         {{ $t('chapter3.link') }}
       </p>
-      <p class="text-h6 max-w-xl mx-auto text-center">
-        {{ $t('chapter3.opinion3') }}
-      </p>
+      <QuoteBlock horizontal class="max-w-3xl mx-auto">
+        <p class="text-h6 text-center">
+          {{ $t('chapter3.opinion3') }}
+        </p>
+      </QuoteBlock>
       <p class="text-h4 max-w-xl mx-auto text-center">
         {{ $t('chapter3.link') }}
       </p>
