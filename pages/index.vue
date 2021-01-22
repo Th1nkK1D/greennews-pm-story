@@ -6,7 +6,9 @@
     <Part1 />
     <Part2 />
     <Part3 />
+    <Ending />
     <Footer />
+    <Sharer outlined class="fixed bottom-8 left-8" />
   </div>
 </template>
 
