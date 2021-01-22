@@ -59,6 +59,8 @@ html {
   @apply text-body1;
 
   scroll-behavior: smooth;
+
+  scrollbar-width: none;
 }
 
 body {
@@ -67,6 +69,10 @@ body {
   @media (min-width: 768px) {
     font-size: 18px;
   }
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 .text-indent {
