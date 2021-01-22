@@ -1,5 +1,5 @@
 <template>
-  <div class="relative flex flex-col min-h-screen">
+  <div class="relative flex flex-col min-h-screen overflow-hidden">
     <ProgressBar class="fixed left-0 right-0 z-10" :progress="readProgress" />
     <LanguageSwitch class="absolute top-1 right-1 z-10" />
     <Intro />

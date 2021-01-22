@@ -1,6 +1,6 @@
 <template>
-  <div class="text-white bg-green-1">
-    <div class="max-w-4xl m-auto py-24 space-y-8">
+  <div class="bg-green-1 py-12 md:py-24">
+    <div class="text-white max-w-4xl m-auto space-y-8 px-4">
       <Parse t="chapter3.credit1" />
       <Parse t="chapter3.credit2" />
     </div>

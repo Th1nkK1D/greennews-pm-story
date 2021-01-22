@@ -1,11 +1,15 @@
 <template>
-  <section class="flex flex-col bg-black text-white space-y-48 py-48 px-4">
-    <PartLabel class="-my-24">{{ $t('chapter2.name') }}</PartLabel>
+  <section
+    class="flex flex-col bg-black text-white space-y-24 md:space-y-48 py-24 md:py-48 px-4"
+  >
+    <PartLabel class="md:-my-24">{{ $t('chapter2.name') }}</PartLabel>
     <div class="space-y-12">
       <h4 class="text-h4 text-center max-w-xl mx-auto">
         {{ $t('chapter2.coreprob.title') }}
       </h4>
-      <div class="flex flex-row space-x-4 max-w-4xl mx-auto">
+      <div
+        class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 max-w-4xl mx-auto"
+      >
         <div
           v-for="{ coreprob, img } in [
             {
@@ -43,17 +47,25 @@
     <h4 class="text-h4 text-center max-w-2xl mx-auto">
       {{ $t('chapter2.coreprob.body') }}
     </h4>
-    <div class="flex flex-row max-w-3xl mx-auto space-x-20">
-      <div class="space-y-2">
-        <img src="https://via.placeholder.com/250" alt="" />
-        <p class="">{{ $t('chapter2.coreprob.quote.source') }}</p>
+    <div
+      class="flex flex-col-reverse md:flex-row max-w-4xl mx-auto md:space-x-20"
+    >
+      <div
+        class="flex flex-row md:flex-col md:space-y-2 space-x-2 md:space-x-0 my-auto"
+      >
+        <img
+          src="https://via.placeholder.com/250"
+          alt=""
+          class="w-36 md:w-80"
+        />
+        <p class="mt-auto">{{ $t('chapter2.coreprob.quote.source') }}</p>
       </div>
-      <QuoteBlock class="flex-1">
+      <QuoteBlock class="flex-1 mx-4 md:mx-0">
         <Parse t="chapter2.coreprob.quote.content" />
       </QuoteBlock>
     </div>
-    <div class="flex py-48">
-      <Parse t="chapter2.link" class="m-auto text-h4" />
+    <div class="flex py-24 md:py-48">
+      <Parse t="chapter2.link" class="m-auto text-h4 text-center" />
     </div>
   </section>
 </template>

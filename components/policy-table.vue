@@ -1,19 +1,25 @@
 <template>
   <div>
-    <h4 class="text-h4 font-bold">
+    <h4 class="text-h5 md:text-h4 font-bold">
       {{ $t('chapter3.action1.database.title') }}
     </h4>
-    <div class="flex flex-row mt-2">
-      <div class="flex flex-row space-x-4 w-1/3">
-        <h4 class="text-h4">{{ $t('chapter3.action1.database.year') }}</h4>
+    <div
+      class="flex flex-col md:flex-row mt-2 space-y-4 md:space-y-0 md:space-x-12"
+    >
+      <div class="flex flex-col md:flex-row md:space-x-4 w-1/3">
+        <h4 class="text-h5 md:text-h4">
+          {{ $t('chapter3.action1.database.year') }}
+        </h4>
         <Dropdown
           v-model.number="selectedYear"
           :options="yearOptions"
           class="my-auto"
         />
       </div>
-      <div class="flex flex-row space-x-4 w-full">
-        <h4 class="text-h4">{{ $t('chapter3.action1.database.category') }}</h4>
+      <div class="flex flex-col md:flex-row md:space-x-4 w-full">
+        <h4 class="text-h5 md:text-h4">
+          {{ $t('chapter3.action1.database.category') }}
+        </h4>
         <Dropdown
           v-model.number="selectedCategory"
           :options="categoryOptions"
@@ -21,12 +27,14 @@
         />
       </div>
     </div>
-    <div class="flex flex-col rounded-xl bg-white mt-8 py-4 px-6 space-y-4">
-      <div class="flex flex-row">
-        <h6 class="flex-1 text-h6 font-bold">
+    <div
+      class="flex flex-col rounded-xl bg-white -m-2 md:m-0 mt-8 py-2 md:py-4 px-3 md:px-6 space-y-4"
+    >
+      <div class="flex flex-row md:text-h6 font-bold">
+        <h6 class="flex-1">
           {{ $t('chapter3.action1.database.policy') }}
         </h6>
-        <h6 class="w-1/3 text-h6 font-bold">
+        <h6 class="w-1/3">
           {{ $t('chapter3.action1.database.department') }}
         </h6>
       </div>
@@ -36,7 +44,7 @@
         class="flex flex-row space-x-2 pb-2 border-b border-black-4"
       >
         <div class="flex-1">{{ policy }}</div>
-        <div class="w-1/3">{{ department }}</div>
+        <div class="w-1/3 overflow-ellipsis">{{ department }}</div>
       </div>
     </div>
   </div>
