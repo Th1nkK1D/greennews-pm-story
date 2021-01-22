@@ -6,9 +6,13 @@
     <Part1 />
     <Part2 />
     <Part3 />
-    <Ending />
+    <Ending @enter="showFixedSharer = false" @exit="showFixedSharer = true" />
     <Footer />
-    <Sharer outlined class="fixed bottom-8 left-8" />
+    <Sharer
+      v-if="showFixedSharer"
+      outlined
+      class="hidden md:flex fixed bottom-8 left-8"
+    />
   </div>
 </template>
 
@@ -19,6 +23,7 @@ export default {
   data() {
     return {
       readProgress: 0,
+      showFixedSharer: true,
     }
   },
   mounted() {
@@ -34,5 +39,19 @@ export default {
 html {
   @apply font-sans;
   @apply text-body1;
+
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 16px;
+
+  @media (min-width: 768px) {
+    font-size: 18px;
+  }
+}
+
+.text-indent {
+  text-indent: 2em;
 }
 </style>
