@@ -7,24 +7,32 @@
       </h4>
       <div class="flex flex-row space-x-4 max-w-4xl mx-auto">
         <div
-          v-for="coreprob in [
-            'coreprob1',
-            'coreprob2',
-            'coreprob3',
-            'coreprob4',
+          v-for="{ coreprob, img } in [
+            {
+              coreprob: 'coreprob1',
+              img: require('~/assets/images/ch2-01.png'),
+            },
+            {
+              coreprob: 'coreprob2',
+              img: require('~/assets/images/ch2-02.png'),
+            },
+            {
+              coreprob: 'coreprob3',
+              img: require('~/assets/images/ch2-03.png'),
+            },
+            {
+              coreprob: 'coreprob4',
+              img: require('~/assets/images/ch2-04.png'),
+            },
           ]"
           :key="coreprob"
           class="flex flex-col flex-1"
         >
-          <img
-            src="https://via.placeholder.com/200x150"
-            alt=""
-            class="w-full"
-          />
+          <img :src="img" alt="" class="w-full" />
           <div
             class="flex-1 p-3 pt-2 space-y-1 text-black bg-green-4 rounded-b-xl"
           >
-            <h5 class="text-h5">
+            <h5 class="text-h5 font-bold">
               {{ $t(`chapter2.${coreprob}.title`) }}
             </h5>
             <Parse :t="`chapter2.${coreprob}.content`" />

@@ -8,21 +8,21 @@
       <div class="grid grid-cols-2 w-full max-w-2xl mx-auto">
         <div class="col-span-2 p-8">กฎหมายนี้มุ่ง…</div>
         <div
-          v-for="(purpose, index) in [
-            'purpose1',
-            'purpose2',
-            'purpose3',
-            'purpose4',
+          v-for="({ purpose, img }, index) in [
+            { purpose: 'purpose1', img: require('~/assets/images/ch3-01.png') },
+            { purpose: 'purpose2', img: require('~/assets/images/ch3-02.png') },
+            { purpose: 'purpose3', img: require('~/assets/images/ch3-03.png') },
+            { purpose: 'purpose4', img: require('~/assets/images/ch3-04.png') },
           ]"
           :key="purpose"
           class="space-y-2 p-8"
         >
           <img
-            src="https://via.placeholder.com/150"
-            alt=""
-            class="rounded-full"
+            :src="img"
+            :alt="`chapter3.solution.${purpose}`"
+            class="rounded-full w-24"
           />
-          <p class="text-h3">{{ index + 1 }}.</p>
+          <p class="text-h3 font-bold">{{ index + 1 }}.</p>
           <Parse :t="`chapter3.solution.${purpose}`" />
         </div>
         <Parse t="chapter3.solution.source" class="col-span-2 text-body2" />

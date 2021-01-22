@@ -4,8 +4,8 @@
       <PartLabel class="-my-24">{{ $t('chapter1.name') }}</PartLabel>
       <div class="space-y-24">
         <img
-          src="https://via.placeholder.com/800x400?text=motocycler_illustration"
-          alt=""
+          src="~/assets/images/ch1-01.png"
+          alt="Motocycler"
           class="w-full max-w-3xl m-auto"
         />
         <div class="max-w-xl m-auto space-y-8">
@@ -23,8 +23,8 @@
       </div>
       <div class="space-y-24">
         <img
-          src="https://via.placeholder.com/800x400?text=pm2.5_illustration"
-          alt=""
+          src="~/assets/images/ch1-02.png"
+          alt="PM2.5"
           class="w-full max-w-3xl m-auto"
         />
         <div class="max-w-xl m-auto space-y-8">
@@ -53,12 +53,19 @@
         <p class="text-h5">
           {{ $t('chapter1.whatispm.title') }}
         </p>
-        <div class="flex flex-row justify-between max-w-3xl mx-auto">
-          <div v-for="factor in ['factor1', 'factor2']" :key="factor">
+        <div class="flex flex-row justify-around w-full max-w-3xl mx-auto">
+          <div
+            v-for="{ factor, img } in [
+              { factor: 'factor1', img: require('~/assets/images/ch1-03.png') },
+              { factor: 'factor2', img: require('~/assets/images/ch1-04.png') },
+            ]"
+            :key="factor"
+            class="w-48 text-center"
+          >
             <img
-              src="https://via.placeholder.com/200"
-              alt=""
+              :src="img"
               class="rounded-full mx-auto mb-4"
+              :alt="$t(`chapter1.whatispm.${factor}`)"
             />
             <Parse :t="`chapter1.whatispm.${factor}`" />
           </div>
@@ -74,13 +81,16 @@
         </h3>
         <div class="flex flex-row space-x-12">
           <div
-            v-for="policy in ['policy1', 'policy2']"
+            v-for="{ policy, img } in [
+              { policy: 'policy1', img: require('~/assets/images/ch1-05.png') },
+              { policy: 'policy2', img: require('~/assets/images/ch1-06.png') },
+            ]"
             :key="policy"
             class="flex-1"
           >
             <img
-              src="https://via.placeholder.com/300x200"
-              alt=""
+              :src="img"
+              :alt="$t(`chapter1.whatwedo.${policy}.title`)"
               class="w-full mb-6"
             />
             <h3 class="text-h3 mb-2">
@@ -90,37 +100,29 @@
           </div>
         </div>
       </div>
-      <div class="flex flex-col space-y-20 max-w-3xl m-auto">
-        <div class="flex flex-row space-x-8">
-          <div class="flex-1">
-            <img
-              src="https://via.placeholder.com/300x200"
-              alt=""
-              class="w-full"
-            />
-          </div>
-          <div class="flex flex-1">
-            <Parse t="chapter1.whatwedo.body2" class="m-auto text-center" />
-          </div>
+      <div class="space-y-8">
+        <img
+          src="~/assets/images/ch1-07.png"
+          alt="Government declare policy"
+          class="w-full max-w-2xl m-auto"
+        />
+        <div class="max-w-xl m-auto space-y-8">
+          <Parse t="chapter1.whatwedo.body2" class="m-auto text-center" />
         </div>
-        <div class="flex flex-row space-x-8">
-          <div class="flex-1" />
-          <div class="flex flex-1">
-            <Parse t="chapter1.whatwedo.body3" class="m-auto text-center" />
-          </div>
+      </div>
+      <div class="space-y-20">
+        <Parse t="chapter1.whatwedo.body3" class="m-auto text-center" />
+        <div class="max-w-2xl m-auto space-y-4">
+          <img
+            src="~/assets/images/ch1-08.png"
+            alt="Thai still not satisfy"
+            class="w-full"
+          />
+          <Parse t="chapter1.whatwedo.source" class="text-body2 text-right" />
         </div>
-        <div class="flex flex-row space-x-8">
-          <div class="flex-1">
-            <img
-              src="https://via.placeholder.com/300x200"
-              alt=""
-              class="w-full"
-            />
-          </div>
-          <div class="flex flex-1 flex-col">
-            <Parse t="chapter1.whatwedo.body4" class="m-auto text-center" />
-            <Parse t="chapter1.whatwedo.source" class="text-body2 text-right" />
-          </div>
+
+        <div class="max-w-xl m-auto space-y-8">
+          <Parse t="chapter1.whatwedo.body4" class="m-auto text-center" />
         </div>
       </div>
       <div class="flex py-48">
