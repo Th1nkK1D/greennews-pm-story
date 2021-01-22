@@ -47,14 +47,31 @@
         class="text-h4 md:text-h5 max-w-3xl mx-auto"
       />
     </div>
-    <div class="flex flex-col max-w-2xl mx-auto space-y-8">
+    <div class="flex flex-col max-w-2xl mx-auto">
       <div
-        v-for="timeline in ['timeline1', 'timeline2', 'timeline3', 'timeline4']"
+        v-for="(timeline, index) in [
+          'timeline1',
+          'timeline2',
+          'timeline3',
+          'timeline4',
+        ]"
         :key="timeline"
         class="flex flex-row space-x-4"
       >
-        <div class="rounded-full w-3 h-3 bg-green-1 m-auto" />
-        <Parse :t="`chapter3.scenario.${timeline}`" class="flex-1" />
+        <div class="flex flex-col">
+          <div
+            class="flex-1 mx-auto"
+            :class="{ 'bg-green-1 ': index > 0 }"
+            style="width: 2px"
+          />
+          <div class="rounded-full w-3 h-3 bg-green-1 m-auto" />
+          <div
+            class="flex-1 mx-auto"
+            :class="{ 'bg-green-1 ': index < 3 }"
+            style="width: 2px"
+          />
+        </div>
+        <Parse :t="`chapter3.scenario.${timeline}`" class="flex-1 py-4" />
       </div>
       <Parse t="chapter3.scenario.note" />
     </div>
