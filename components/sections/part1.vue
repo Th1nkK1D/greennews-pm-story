@@ -1,6 +1,7 @@
 <template>
   <section>
     <div
+      id="start"
       class="flex flex-col bg-black-4 py-24 md:py-48 px-4 space-y-24 md:space-y-48"
     >
       <PartLabel class="md:-my-24">{{ $t('chapter1.name') }}</PartLabel>

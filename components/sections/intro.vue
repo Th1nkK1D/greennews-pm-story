@@ -20,16 +20,22 @@
           <div
             class="flex flex-col mx-4 md:flex-row space-y-4 md:space-y-0 md:space-x-12"
           >
-            <button
-              class="h-12 md:h-16 w-full bg-green-1 rounded-xl text-white font-bold"
+            <a
+              href="#start"
+              class="flex h-12 md:h-16 w-full bg-green-1 hover:bg-green-2 rounded-xl text-white font-bold"
             >
-              {{ $t('intro.button1') }}
-            </button>
-            <button
-              class="h-12 md:h-16 w-full text-green-1 bg-green-3 rounded-xl font-bold"
+              <p class="m-auto">
+                {{ $t('intro.button1') }}
+              </p>
+            </a>
+            <a
+              href="#action"
+              class="flex h-12 md:h-16 w-full text-green-1 bg-green-3 hover:bg-green-4 rounded-xl font-bold"
             >
-              {{ $t('intro.button2') }}
-            </button>
+              <p class="m-auto">
+                {{ $t('intro.button2') }}
+              </p>
+            </a>
           </div>
         </div>
       </div>

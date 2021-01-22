@@ -110,6 +110,7 @@
     </div>
 
     <div
+      id="action"
       class="flex flex-col bg-green-4 space-y-24 md:space-y-48 py-24 md:py-48 px-4"
     >
       <div class="text-center text-green-1">
