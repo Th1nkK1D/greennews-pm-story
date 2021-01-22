@@ -32,6 +32,8 @@ module.exports = {
       'green-2': '#76A9A6',
       'green-3': '#C7DEDD',
       'green-4': '#D5EFEE',
+      orange: '#F2994A',
+      red: '#EB5757',
     },
     extend: {
       zIndex: {

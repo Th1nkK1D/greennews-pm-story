@@ -38,12 +38,9 @@
           />
         </div>
       </div>
-      <div class="space-y-4 max-w-2xl m-auto">
-        <img
-          src="https://via.placeholder.com/800x400?text=pm2.5_heatmap"
-          alt=""
-          class="w-full"
-        />
+      <div class="space-y-4 w-full max-w-3xl m-auto">
+        <h5 class="text-h5 font-bold">{{ $t('chapter1.datavisual') }}</h5>
+        <PollutionHeatmap class="w-full" />
         <Parse t="chapter1.datavisual.source" class="text-right text-body2" />
       </div>
     </div>
