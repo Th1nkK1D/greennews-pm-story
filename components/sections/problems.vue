@@ -1,6 +1,6 @@
 <template>
   <section
-    class="flex flex-col bg-black text-white space-y-24 md:space-y-48 py-24 md:py-48 px-4"
+    class="flex flex-col text-white space-y-24 md:space-y-48 py-24 md:py-48 px-4"
   >
     <PartLabel class="md:-my-24">{{ $t('chapter2.name') }}</PartLabel>
     <div class="space-y-12">

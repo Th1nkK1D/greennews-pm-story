@@ -26,17 +26,3 @@
     </div>
   </div>
 </template>
-
-<script>
-import enterView from 'enter-view'
-
-export default {
-  mounted() {
-    enterView({
-      selector: [this.$el],
-      enter: () => this.$emit('enter'),
-      exit: () => this.$emit('exit'),
-    })
-  },
-}
-</script>

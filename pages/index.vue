@@ -1,12 +1,29 @@
 <template>
-  <div class="relative flex flex-col min-h-screen overflow-hidden">
+  <div
+    class="relative flex flex-col min-h-screen overflow-hidden transition-colors duration-500 ease-in-out"
+    :class="bgColor"
+  >
     <ProgressBar class="fixed left-0 right-0 z-10" :progress="readProgress" />
     <LanguageSwitch class="absolute top-4 right-4 md:top-8 md:right-8 z-10" />
     <Intro />
-    <Part1 />
-    <Part2 />
-    <Part3 />
-    <Ending @enter="showFixedSharer = false" @exit="showFixedSharer = true" />
+    <ViewWatch @enter="bgColor = 'bg-black-4'" @exit="bgColor = ''">
+      <MotorcyclerStory />
+    </ViewWatch>
+    <ViewWatch @enter="bgColor = 'bg-black-3'" @exit="bgColor = 'bg-black-4'">
+      <PmInformation />
+    </ViewWatch>
+    <ViewWatch @enter="bgColor = 'bg-black'" @exit="bgColor = 'bg-black-3'">
+      <Problems />
+    </ViewWatch>
+    <ViewWatch @enter="bgColor = 'bg-white'" @exit="bgColor = 'bg-black'">
+      <Solution />
+    </ViewWatch>
+    <ViewWatch @enter="bgColor = 'bg-green-4'" @exit="bgColor = 'bg-white'">
+      <ExplorePolicy />
+    </ViewWatch>
+    <ViewWatch @enter="showFixedSharer = false" @exit="showFixedSharer = true">
+      <Ending />
+    </ViewWatch>
     <Footer />
     <Sharer
       v-if="showFixedSharer"
@@ -24,6 +41,7 @@ export default {
     return {
       readProgress: 0,
       showFixedSharer: true,
+      bgColor: '',
     }
   },
   mounted() {
