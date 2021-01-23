@@ -57,7 +57,7 @@
         <img
           src="~/assets/images/people-buaros.png"
           alt="Buaros"
-          class="w-36 md:w-80 rounded-full"
+          class="w-36 h-36 md:w-80 md:h-80 rounded-full"
         />
         <p class="mt-auto">{{ $t('chapter2.coreprob.quote.source') }}</p>
       </div>

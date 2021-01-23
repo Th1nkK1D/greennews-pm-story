@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-row justify-center m-1 rounded-xl px-4 py-8 md:px-8 text-center bg-white hover:bg-green-2 group space-x-1"
+    class="flex flex-row justify-center m-1 rounded-xl px-4 py-8 md:px-8 text-center bg-white hover:bg-green-2 group space-x-1 flex-1"
   >
     <svg
       v-if="character === 1"
@@ -9,7 +9,7 @@
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      class="text-green-1 group-hover:text-white"
+      class="text-green-1 group-hover:text-white my-auto"
     >
       <path
         d="M7 19C8.10457 19 9 18.1046 9 17C9 15.8954 8.10457 15 7 15C5.89543 15 5 15.8954 5 17C5 18.1046 5.89543 19 7 19Z"
@@ -41,7 +41,7 @@
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      class="text-green-1 group-hover:text-white"
+      class="text-green-1 group-hover:text-white my-auto"
     >
       <path
         d="M16 5.00024L19 8.00024L17 9.00024L21 13.0002L18 14.0002L22 18.0002H13"
@@ -94,7 +94,7 @@
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      class="text-green-1 group-hover:text-white"
+      class="text-green-1 group-hover:text-white my-auto"
     >
       <path
         d="M3 21H21"
@@ -154,7 +154,7 @@
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      class="text-green-1 group-hover:text-white"
+      class="text-green-1 group-hover:text-white my-auto"
     >
       <path
         d="M4 21C5.147 16.98 5.983 12.973 6 9H12C12.017 12.973 12.853 16.98 14 21"
@@ -193,7 +193,7 @@
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      class="text-green-1 group-hover:text-white"
+      class="text-green-1 group-hover:text-white my-auto"
     >
       <path
         d="M5 12H3L12 3L21 12H19"
@@ -225,7 +225,7 @@
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      class="text-green-1 group-hover:text-white"
+      class="text-green-1 group-hover:text-white my-auto"
     >
       <path
         d="M12 3L8 10H16L12 3Z"
@@ -250,7 +250,7 @@
       />
     </svg>
 
-    <p class="group-hover:text-white">
+    <p class="group-hover:text-white my-auto">
       {{ $t(`chapter3.action1.character${character}`) }}
     </p>
   </div>

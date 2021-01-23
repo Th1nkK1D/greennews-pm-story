@@ -84,7 +84,7 @@
           <img
             src="~/assets/images/people-supakit.png"
             alt=""
-            class="w-36 md:w-80 rounded-full"
+            class="w-36 h-36 md:w-80 md:h-80 rounded-full"
           />
           <p class="mt-auto">{{ $t('chapter3.opinion1.source') }}</p>
         </div>
@@ -96,7 +96,7 @@
           <img
             src="~/assets/images/people-attapon.png"
             alt=""
-            class="w-36 md:w-80 rounded-full"
+            class="w-36 h-36 md:w-80 md:h-80 rounded-full"
           />
           <p class="mt-auto">{{ $t('chapter3.opinion2.source') }}</p>
         </div>
