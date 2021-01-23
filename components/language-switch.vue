@@ -17,7 +17,7 @@
       />
     </svg>
 
-    <p class="text-h6 my-auto">{{ label }}</p>
+    <p class="text-body my-auto">{{ label }}</p>
   </nuxt-link>
 </template>
 

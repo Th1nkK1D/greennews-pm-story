@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-row space-x-4">
+  <div class="flex flex-row space-x-2">
     <a
       v-for="{ service, icon, href } in socialLinks"
       :key="service"
