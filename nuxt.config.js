@@ -6,10 +6,11 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'greennews-pm-story',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { property: 'og:image', content: '' },
+      { name: 'twitter:card', content: 'summary_large_image' },
     ],
     link: [
       {

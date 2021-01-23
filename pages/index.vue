@@ -53,6 +53,11 @@ export default {
   head() {
     return {
       title: this.$t('intro.title'),
+      meta: [
+        { property: 'og:title', content: this.$t('intro.title') },
+        { hid: 'description', name: 'description', content: '' },
+        { property: 'og:description', content: '' },
+      ],
     }
   },
 }
