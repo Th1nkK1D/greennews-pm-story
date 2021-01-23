@@ -13,6 +13,22 @@
           </p>
           <p class="text-h5">{{ $t('intro.prologue3') }}</p>
           <p class="text-h5">{{ $t('intro.prologue4') }}</p>
+          <div class="pt-12">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="36"
+              height="36"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="m-auto animate-bounce"
+            >
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </div>
         </div>
       </div>
       <div class="h-screen flex">
