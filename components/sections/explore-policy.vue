@@ -17,12 +17,9 @@
           v-for="character in [1, 2, 3, 4, 5, 6]"
           :key="character"
           href="#policy"
-          class="flex m-1 rounded-xl px-4 py-8 md:px-8 text-center bg-white hover:bg-green-2 hover:text-white"
           @click="$refs.policyTable.updateCharacter(character)"
         >
-          <p class="m-auto">
-            {{ $t(`chapter3.action1.character${character}`) }}
-          </p>
+          <CharacterButton :character="character" />
         </a>
       </div>
     </div>
