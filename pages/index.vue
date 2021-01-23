@@ -70,7 +70,6 @@ html {
   @apply text-body1;
 
   scroll-behavior: smooth;
-  /* scrollbar-width: none; */
 }
 
 body {
@@ -81,12 +80,9 @@ body {
   }
 }
 
-/* ::-webkit-scrollbar {
-  display: none;
-} */
-
 ul {
   @apply list-disc;
+  @apply ml-6;
 }
 
 .text-indent {
