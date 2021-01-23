@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative flex flex-col min-h-screen overflow-hidden transition-colors duration-500 ease-in-out"
+    class="relative flex flex-col min-h-screen overflow-hidden transition-colors duration-1000 ease-in-out"
     :class="bgColor"
   >
     <ProgressBar class="fixed left-0 right-0 z-10" :progress="readProgress" />

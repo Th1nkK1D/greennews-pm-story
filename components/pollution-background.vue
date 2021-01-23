@@ -9,8 +9,8 @@
       <div
         v-for="({ top, left, scale }, index) in particles"
         :key="index"
-        class="absolute w-6 h-6 bg-black-2 -z-1"
-        :style="{ top, left, scale, filter: 'blur(0.8rem)' }"
+        class="absolute w-2 h-2 bg-black-2 -z-1"
+        :style="{ top, left, scale, filter: 'blur(0.3rem)' }"
       />
     </div>
   </div>
@@ -20,7 +20,7 @@
 import anime from 'animejs'
 import enterView from 'enter-view'
 
-const PARTICLE_AMOUNT = 15
+const PARTICLE_AMOUNT = 20
 
 export default {
   data() {
