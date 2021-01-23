@@ -62,5 +62,6 @@ export default {
       fallbackLocale: 'th',
       messages: parseTranslation('./assets/data/translation.csv'),
     },
+    detectBrowserLanguage: false,
   },
 }
