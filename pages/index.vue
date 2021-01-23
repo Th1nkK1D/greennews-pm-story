@@ -59,8 +59,7 @@ html {
   @apply text-body1;
 
   scroll-behavior: smooth;
-
-  scrollbar-width: none;
+  /* scrollbar-width: none; */
 }
 
 body {
@@ -71,9 +70,9 @@ body {
   }
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   display: none;
-}
+} */
 
 .text-indent {
   text-indent: 2em;

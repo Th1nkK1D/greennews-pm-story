@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-row space-x-2 md:space-x-4">
-    <div class="flex flex-col space-y-3">
-      <div v-for="month in months" :key="month">
+    <div class="flex flex-col space-y-4 my-1">
+      <div v-for="month in months" :key="month" class="text-right">
         {{ month }}
       </div>
     </div>
