@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-row space-x-2">
+  <div class="flex flex-row" :class="densed ? 'space-x-2' : 'space-x-4'">
     <a
       v-for="{ service, icon, href } in socialLinks"
       :key="service"
@@ -18,6 +18,10 @@ const encodedUrl = encodeURI('https://th1nkk1d.github.io/greennews-pm-story/')
 export default {
   props: {
     outlined: {
+      type: Boolean,
+      default: false,
+    },
+    densed: {
       type: Boolean,
       default: false,
     },

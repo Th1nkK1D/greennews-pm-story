@@ -28,6 +28,7 @@
     <Sharer
       v-if="showFixedSharer"
       outlined
+      densed
       class="hidden md:flex fixed bottom-8 left-8"
     />
   </div>

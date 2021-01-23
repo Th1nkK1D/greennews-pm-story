@@ -3,6 +3,7 @@
     <div class="text-white max-w-4xl m-auto space-y-8 px-4">
       <Parse t="chapter3.credit1" />
       <Parse t="chapter3.credit2" />
+      <Parse t="chapter3.credit3" />
     </div>
   </div>
 </template>
