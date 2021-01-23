@@ -1,7 +1,7 @@
 <template>
   <section class="flex flex-col text-center">
     <PollutionBackground>
-      <div class="h-screen flex px-4">
+      <div class="h-screen flex px-4 relative">
         <div
           ref="introTextContainer"
           class="max-w-3xl m-auto flex flex-col space-y-8"
@@ -13,22 +13,25 @@
           </p>
           <p class="text-h5 opacity-0">{{ $t('intro.prologue3') }}</p>
           <p class="text-h5 opacity-0">{{ $t('intro.prologue4') }}</p>
-          <div class="pt-12 opacity-0">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="36"
-              height="36"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="m-auto animate-bounce"
-            >
-              <polyline points="6 9 12 15 18 9"></polyline>
-            </svg>
-          </div>
+        </div>
+        <div
+          ref="chevronDown"
+          class="absolute bottom-10 left-0 right-0 opacity-0"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="36"
+            height="36"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="m-auto animate-bounce"
+          >
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
         </div>
       </div>
       <div class="h-screen flex">
@@ -68,7 +71,10 @@ import anime from 'animejs'
 export default {
   mounted() {
     anime({
-      targets: this.$refs.introTextContainer.children,
+      targets: [
+        ...this.$refs.introTextContainer.children,
+        this.$refs.chevronDown,
+      ],
       opacity: [0, 1],
       duration: 3000,
       delay: (_, index) => 100 + index * 1000,
