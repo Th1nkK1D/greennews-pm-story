@@ -2,7 +2,7 @@
   <select
     ref="select"
     :value="value"
-    class="appearance-none border-b pr-6 cursor-pointer w-full overflow-ellipsis"
+    class="appearance-none focus:outline-none border-black border-b pr-6 cursor-pointer w-full overflow-ellipsis font-bold text-green-1"
     @change="(e) => $emit('input', e.target.value)"
   >
     <option v-for="option in options" :key="option" :value="option">

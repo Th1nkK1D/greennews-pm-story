@@ -41,7 +41,7 @@
       <div
         v-for="{ policy, department } in filteredPolicies"
         :key="policy"
-        class="flex flex-row space-x-2 pb-2 border-b border-black-4"
+        class="flex flex-row space-x-2 md:space-x-6 pb-2 border-b border-black-4"
       >
         <div class="flex-1">{{ policy }}</div>
         <div class="w-1/3 overflow-ellipsis">{{ department }}</div>
