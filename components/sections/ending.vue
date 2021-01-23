@@ -9,7 +9,7 @@
         </h4>
         <Parse t="chapter3.action2.content" class="text-h6" />
         <a
-          class="inline-block bg-green-1 rounded p-2 text-white"
+          class="inline-block bg-green-1 rounded py-4 px-6 text-white hover:bg-green-2"
           href="https://thaicleanair.org/ร่วมลงชื่อเสนอร่าง-พรบ"
           target="_blank"
           rel="noopener noreferrer"

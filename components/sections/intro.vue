@@ -44,7 +44,7 @@
           >
             <a
               href="#start"
-              class="flex h-12 md:h-16 w-full bg-green-1 hover:bg-green-2 rounded-3xl text-white font-bold"
+              class="flex h-12 md:h-20 w-full bg-green-1 hover:bg-green-2 rounded-3xl text-white font-bold"
             >
               <p class="m-auto">
                 {{ $t('intro.button1') }}
@@ -52,7 +52,7 @@
             </a>
             <a
               href="#action"
-              class="flex h-12 md:h-16 w-full text-green-1 bg-green-3 hover:bg-green-4 rounded-3xl font-bold"
+              class="flex h-12 md:h-20 w-full text-green-1 bg-green-3 hover:bg-green-4 rounded-3xl font-bold"
             >
               <p class="m-auto">
                 {{ $t('intro.button2') }}
