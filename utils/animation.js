@@ -13,6 +13,6 @@ export const fadeChildrenOnEnter = (element) => {
     selector: [element],
     enter: () => animation.play(),
     once: true,
-    offset: 0.4,
+    offset: 0.3,
   })
 }

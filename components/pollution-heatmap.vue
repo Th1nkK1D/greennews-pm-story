@@ -108,7 +108,7 @@ export default {
       selector: [this.$el],
       enter: () => animation.play(),
       once: true,
-      offset: 0.5,
+      offset: 0.3,
     })
   },
 }

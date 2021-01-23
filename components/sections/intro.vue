@@ -6,14 +6,14 @@
           ref="introTextContainer"
           class="max-w-3xl m-auto flex flex-col space-y-8"
         >
-          <p class="text-h5">
+          <p class="text-h5 opacity-0">
             {{ $t('intro.prologue1') }}
             <br />
             {{ $t('intro.prologue2') }}
           </p>
-          <p class="text-h5">{{ $t('intro.prologue3') }}</p>
-          <p class="text-h5">{{ $t('intro.prologue4') }}</p>
-          <div class="pt-12">
+          <p class="text-h5 opacity-0">{{ $t('intro.prologue3') }}</p>
+          <p class="text-h5 opacity-0">{{ $t('intro.prologue4') }}</p>
+          <div class="pt-12 opacity-0">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="36"
