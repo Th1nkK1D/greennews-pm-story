@@ -24,30 +24,37 @@ export default {
       default: false,
     },
   },
+  data() {
+    return {
+      encodedUrl: '',
+    }
+  },
+
   computed: {
     socialLinks() {
-      const encodedUrl = encodeURI(
-        `http://${window.location.hostname}${window.location.pathname}`
-      )
-
       return [
         {
           service: 'Facebook',
           icon: require('../assets/images/social-facebook.svg'),
-          href: `http://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`,
+          href: `http://www.facebook.com/sharer/sharer.php?u=${this.encodedUrl}`,
         },
         {
           service: 'Twitter',
           icon: require('../assets/images/social-twitter.svg'),
-          href: `https://twitter.com/intent/tweet?url=${encodedUrl}`,
+          href: `https://twitter.com/intent/tweet?url=${this.encodedUrl}`,
         },
         {
           service: 'Line',
           icon: require('../assets/images/social-line.svg'),
-          href: `https://social-plugins.line.me/lineit/share?url=${encodedUrl}`,
+          href: `https://social-plugins.line.me/lineit/share?url=${this.encodedUrl}`,
         },
       ]
     },
+  },
+  mounted() {
+    this.encodedUrl = encodeURI(
+      `http://${window.location.hostname}${window.location.pathname}`
+    )
   },
 }
 </script>
