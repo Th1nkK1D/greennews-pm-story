@@ -31,12 +31,10 @@
             },
           ]"
           :key="coreprob"
-          class="flex flex-col flex-1"
+          class="flex flex-col flex-1 rounded-xl overflow-hidden"
         >
           <img :src="img" alt="" class="w-full" />
-          <div
-            class="flex-1 p-3 pt-2 space-y-1 text-black bg-green-4 rounded-b-xl"
-          >
+          <div class="flex-1 p-3 pt-2 space-y-1 text-black bg-green-4">
             <h5 class="text-h5 font-bold">
               {{ $t(`chapter2.${coreprob}.title`) }}
             </h5>
