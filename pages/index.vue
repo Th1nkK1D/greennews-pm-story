@@ -4,6 +4,11 @@
     :class="bgColor"
   >
     <ProgressBar class="fixed left-0 right-0 z-10" :progress="readProgress" />
+    <img
+      src="~/assets/images/logo-greennews.png"
+      alt="Greennews"
+      class="absolute top-4 left-4 md:top-8 md:left-8 z-10"
+    />
     <LanguageSwitch class="absolute top-4 right-4 md:top-8 md:right-8 z-10" />
     <Intro />
     <ViewWatch @enter="bgColor = 'bg-white'" @exit="bgColor = ''">
