@@ -82,9 +82,9 @@
           class="flex flex-row md:flex-col md:space-y-2 space-x-2 md:space-x-0 my-auto"
         >
           <img
-            src="https://via.placeholder.com/250"
+            src="~/assets/images/people-supakit.png"
             alt=""
-            class="w-36 md:w-80"
+            class="w-36 md:w-80 rounded-full"
           />
           <p class="mt-auto">{{ $t('chapter3.opinion1.source') }}</p>
         </div>
@@ -100,9 +100,9 @@
           class="flex flex-row md:flex-col md:space-y-2 space-x-2 md:space-x-0 my-auto"
         >
           <img
-            src="https://via.placeholder.com/250"
+            src="~/assets/images/people-attapon.png"
             alt=""
-            class="w-36 md:w-80"
+            class="w-36 md:w-80 rounded-full"
           />
           <p class="mt-auto">{{ $t('chapter3.opinion2.source') }}</p>
         </div>

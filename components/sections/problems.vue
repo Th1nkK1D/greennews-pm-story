@@ -54,9 +54,9 @@
         class="flex flex-row md:flex-col md:space-y-2 space-x-2 md:space-x-0 my-auto"
       >
         <img
-          src="https://via.placeholder.com/250"
-          alt=""
-          class="w-36 md:w-80"
+          src="~/assets/images/people-buaros.png"
+          alt="Buaros"
+          class="w-36 md:w-80 rounded-full"
         />
         <p class="mt-auto">{{ $t('chapter2.coreprob.quote.source') }}</p>
       </div>
