@@ -127,3 +127,9 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+section {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #c7dedd 100%);
+}
+</style>

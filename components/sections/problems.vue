@@ -80,3 +80,11 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+section {
+  background: url('../../assets/images/bg-dust.png');
+  @apply bg-no-repeat;
+  @apply bg-cover;
+}
+</style>

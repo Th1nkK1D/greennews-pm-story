@@ -43,3 +43,9 @@
     </div>
   </section>
 </template>
+
+<style scoped>
+section {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #c4c4c4 100%);
+}
+</style>

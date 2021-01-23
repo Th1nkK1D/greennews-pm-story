@@ -6,10 +6,10 @@
     <ProgressBar class="fixed left-0 right-0 z-10" :progress="readProgress" />
     <LanguageSwitch class="absolute top-4 right-4 md:top-8 md:right-8 z-10" />
     <Intro />
-    <ViewWatch @enter="bgColor = 'bg-black-4'" @exit="bgColor = ''">
+    <ViewWatch @enter="bgColor = 'bg-white'" @exit="bgColor = ''">
       <MotorcyclerStory />
     </ViewWatch>
-    <ViewWatch @enter="bgColor = 'bg-black-3'" @exit="bgColor = 'bg-black-4'">
+    <ViewWatch @enter="bgColor = 'bg-black-3'" @exit="bgColor = 'bg-white'">
       <PmInformation />
     </ViewWatch>
     <ViewWatch @enter="bgColor = 'bg-black'" @exit="bgColor = 'bg-black-3'">
