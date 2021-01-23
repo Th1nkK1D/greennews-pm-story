@@ -35,10 +35,18 @@
         </div>
       </div>
       <div class="h-screen flex">
-        <div
-          class="max-w-2xl m-auto flex flex-col space-y-16 md:space-y-24 px-4"
-        >
-          <h1 class="text-h2 md:text-h1 font-bold">{{ $t('intro.title') }}</h1>
+        <div class="flex m-auto flex-col space-y-16 md:space-y-24 px-4">
+          <div ref="coverContainer" class="relative">
+            <img src="~/assets/images/cover.png" :alt="$t('intro.title')" />
+            <div class="flex absolute inset-0 z-10">
+              <h1
+                class="text-h5 sm:text-h3 md:text-h2 font-bold text-white w-60 sm:w-sm md:w-auto md:max-w-lg m-auto"
+              >
+                {{ $t('intro.title') }}
+              </h1>
+            </div>
+          </div>
+
           <div
             class="flex flex-col mx-4 md:flex-row space-y-4 md:space-y-0 md:space-x-12"
           >
@@ -67,6 +75,7 @@
 
 <script>
 import anime from 'animejs'
+import { fadeChildrenOnEnter } from '~/utils/animation'
 
 export default {
   mounted() {
@@ -79,6 +88,17 @@ export default {
       duration: 3000,
       delay: (_, index) => 100 + index * 1000,
     })
+
+    fadeChildrenOnEnter(this.$refs.coverContainer, {
+      duration: 3000,
+      delay: 3000,
+    })
   },
 }
 </script>
+
+<style scoped>
+h1 {
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+</style>

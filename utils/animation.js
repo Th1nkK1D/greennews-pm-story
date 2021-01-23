@@ -1,12 +1,15 @@
 import anime from 'animejs'
 import enterView from 'enter-view'
 
-export const fadeChildrenOnEnter = (element) => {
+export const fadeChildrenOnEnter = (
+  element,
+  option = { duration: 2000, delay: 1000 }
+) => {
   const animation = anime({
     targets: element.children,
     opacity: [0, 1],
-    duration: 2000,
-    delay: (_, index) => (index * 1000) / element.children.length,
+    duration: option.duration,
+    delay: (_, index) => (index * option.delay) / element.children.length,
     autoplay: false,
   })
   enterView({
