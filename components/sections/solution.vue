@@ -65,7 +65,7 @@
           <div class="rounded-full w-3 h-3 bg-green-1 m-auto" />
           <div
             class="flex-1 mx-auto"
-            :class="{ 'bg-green-1 ': index < 3 }"
+            :class="{ 'bg-green-1 ': index < 4 }"
             style="width: 2px"
           />
         </div>
