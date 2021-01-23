@@ -23,12 +23,20 @@ chapter1,chapter1.factbox,"ฝุ่น PM2.5 คือ ฝุ่นที่ม
 และเข้าไปถึงถุงลมฝอยของปอดได้โดยตรง อาการเบื้องต้นคือไอ หายใจไม่ถนัด ระคายเคืองผิว
 เมื่อเราหายใจอากาศที่มีปริมาณฝุ่นสูงเกินมาตรฐานความปลอดภัยเป็นเวลานาน ร่างกายจะสะสมสารอันตรายที่อยู่ในฝุ่น ไม่ว่าจะเป็นโลหะหนัก สารก่อมะเร็ง และสารก่อภูมิแพ้ เพิ่มความเสี่ยงโรคต่างๆ คล้ายการสูบบุหรี่
 ","PM2.5 refers to particles that are thinner than a human hair (2.5 micrometers), and therefore cannot be detected by our respiratory system. It can travel directly into capillary air bags in the lungs. Short-term health effects include coughing, shortness of breath, and skin irritation. The longer we breathe in the air that contains PM2.5 that exceeds the limit, the higher chance we would develop serious diseases as the bodies receive deadly substances through PM2.5 such as heavy metals, carcinogen, and allergens. This is similar to what smoking does."
-chapter1,chapter1.story4,"ธราธรอาศัยอยู่ที่เขตบางขุนเทียน กรุงเทพ ช่วงฤดูฝุ่นคราวก่อนที่เขาไม่สบาย
-สถานีวัดคุณภาพอากาศพบวันที่มีค่าฝุ่น PM2.5 เฉลี่ย 24 ชั่วโมง **เกินมาตรฐาน 34 วัน** จาก 4 เดือน โดยมีค่าสูงสุด 96 ไมโครกรัม/ลูกบาศก์เมตร **สูงกว่าค่ามาตรฐานไทยราว 2 เท่าและมาตรฐานองค์การอนามัยโลก 4 เท่า**",
-chapter1,chapter1.datavisual,heatmap วันฝุ่นเกิน สถานีบางขุนเทียน พฤศจิกายน 2562 - กุมภาพันธ์ 2563 ,"heatmap of PM2.5 that exceeds the limit at Bang Khun Thian, November 2019 - February 2020"
-chapter1,chapter1.datavisual.footnote,"สีแดง = มีผลกระทบต่อสุขภาพ ค่า PM2.5 เฉลี่ย 24 ชม.มากกว่า 90 มคก./ลบ.ม.  
-สีส้ม = เริ่มมีผลกระทบต่อสุขภาพ ค่า PM2.5 เฉลี่ย 24 ชม. 51-90 มคก./ลบ.ม","Red = Unhealthy, the 24-hour mean of PM2.5 is more than 90 μg/m³
-Orange = Affect the health, the 24-hour mean of PM2.5 is 51-90 μg/m³"
+chapter1,chapter1.datavisual.title,"ช่วงที่ธราธรไม่สบาย แถวบ้านเขามีค่าฝุ่นเกินมาตรฐานถึง 34 วัน
+",
+chapter1,chapter1.datavisual.description,"ค่าฝุ่น PM2.5 เฉลี่ย 24 ชั่วโมง @ สถานีวัดคุณภาพอากาศบางขุนเทียน พฤศจิกายน 2562 - กุมภาพันธ์ 2563 
+มีค่าสูงสุด 96 ไมโครกรัม/ลูกบาศก์เมตร **สูงกว่าค่ามาตรฐานไทยราว 2 เท่าและมาตรฐานองค์การอนามัยโลก 4 เท่า**","heatmap of PM2.5 that exceeds the limit at Bang Khun Thian, November 2019 - February 2020"
+chapter1,chapter1.datavisual.legend.red,"**มีผลกระทบต่อสุขภาพ**
+ค่า PM2.5 เฉลี่ย 24 ชม.มากกว่า 90 มคก./ลบ.ม.","**Unhealthy** 
+The 24-hour mean of PM2.5 is more than 90 μg/m³
+"
+chapter1,chapter1.datavisual.legend.orange,"**เริ่มมีผลกระทบต่อสุขภาพ**
+ค่า PM2.5 เฉลี่ย 24 ชม. = 51 - 90 มคก./ลบ.ม.","**Affect the health**
+the 24-hour mean of PM2.5 is 51-90 μg/m³"
+chapter1,chapter1.datavisual.legend.normal,"**คุณภาพอากาศปานกลางถึงดี**
+ค่า PM2.5 เฉลี่ย 24 ชม. น้อยกว่า 51 มคก./ลบ.ม.","**Normal to good**
+the 24-hour mean of PM2.5 is below 51 μg/m³"
 chapter1,chapter1.datavisual.source,ข้อมูล: กรมควบคุมมลพิษ,Data Source: Pollution Control Department
 chapter1,chapter1.fact1,"องค์การอนามัยโลก เผยว่าทุกปี คนราว  **7,000,000 คน** ทั่วโลกเสียชีวิตเพราะสัมผัสมลพิษทางอากาศสะสม","The World Health Organization revealed that every year **7,000,000 people** die from air pollution."
 chapter1,chapter1.link,ปัญหาฝุ่นเป็นเรื่อง **ธรรมชาติ** ที่เราเปลี่ยนแปลงไม่ได้จริงหรือ?,"PM2.5 issue happens **naturally**, so that means we can't do anything about it?"

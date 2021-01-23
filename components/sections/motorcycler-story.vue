@@ -30,19 +30,14 @@
         class="w-full max-w-2xl m-auto"
       />
       <div class="max-w-xl m-auto space-y-8">
-        <Parse
-          v-for="t in ['chapter1.factbox', 'chapter1.story4']"
-          :key="t"
-          :t="t"
-          class="text-indent"
-        />
+        <Parse t="chapter1.factbox" class="text-indent" />
       </div>
     </div>
     <div class="space-y-8 w-full max-w-3xl mx-auto">
-      <h5 class="text-h5 font-bold">{{ $t('chapter1.datavisual') }}</h5>
+      <h5 class="text-h5 font-bold">{{ $t('chapter1.datavisual.title') }}</h5>
+      <Parse t="chapter1.datavisual.description" />
       <PollutionHeatmap class="w-full" />
       <Parse t="chapter1.datavisual.source" class="text-right text-body2" />
-      <Parse t="chapter1.datavisual.footnote" class="" />
     </div>
   </section>
 </template>
