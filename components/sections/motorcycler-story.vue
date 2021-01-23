@@ -30,7 +30,8 @@
         class="w-full max-w-2xl m-auto"
       />
       <div class="max-w-xl m-auto space-y-8">
-        <Parse t="chapter1.factbox" class="text-indent" />
+        <Parse t="chapter1.factbox1" class="text-indent" />
+        <Parse t="chapter1.factbox2" class="text-indent" />
       </div>
     </div>
     <div class="space-y-8 w-full max-w-3xl mx-auto">

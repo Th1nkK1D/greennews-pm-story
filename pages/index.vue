@@ -56,8 +56,11 @@ export default {
       title: this.$t('intro.title'),
       meta: [
         { property: 'og:title', content: this.$t('intro.title') },
-        { hid: 'description', name: 'description', content: '' },
-        { property: 'og:description', content: '' },
+        {
+          name: 'description',
+          content: this.$t('page.description'),
+        },
+        { property: 'og:description', content: this.$t('page.description') },
       ],
     }
   },

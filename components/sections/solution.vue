@@ -51,6 +51,7 @@
           'timeline2',
           'timeline3',
           'timeline4',
+          'timeline5',
         ]"
         :key="timeline"
         class="flex flex-row space-x-4"
