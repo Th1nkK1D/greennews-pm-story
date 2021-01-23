@@ -1,6 +1,6 @@
 <template>
   <section
-    class="flex flex-col px-4 py-24 md:py-48 space-y-20 md:space-y-40 relative bg-black-3"
+    class="flex flex-col px-4 py-24 md:py-48 space-y-20 md:space-y-40 relative"
   >
     <Parse t="chapter1.fact1" class="text-h6 max-w-xl m-auto text-center" />
     <Parse t="chapter1.link" class="text-h4 text-center" />
@@ -113,11 +113,7 @@ export default {
 </script>
 
 <style scoped>
-/* section {
-  background: url('../../assets/images/bg-city-sky.png');
-  @apply bg-no-repeat;
-  @apply bg-bottom;
-  @apply bg-contain;
-  background-blend-mode: screen;
-} */
+section {
+  background: linear-gradient(180deg, #c4c4c4 0%, rgba(255, 255, 255, 0) 100%);
+}
 </style>
