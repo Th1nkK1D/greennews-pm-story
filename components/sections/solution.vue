@@ -34,13 +34,10 @@
       </div>
     </div>
     <div class="text-center space-y-12">
-      <Parse
-        t="chapter3.solution.body2"
-        class="text-h5 md:text-h4 max-w-3xl mx-auto"
-      />
+      <Parse t="chapter3.solution.body2" class="text-h6 max-w-3xl mx-auto" />
       <Parse
         t="chapter3.scenario.title"
-        class="text-h3 md:text-h3 max-w-4xl mx-auto"
+        class="text-h3 md:text-h3 max-w-4xl mx-auto text-green-1"
       />
       <Parse
         t="chapter3.scenario.body1"
@@ -73,13 +70,16 @@
         </div>
         <Parse :t="`chapter3.scenario.${timeline}`" class="flex-1 py-4" />
       </div>
-      <Parse t="chapter3.scenario.note" />
+      <Parse t="chapter3.scenario.note" class="text-body2 pt-4" />
     </div>
     <div class="max-w-4xl mx-auto space-y-20">
       <h3 class="text-h4 md:text-h3">{{ $t('chapter3.opinion.title') }}</h3>
-      <div class="flex flex-col-reverse md:flex-row md:space-x-20">
+      <div class="flex flex-col md:flex-row md:space-x-20">
+        <QuoteBlock class="flex-1 mx-4 md:mx-0">
+          <Parse t="chapter3.opinion1.content" />
+        </QuoteBlock>
         <div
-          class="flex flex-row md:flex-col md:space-y-2 space-x-2 md:space-x-0 my-auto"
+          class="flex flex-row md:flex-col md:space-y-4 space-x-2 md:space-x-0 my-auto"
         >
           <img
             src="~/assets/images/people-supakit.png"
@@ -88,16 +88,10 @@
           />
           <p class="mt-auto">{{ $t('chapter3.opinion1.source') }}</p>
         </div>
-        <QuoteBlock class="flex-1 mx-4 md:mx-0">
-          <Parse t="chapter3.opinion1.content" />
-        </QuoteBlock>
       </div>
-      <div class="flex flex-col md:flex-row md:space-x-20">
-        <QuoteBlock class="flex-1 mx-4 md:mx-0">
-          <Parse t="chapter3.opinion2.content" />
-        </QuoteBlock>
+      <div class="flex flex-col-reverse md:flex-row md:space-x-20">
         <div
-          class="flex flex-row md:flex-col md:space-y-2 space-x-2 md:space-x-0 my-auto"
+          class="flex flex-row md:flex-col md:space-y-4 space-x-2 md:space-x-0 my-auto"
         >
           <img
             src="~/assets/images/people-attapon.png"
@@ -106,16 +100,21 @@
           />
           <p class="mt-auto">{{ $t('chapter3.opinion2.source') }}</p>
         </div>
+        <QuoteBlock class="flex-1 mx-4 md:mx-0">
+          <Parse t="chapter3.opinion2.content" />
+        </QuoteBlock>
       </div>
     </div>
-    <Parse t="chapter3.link" class="text-h5 max-w-xl mx-auto text-center" />
+    <Parse t="chapter3.link1" class="text-h5 max-w-xl mx-auto text-center" />
     <QuoteBlock horizontal class="hidden md:flex max-w-4xl mx-auto">
       <Parse t="chapter3.opinion3" class="text-h6 text-center" />
     </QuoteBlock>
     <QuoteBlock class="md:hidden">
       <Parse t="chapter3.opinion3" class="text-h6 text-center" />
     </QuoteBlock>
-    <Parse t="chapter3.link" class="text-h4 max-w-xl mx-auto text-center" />
+    <div class="flex py-24 md:py-48">
+      <Parse t="chapter3.link2" class="text-h4 max-w-xl mx-auto text-center" />
+    </div>
   </section>
 </template>
 

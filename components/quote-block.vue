@@ -23,11 +23,11 @@ export default {
 <style scoped>
 .quote {
   @apply text-green-3;
-  font-size: 288px;
+  font-size: 16rem;
 }
 
 .vertical > .quote {
-  margin: -80px -40px -260px;
+  margin: -4.5rem -2.2rem -14.5rem;
 }
 
 .horizontal > .quote {

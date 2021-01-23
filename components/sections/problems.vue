@@ -52,7 +52,7 @@
       class="flex flex-col-reverse md:flex-row max-w-4xl mx-auto md:space-x-20"
     >
       <div
-        class="flex flex-row md:flex-col md:space-y-2 space-x-2 md:space-x-0 my-auto"
+        class="flex flex-row md:flex-col md:space-y-4 space-x-2 md:space-x-0 my-auto"
       >
         <img
           src="~/assets/images/people-buaros.png"
