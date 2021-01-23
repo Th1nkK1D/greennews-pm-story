@@ -13,8 +13,6 @@
 </template>
 
 <script>
-const encodedUrl = encodeURI('https://th1nkk1d.github.io/greennews-pm-story/')
-
 export default {
   props: {
     outlined: {
@@ -26,9 +24,13 @@ export default {
       default: false,
     },
   },
-  data() {
-    return {
-      socialLinks: [
+  computed: {
+    socialLinks() {
+      const encodedUrl = encodeURI(
+        `http://${window.location.hostname}${window.location.pathname}`
+      )
+
+      return [
         {
           service: 'Facebook',
           icon: require('../assets/images/social-facebook.svg'),
@@ -44,8 +46,8 @@ export default {
           icon: require('../assets/images/social-line.svg'),
           href: `https://social-plugins.line.me/lineit/share?url=${encodedUrl}`,
         },
-      ],
-    }
+      ]
+    },
   },
 }
 </script>
