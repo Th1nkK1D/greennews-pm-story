@@ -50,6 +50,11 @@ export default {
       progress: (el, progress) => (this.readProgress = progress),
     })
   },
+  head() {
+    return {
+      title: this.$t('intro.title'),
+    }
+  },
 }
 </script>
 
