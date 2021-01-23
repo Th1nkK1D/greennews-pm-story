@@ -25,7 +25,7 @@ chapter1,chapter1.factbox,"ฝุ่น PM2.5 คือ ฝุ่นที่ม
 ","PM2.5 refers to particles that are thinner than a human hair (2.5 micrometers), and therefore cannot be detected by our respiratory system. It can travel directly into capillary air bags in the lungs. Short-term health effects include coughing, shortness of breath, and skin irritation. The longer we breathe in the air that contains PM2.5 that exceeds the limit, the higher chance we would develop serious diseases as the bodies receive deadly substances through PM2.5 such as heavy metals, carcinogen, and allergens. This is similar to what smoking does."
 chapter1,chapter1.datavisual.title,"ช่วงที่ธราธรไม่สบาย แถวบ้านเขามีค่าฝุ่นเกินมาตรฐานถึง 34 วัน
 ",
-chapter1,chapter1.datavisual.description,"ค่าฝุ่น PM2.5 เฉลี่ย 24 ชั่วโมง @ สถานีวัดคุณภาพอากาศบางขุนเทียน พฤศจิกายน 2562 - กุมภาพันธ์ 2563 
+chapter1,chapter1.datavisual.description,"ค่าฝุ่น PM2.5 เฉลี่ย 24 ชั่วโมง @ สถานีวัดคุณภาพอากาศบางขุนเทียน พฤศจิกายน 2562 - กุมภาพันธ์ 2563
 มีค่าสูงสุด 96 ไมโครกรัม/ลูกบาศก์เมตร **สูงกว่าค่ามาตรฐานไทยราว 2 เท่าและมาตรฐานองค์การอนามัยโลก 4 เท่า**","heatmap of PM2.5 that exceeds the limit at Bang Khun Thian, November 2019 - February 2020"
 chapter1,chapter1.datavisual.legend.red,"**มีผลกระทบต่อสุขภาพ**
 ค่า PM2.5 เฉลี่ย 24 ชม.มากกว่า 90 มคก./ลบ.ม.","**Unhealthy** 
@@ -52,13 +52,21 @@ North and Northeastern, January - May
 South, July - September"
 chapter1,chapter1.whatwedo.title,เมื่อฤดูฝุ่นมาถึง รัฐไทยรับมืออย่างไรบ้าง?,"Once the season of PM2.5 arrives, what is our Thai government going to do?"
 chapter1,chapter1.whatwedo.policy1.title,ป้องกัน,Prevention
-chapter1,chapter1.whatwedo.policy1.content,"เช่น ตั้ง Clean Room พื้นที่สาธารณะที่มีเครื่องฟอกอากาศให้บริการฟรี , ติดตั้งเครื่องฟอกอากาศ , อัพเดตสถานการณ์ฝุ่นควันแก่ประชาชน, ประกาศปิดโรงเรียนเมื่อค่าคุณภาพอากาศเกินเกณฑ์อันตราย","includes providing a Clean Room, a public space with air purifiers free of charge, installing air purifiers on the streets, giving knowledges and updating the current situation about PM2.5 for citizens and closing schools temporarily on days that PM2.5 exceeds the standard level."
+chapter1,chapter1.whatwedo.policy1.content,"- ตั้ง Clean Room พื้นที่สาธารณะที่มีเครื่องฟอกอากาศให้บริการฟรี
+- ติดตั้งเครื่องฟอกอากาศ
+- อัพเดตสถานการณ์ฝุ่นควันแก่ประชาชน
+- ประกาศปิดโรงเรียนเมื่อค่าคุณภาพอากาศเกินเกณฑ์อันตราย","- Providing a Clean Room, a public space with air purifiers free of charge
+- Installing air purifiers on the streets
+- Giving knowledges and updating the current situation about PM2.5 for citizens
+- Closing schools temporarily on days that PM2.5 exceeds the standard level."
 chapter1,chapter1.whatwedo.policy2.title,รุกลด ,Active Cutback
-chapter1,chapter1.whatwedo.policy2.content,"เช่น กำหนดช่วงเวลาห้ามรถบรรทุกวิ่งเข้าเขตเมือง ช่วงเวลาห้ามเผาทางการเกษตรและก่อสร้าง  
-, สนับสนุนให้ชุมชนเก็บใบไม้แห้งไปทำผลิตภัณฑ์เพื่อลดไฟป่า 
-,กระจายอำนาจให้องค์การปกครองส่วนท้องถิ่นดับไฟ
-","limiting hours for trucks entering the central area of the city, agricultural burn, and constructions, reducing the chance of wildfires by promoting the use of dry leaves as products, teaming up to stop wildfires by allowing local authorities to handle the situation by themselves."
-chapter1,chapter1.whatwedo.body2,ปี 2561 คณะรัฐมนตรีได้ยกระดับให้ปัญหาฝุ่นควันเป็น วาระแห่งชาติ ที่ต้องเร่งแก้ไข ,"In 2018, the Cabinet of Thailand has leveraged this issue as National Agenda that must be solved immediately."
+chapter1,chapter1.whatwedo.policy2.content,"- กำหนดช่วงเวลาห้ามรถบรรทุกวิ่งเข้าเขตเมือง ช่วงเวลาห้ามเผาทางการเกษตรและก่อสร้าง  
+- สนับสนุนให้ชุมชนเก็บใบไม้แห้งไปทำผลิตภัณฑ์เพื่อลดไฟป่า 
+- กระจายอำนาจให้องค์การปกครองส่วนท้องถิ่นดับไฟ
+","- Limiting hours for trucks entering the central area of the city, agricultural burn, and constructions.
+- Reducing the chance of wildfires by promoting the use of dry leaves as products
+- Teaming up to stop wildfires by allowing local authorities to handle the situation by themselves."
+chapter1,chapter1.whatwedo.body2,ปี 2561 คณะรัฐมนตรีได้ยกระดับให้ปัญหาฝุ่นควันเป็น วาระแห่งชาติ ที่ต้องเร่งแก้ไข ,
 chapter1,chapter1.whatwedo.body3,แต่เราก็ยังเจอปัญหาฝุ่นอยู่,But we're still facing the PM2.5 issue.
 chapter1,chapter1.whatwedo.body4,คนไทย 6 ใน 10 คน มองว่าปัญหา PM2.5 เป็นปัญหาเร่งด่วนและไม่พึงพอใจการรับมือของภาครัฐ ,"6 out of 10 citizens in Thailand think that PM2.5 is an urgent issue and are not happy with the way the government is handling it,"
 chapter1,chapter1.whatwedo.source,"ข้อมูล: สวนดุสิตโพล สำรวจความคิดเห็นประชาชน 2563

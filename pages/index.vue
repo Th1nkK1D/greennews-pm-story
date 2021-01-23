@@ -79,6 +79,10 @@ body {
   display: none;
 } */
 
+ul {
+  @apply list-disc;
+}
+
 .text-indent {
   text-indent: 2em;
 }
