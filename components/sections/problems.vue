@@ -8,6 +8,7 @@
         {{ $t('chapter2.coreprob.title') }}
       </h4>
       <div
+        ref="coreProblems"
         class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 max-w-4xl mx-auto"
       >
         <div
@@ -69,3 +70,13 @@
     </div>
   </section>
 </template>
+
+<script>
+import { fadeChildrenOnEnter } from '~/utils/animation'
+
+export default {
+  mounted() {
+    fadeChildrenOnEnter(this.$refs.coreProblems)
+  },
+}
+</script>

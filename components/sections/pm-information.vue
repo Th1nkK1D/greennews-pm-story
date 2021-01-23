@@ -6,7 +6,10 @@
       <p class="text-h5">
         {{ $t('chapter1.whatispm.title') }}
       </p>
-      <div class="flex flex-row justify-around w-full max-w-3xl mx-auto">
+      <div
+        ref="factors"
+        class="flex flex-row justify-around w-full max-w-3xl mx-auto"
+      >
         <div
           v-for="{ factor, img } in [
             { factor: 'factor1', img: require('~/assets/images/ch1-03.png') },
@@ -33,6 +36,7 @@
         {{ $t('chapter1.whatwedo.title') }}
       </h3>
       <div
+        ref="policies"
         class="flex flex-col md:flex-row space-y-12 md:space-y-0 md:space-x-12"
       >
         <div
@@ -85,3 +89,14 @@
     </div>
   </section>
 </template>
+
+<script>
+import { fadeChildrenOnEnter } from '~/utils/animation'
+
+export default {
+  mounted() {
+    fadeChildrenOnEnter(this.$refs.factors)
+    fadeChildrenOnEnter(this.$refs.policies)
+  },
+}
+</script>

@@ -47,7 +47,7 @@
         class="text-h4 md:text-h5 max-w-3xl mx-auto"
       />
     </div>
-    <div class="flex flex-col max-w-2xl mx-auto">
+    <div ref="timelines" class="flex flex-col max-w-2xl mx-auto">
       <div
         v-for="(timeline, index) in [
           'timeline1',
@@ -118,3 +118,13 @@
     <Parse t="chapter3.link" class="text-h4 max-w-xl mx-auto text-center" />
   </section>
 </template>
+
+<script>
+import { fadeChildrenOnEnter } from '~/utils/animation'
+
+export default {
+  mounted() {
+    fadeChildrenOnEnter(this.$refs.timelines)
+  },
+}
+</script>
