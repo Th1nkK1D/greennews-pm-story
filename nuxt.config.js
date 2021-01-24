@@ -24,7 +24,7 @@ export default {
   css: ['~/assets/styles/tailwind.css', '@ibm/plex/scss/ibm-plex.scss'],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
-  plugins: [],
+  plugins: process.env.G_TAG ? ['~/plugins/gtag.js'] : [],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: true,
@@ -48,6 +48,10 @@ export default {
     build: {
       publicPath: `${process.env.BASE_PATH || ''}/_nuxt/`,
     },
+  },
+
+  env: {
+    G_TAG: process.env.G_TAG,
   },
 
   server: {

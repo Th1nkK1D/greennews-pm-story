@@ -26,6 +26,7 @@
     "enter-view": "^2.0.1",
     "nuxt": "^2.14.6",
     "nuxt-i18n": "^6.16.0",
+    "vue-gtag": "^1.10.0",
     "vue-showdown": "^2.4.1"
   },
   "devDependencies": {
