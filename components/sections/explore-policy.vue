@@ -13,15 +13,15 @@
         <p class="text-h3">{{ $t('chapter3.action1.subtitle') }}</p>
       </div>
       <div class="grid grid-cols-2 md:grid-cols-3 -m-1 md:m-0">
-        <a
+        <AnchorLink
           v-for="character in [1, 2, 3, 4, 5, 6]"
           :key="character"
-          href="#policy"
+          to="policy"
           class="flex"
           @click="$refs.policyTable.updateCharacter(character)"
         >
           <CharacterButton :character="character" />
-        </a>
+        </AnchorLink>
       </div>
     </div>
     <div id="policy" class="pt-12 space-y-8 md:space-y-12 max-w-4xl mx-auto">
