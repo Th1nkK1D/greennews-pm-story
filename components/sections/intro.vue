@@ -91,7 +91,7 @@ export default {
 
     fadeChildrenOnEnter(this.$refs.coverContainer, {
       duration: 3000,
-      delay: 3000,
+      delay: 1500,
     })
   },
 }
