@@ -9,7 +9,6 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { property: 'og:image', content: '' },
       { name: 'twitter:card', content: 'summary_large_image' },
     ],
     link: [
