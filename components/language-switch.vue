@@ -1,7 +1,7 @@
 <template>
   <nuxt-link
     class="flex flex-row text-green-1 hover:underline space-x-2"
-    :to="switchLocalePath(inactiveLanguage)"
+    :to="link"
   >
     <svg
       width="20"
@@ -29,6 +29,9 @@ export default {
     },
     label() {
       return this.inactiveLanguage === 'th' ? 'ไทย' : 'English'
+    },
+    link() {
+      return this.inactiveLanguage === 'th' ? '/' : this.inactiveLanguage
     },
   },
 }
