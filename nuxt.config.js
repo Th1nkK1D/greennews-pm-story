@@ -21,7 +21,7 @@ export default {
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
-  css: ['~/assets/styles/tailwind.css', '@ibm/plex/scss/ibm-plex.scss'],
+  css: ['~/assets/styles/tailwind.css', '~/assets/styles/typography.css'],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: process.env.G_TAG ? ['~/plugins/gtag.js'] : [],
