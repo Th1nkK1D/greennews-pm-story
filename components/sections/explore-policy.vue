@@ -5,7 +5,7 @@
   >
     <div class="text-center text-green-1">
       <h1 class="text-h2 md:text-h1">{{ $t('chapter3.title') }}</h1>
-      <h5 class="text-h5">{{ $t('chapter3.action1.title') }}</h5>
+      <p class="text-h5">{{ $t('chapter3.action1.title') }}</p>
     </div>
     <div class="space-y-8 w-full max-w-4xl mx-auto">
       <div>

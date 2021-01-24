@@ -35,9 +35,9 @@
         >
           <img :src="img" alt="" class="w-full" />
           <div class="flex-1 p-3 pt-2 space-y-1 text-black bg-green-4">
-            <h5 class="text-h5 font-bold">
+            <p class="text-h5 font-bold">
               {{ $t(`chapter2.${coreprob}.title`) }}
-            </h5>
+            </p>
             <Parse :t="`chapter2.${coreprob}.content`" />
           </div>
         </div>

@@ -35,7 +35,7 @@
       </div>
     </div>
     <div class="space-y-8 w-full max-w-3xl mx-auto">
-      <h5 class="text-h5 font-bold">{{ $t('chapter1.datavisual.title') }}</h5>
+      <p class="text-h5 font-bold">{{ $t('chapter1.datavisual.title') }}</p>
       <PollutionHeatmap class="w-full" />
       <Parse t="chapter1.datavisual.source" class="text-right text-body2" />
     </div>
