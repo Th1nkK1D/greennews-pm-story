@@ -7,7 +7,9 @@
     <div
       class="flex flex-col md:grid grid-cols-2 w-full max-w-2xl mx-auto space-y-8 md:space-y-0"
     >
-      <div class="md:col-span-2 md:p-8">กฎหมายนี้มุ่ง…</div>
+      <div class="md:col-span-2 md:p-8">
+        {{ $t('chapter3.solution.body1') }}
+      </div>
       <div
         v-for="({ purpose, img }, index) in [
           { purpose: 'purpose1', img: require('~/assets/images/ch3-01.png') },
@@ -87,7 +89,9 @@
             alt=""
             class="w-36 h-36 md:w-80 md:h-80 rounded-full"
           />
-          <p class="mt-auto">{{ $t('chapter3.opinion1.source') }}</p>
+          <p class="mt-auto w-36 md:w-80">
+            {{ $t('chapter3.opinion1.source') }}
+          </p>
         </div>
       </div>
       <div class="flex flex-col-reverse md:flex-row md:space-x-20">
@@ -99,7 +103,9 @@
             alt=""
             class="w-36 h-36 md:w-80 md:h-80 rounded-full"
           />
-          <p class="mt-auto">{{ $t('chapter3.opinion2.source') }}</p>
+          <p class="mt-auto w-36 md:w-80">
+            {{ $t('chapter3.opinion2.source') }}
+          </p>
         </div>
         <QuoteBlock class="flex-1 mx-4 md:mx-0">
           <Parse t="chapter3.opinion2.content" />
@@ -108,11 +114,18 @@
     </div>
     <Parse t="chapter3.link1" class="text-h5 max-w-xl mx-auto text-center" />
     <QuoteBlock horizontal class="hidden md:flex max-w-4xl mx-auto">
-      <Parse t="chapter3.opinion3" class="text-h6 text-center" />
+      <div class="flex-col space-y-8">
+        <Parse t="chapter3.opinion3" class="text-h6 text-center" />
+        <Parse t="chapter3.opinion3.source" class="text-body2 text-right" />
+      </div>
     </QuoteBlock>
     <QuoteBlock class="md:hidden">
-      <Parse t="chapter3.opinion3" class="text-h6 text-center" />
+      <div class="flex-col space-y-8">
+        <Parse t="chapter3.opinion3" class="text-h6 text-center" />
+        <Parse t="chapter3.opinion3.source" class="text-body2 text-right" />
+      </div>
     </QuoteBlock>
+
     <div class="flex py-24 md:py-48">
       <Parse t="chapter3.link2" class="text-h4 max-w-xl mx-auto text-center" />
     </div>
