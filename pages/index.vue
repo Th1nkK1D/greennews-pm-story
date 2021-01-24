@@ -59,6 +59,9 @@ export default {
   head() {
     return {
       title: this.$t('intro.title'),
+      htmlAttrs: {
+        lang: this.$i18n.locale,
+      },
       meta: [
         { property: 'og:title', content: this.$t('intro.title') },
         {
