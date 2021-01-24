@@ -8,8 +8,6 @@
         >
           <p class="text-h5 opacity-0">
             {{ $t('intro.prologue1') }}
-            <br />
-            {{ $t('intro.prologue2') }}
           </p>
           <p class="text-h5 opacity-0">{{ $t('intro.prologue3') }}</p>
           <p class="text-h5 opacity-0">{{ $t('intro.prologue4') }}</p>
