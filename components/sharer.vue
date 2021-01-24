@@ -6,6 +6,8 @@
       :href="href"
       class="flex w-10 h-10 rounded hover:bg-green-4"
       :class="outlined ? 'border border-green-1' : 'bg-white'"
+      target="_blank"
+      rel="noopener noreferrer"
     >
       <img :src="icon" :alt="service" class="m-auto" />
     </a>
