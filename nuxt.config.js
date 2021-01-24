@@ -52,6 +52,7 @@ export default {
 
   env: {
     G_TAG: process.env.G_TAG,
+    SITE_URL: `https://greennews.agency${process.env.BASE_PATH || ''}`,
   },
 
   server: {

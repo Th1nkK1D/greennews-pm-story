@@ -71,7 +71,7 @@ export default {
         { property: 'og:description', content: this.$t('page.description') },
         {
           property: 'og:image',
-          content: `https://greennews.agency/righttobreath/og-${this.$i18n.locale}.jpg`,
+          content: `${process.env.SITE_URL}/og-${this.$i18n.locale}.jpg`,
         },
       ],
     }
