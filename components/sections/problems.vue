@@ -43,9 +43,10 @@
         </div>
       </div>
     </div>
-    <h4 class="text-h4 text-center max-w-2xl mx-auto">
-      {{ $t('chapter2.coreprob.body') }}
-    </h4>
+    <Parse
+      t="chapter2.coreprob.body"
+      class="text-h4 text-center max-w-2xl mx-auto"
+    />
     <div
       class="flex flex-col-reverse md:flex-row max-w-4xl mx-auto md:space-x-20"
     >

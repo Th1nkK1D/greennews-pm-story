@@ -1,9 +1,10 @@
 <template>
   <section class="flex flex-col space-y-24 md:space-y-48 py-24 md:py-48 px-4">
     <PartLabel class="md:-my-24">{{ $t('chapter3.name') }}</PartLabel>
-    <h4 class="text-h4 max-w-xl mx-auto text-center">
-      {{ $t('chapter3.solution.title') }}
-    </h4>
+    <Parse
+      t="chapter3.solution.title"
+      class="text-h4 max-w-xl mx-auto text-center"
+    />
     <div
       class="flex flex-col md:grid grid-cols-2 w-full max-w-2xl mx-auto space-y-8 md:space-y-0"
     >
