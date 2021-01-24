@@ -1,6 +1,7 @@
 <template>
   <div
     class="flex flex-col justify-center m-1 rounded-xl px-3 py-6 md:px-8 text-center bg-white hover:bg-green-2 group space-y-2 flex-1"
+    @click="$emit('click')"
   >
     <svg
       v-if="character === 1"

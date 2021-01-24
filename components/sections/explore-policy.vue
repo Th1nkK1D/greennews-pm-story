@@ -18,9 +18,11 @@
           :key="character"
           :to="{ path: localePath('/'), hash: '#policy' }"
           class="flex"
-          @click="$refs.policyTable.updateCharacter(character)"
         >
-          <CharacterButton :character="character" />
+          <CharacterButton
+            :character="character"
+            @click="$refs.policyTable.updateCharacter(character)"
+          />
         </NuxtLink>
       </div>
     </div>
