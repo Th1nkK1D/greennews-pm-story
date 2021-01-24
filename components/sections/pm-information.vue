@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="flex flex-col px-4 py-24 md:py-48 space-y-20 md:space-y-40">
+    <div class="flex flex-col px-4 pt-24 md:pt-48 space-y-20 md:space-y-40">
       <Parse t="chapter1.fact1" class="text-h6 max-w-xl m-auto text-center" />
       <Parse t="chapter1.link" class="text-h4 text-center" />
       <div class="flex flex-col space-y-20 text-center">
@@ -88,13 +88,12 @@
       <div class="pt-24 md:pt-48">
         <Parse t="chapter1.whatwedo.link" class="m-auto text-h3 text-center" />
       </div>
-
-      <img
-        src="~/assets/images/bg-city-sky.png"
-        alt="Citysky"
-        style="mix-blend-mode: screen"
-      />
     </div>
+    <img
+      src="~/assets/images/bg-city-sky.png"
+      alt="Citysky"
+      style="mix-blend-mode: screen"
+    />
   </section>
 </template>
 
