@@ -92,6 +92,7 @@
     <img
       src="~/assets/images/bg-city-sky.png"
       alt="Citysky"
+      class="w-full"
       style="mix-blend-mode: screen"
     />
   </section>
