@@ -18,9 +18,7 @@ chapter1,chapter1.factbox1,**PM2.5** คือ ฝุ่นที่มีขน
 chapter1,chapter1.factbox2,เมื่อเราหายใจอากาศที่มีปริมาณฝุ่นสูงเกินมาตรฐานความปลอดภัยนาน ร่างกายจะสะสมสารอันตรายที่อยู่ในฝุ่น ไม่ว่าจะเป็นโลหะหนัก สารก่อมะเร็ง และสารก่อภูมิแพ้ เพิ่มความเสี่ยงโรคต่างๆ คล้ายการสูบบุหรี่,"The longer we breathe air that contains PM2.5 that exceeds the limit considered safe, the higher chance we would develop serious diseases as the bodies receive deadly substances through PM2.5 such as heavy metals, carcinogens, and allergens. This is similar to what smoking does."
 chapter1,chapter1.datavisual.title,"ช่วงที่ธราธรไม่สบาย แถวบ้านเขามีค่าฝุ่นเกินมาตรฐานถึง 35 วัน
 ","During his time of sickness, the PM2.5 level in and around his neighborhood has exceeded the limit for 35 days."
-chapter1,chapter1.datavisual.description,"ค่าฝุ่น PM2.5 เฉลี่ย 24 ชั่วโมง @ สถานีวัดคุณภาพอากาศบางขุนเทียน พฤศจิกายน 2562 - กุมภาพันธ์ 2563 
-
-มีค่าสูงสุด 96 ไมโครกรัม/ลูกบาศก์เมตร **สูงกว่ามาตรฐานไทย 2 เท่าและองค์การอนามัยโลก 4 เท่า**","The 24-hour mean of PM2.5 at Bang Khun Thian Air Quality Monitoring Station from November 2019 - February 2020 was as much as 96 μg/m³, **2 times higher than the standard in Thailand and 4 times higher than the WHO standard.**"
+chapter1,chapter1.datavisual.description,"ค่าฝุ่น PM2.5 เฉลี่ย 24 ชั่วโมง @ สถานีวัดคุณภาพอากาศบางขุนเทียน พฤศจิกายน 2562 - กุมภาพันธ์ 2563 มีค่าสูงสุด 96 ไมโครกรัม/ลูกบาศก์เมตร **สูงกว่ามาตรฐานไทย 2 เท่าและองค์การอนามัยโลก 4 เท่า**","The 24-hour mean of PM2.5 at Bang Khun Thian Air Quality Monitoring Station from November 2019 - February 2020 was as much as 96 μg/m³, **2 times higher than the standard in Thailand and 4 times higher than the WHO standard.**"
 chapter1,chapter1.datavisual.legend.red,"**มีผลกระทบต่อสุขภาพ**
 ค่า PM2.5 เฉลี่ย 24 ชม.มากกว่า 90 มคก./ลบ.ม.","**Unhealthy** 
 24-hour mean of PM2.5 is higher than 90 μg/m³
