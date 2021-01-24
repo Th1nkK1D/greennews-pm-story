@@ -24,8 +24,9 @@
         </a>
       </div>
     </div>
-    <div id="policy" class="pt-12">
+    <div id="policy" class="pt-12 space-y-8 md:space-y-12 max-w-4xl mx-auto">
       <PolicyTable ref="policyTable" class="w-full max-w-4xl mx-auto" />
+      <Parse t="chapter3.action1.database.source" class="text-body2" />
     </div>
   </section>
 </template>

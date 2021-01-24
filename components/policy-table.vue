@@ -29,24 +29,30 @@
         />
       </div>
     </div>
-    <div
-      class="flex flex-col rounded-xl bg-white -m-2 md:m-0 mt-8 py-2 md:py-4 px-3 md:px-6 space-y-4"
-    >
-      <div class="flex flex-row md:text-h6 font-bold">
-        <p class="flex-1">
-          {{ $t('chapter3.action1.database.policy') }}
-        </p>
-        <p class="w-1/3">
-          {{ $t('chapter3.action1.database.department') }}
-        </p>
-      </div>
+    <div class="rounded-xl bg-white -m-2 md:m-0 mt-8 py-2 md:py-4 px-3 md:px-6">
       <div
-        v-for="{ policy, department } in filteredPolicies"
-        :key="policy"
-        class="flex flex-row space-x-2 md:space-x-6 pb-2 border-b border-black-4"
+        v-if="filteredPolicies.length === 0"
+        class="text-black-2 py-8 text-center"
       >
-        <div class="flex-1">{{ policy }}</div>
-        <div class="w-1/3 overflow-ellipsis">{{ department }}</div>
+        {{ $t('chapter3.action1.database.empty') }}
+      </div>
+      <div v-else class="flex flex-col space-y-4">
+        <div class="flex flex-row md:text-h6 font-bold">
+          <p class="flex-1">
+            {{ $t('chapter3.action1.database.policy') }}
+          </p>
+          <p class="w-1/3">
+            {{ $t('chapter3.action1.database.department') }}
+          </p>
+        </div>
+        <div
+          v-for="{ policy, department } in filteredPolicies"
+          :key="policy"
+          class="flex flex-row space-x-2 md:space-x-6 pb-2 border-b border-black-4"
+        >
+          <div class="flex-1">{{ policy }}</div>
+          <div class="w-1/3 overflow-ellipsis">{{ department }}</div>
+        </div>
       </div>
     </div>
   </div>
