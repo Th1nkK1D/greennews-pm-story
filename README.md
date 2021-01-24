@@ -2,8 +2,15 @@
 
 ## Environments
 
+- Production: https://greennews.agency/right-to-breathe/
 - Staging: https://th1nkk1d.github.io/greennews-pm-story/
-- Production: not deployed yet
+
+## ENV file
+
+```
+BASE_PATH=/right-to-breathe
+G_TAG=<google_analytics_tag_id>
+```
 
 ## Build Setup
 
