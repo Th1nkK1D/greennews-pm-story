@@ -45,22 +45,22 @@
           <div
             class="flex flex-col mx-4 md:flex-row space-y-4 md:space-y-0 md:space-x-12"
           >
-            <AnchorLink
-              to="start"
+            <NuxtLink
+              :to="{ path: localePath('/'), hash: '#start' }"
               class="flex h-12 md:h-20 w-full bg-green-1 hover:bg-green-2 rounded-3xl text-white font-bold"
             >
               <p class="m-auto">
                 {{ $t('intro.button1') }}
               </p>
-            </AnchorLink>
-            <AnchorLink
-              to="action"
+            </NuxtLink>
+            <NuxtLink
+              :to="{ path: localePath('/'), hash: '#action' }"
               class="flex h-12 md:h-20 w-full text-green-1 bg-green-3 hover:bg-green-4 rounded-3xl font-bold"
             >
               <p class="m-auto">
                 {{ $t('intro.button2') }}
               </p>
-            </AnchorLink>
+            </NuxtLink>
           </div>
         </div>
       </div>
