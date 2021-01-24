@@ -51,6 +51,10 @@ export default {
     },
   },
 
+  server: {
+    host: '0.0.0.0',
+  },
+
   router: {
     base: process.env.BASE_PATH || '/',
   },

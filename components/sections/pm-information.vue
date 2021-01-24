@@ -1,7 +1,8 @@
 <template>
-  <section
-    class="flex flex-col px-4 py-24 md:py-48 space-y-20 md:space-y-40 relative"
-  >
+  <section>
+    <div
+      class="flex flex-col px-4 py-24 md:py-48 space-y-20 md:space-y-40"
+    ></div>
     <Parse t="chapter1.fact1" class="text-h6 max-w-xl m-auto text-center" />
     <Parse t="chapter1.link" class="text-h4 text-center" />
     <div class="flex flex-col space-y-20 text-center">
@@ -71,7 +72,7 @@
         <Parse t="chapter1.whatwedo.body2" class="m-auto text-center" />
       </div>
     </div>
-    <div class="space-y-20 z-10">
+    <div class="space-y-20">
       <Parse t="chapter1.whatwedo.body3" class="m-auto text-center" />
       <div class="max-w-2xl m-auto space-y-4">
         <img
@@ -86,16 +87,13 @@
         <Parse t="chapter1.whatwedo.body4" class="m-auto text-center" />
       </div>
     </div>
-    <div class="flex py-24 md:py-48">
-      <Parse
-        t="chapter1.whatwedo.link"
-        class="m-auto text-h3 text-center z-10"
-      />
+    <div class="pt-24 md:pt-48">
+      <Parse t="chapter1.whatwedo.link" class="m-auto text-h3 text-center" />
     </div>
+
     <img
       src="~/assets/images/bg-city-sky.png"
       alt="Citysky"
-      class="absolute bottom-0 -m-4 w-screen"
       style="mix-blend-mode: screen"
     />
   </section>
