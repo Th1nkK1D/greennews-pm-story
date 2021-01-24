@@ -4,9 +4,9 @@
   >
     <PartLabel class="md:-my-24">{{ $t('chapter2.name') }}</PartLabel>
     <div class="space-y-12">
-      <h4 class="text-h4 text-center max-w-xl mx-auto">
+      <p class="text-h4 text-center max-w-xl mx-auto">
         {{ $t('chapter2.coreprob.title') }}
-      </h4>
+      </p>
       <div
         ref="coreProblems"
         class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 max-w-4xl mx-auto"

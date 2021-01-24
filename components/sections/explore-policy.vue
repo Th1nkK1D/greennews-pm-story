@@ -9,8 +9,8 @@
     </div>
     <div class="space-y-8 w-full max-w-4xl mx-auto">
       <div>
-        <h6 class="text-h6">{{ $t('chapter3.action1.presubtitle') }}</h6>
-        <h3 class="text-h3">{{ $t('chapter3.action1.subtitle') }}</h3>
+        <p class="text-h6">{{ $t('chapter3.action1.presubtitle') }}</p>
+        <p class="text-h3">{{ $t('chapter3.action1.subtitle') }}</p>
       </div>
       <div class="grid grid-cols-2 md:grid-cols-3 -m-1 md:m-0">
         <a

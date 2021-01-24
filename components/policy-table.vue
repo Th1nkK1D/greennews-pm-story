@@ -1,26 +1,28 @@
 <template>
   <div>
-    <h4 class="text-h5 md:text-h4 font-bold">
+    <p class="text-h5 md:text-h4 font-bold">
       {{ $t('chapter3.action1.database.title') }}
-    </h4>
+    </p>
     <div
       class="flex flex-col md:flex-row mt-2 space-y-4 md:space-y-0 md:space-x-12"
     >
       <div class="flex flex-col md:flex-row md:space-x-4 w-1/3">
-        <h4 class="text-h5 md:text-h4">
+        <label for="year" class="text-h5 md:text-h4">
           {{ $t('chapter3.action1.database.year') }}
-        </h4>
+        </label>
         <Dropdown
+          id="year"
           v-model.number="selectedYear"
           :options="yearOptions"
           class="my-auto"
         />
       </div>
       <div class="flex flex-col md:flex-row md:space-x-4 w-full">
-        <h4 class="text-h5 md:text-h4">
+        <label for="category" class="text-h5 md:text-h4">
           {{ $t('chapter3.action1.database.category') }}
-        </h4>
+        </label>
         <Dropdown
+          id="category"
           v-model.number="selectedCategory"
           :options="categoryOptions"
           class="my-auto"
@@ -31,12 +33,12 @@
       class="flex flex-col rounded-xl bg-white -m-2 md:m-0 mt-8 py-2 md:py-4 px-3 md:px-6 space-y-4"
     >
       <div class="flex flex-row md:text-h6 font-bold">
-        <h6 class="flex-1">
+        <p class="flex-1">
           {{ $t('chapter3.action1.database.policy') }}
-        </h6>
-        <h6 class="w-1/3">
+        </p>
+        <p class="w-1/3">
           {{ $t('chapter3.action1.database.department') }}
-        </h6>
+        </p>
       </div>
       <div
         v-for="{ policy, department } in filteredPolicies"

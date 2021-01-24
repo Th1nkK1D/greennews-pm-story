@@ -33,9 +33,9 @@
         </div>
       </div>
       <div class="max-w-3xl mx-auto space-y-12">
-        <h3 class="text-h3 text-center">
+        <p class="text-h3 text-center">
           {{ $t('chapter1.whatwedo.title') }}
-        </h3>
+        </p>
         <div
           ref="policies"
           class="flex flex-col md:flex-row space-y-12 md:space-y-0 md:space-x-12"
@@ -53,9 +53,9 @@
               :alt="$t(`chapter1.whatwedo.${policy}.title`)"
               class="w-full mb-6"
             />
-            <h3 class="text-h3 mb-2">
+            <p class="text-h3 mb-2">
               {{ $t(`chapter1.whatwedo.${policy}.title`) }}
-            </h3>
+            </p>
             <Parse :t="`chapter1.whatwedo.${policy}.content`" />
           </div>
         </div>

@@ -77,7 +77,7 @@
       <Parse t="chapter3.scenario.note" class="text-body2 pt-4" />
     </div>
     <div class="max-w-4xl mx-auto space-y-20">
-      <h3 class="text-h4 md:text-h3">{{ $t('chapter3.opinion.title') }}</h3>
+      <p class="text-h4 md:text-h3">{{ $t('chapter3.opinion.title') }}</p>
       <div class="flex flex-col md:flex-row md:space-x-20">
         <QuoteBlock class="flex-1 mx-4 md:mx-0">
           <Parse t="chapter3.opinion1.content" />
